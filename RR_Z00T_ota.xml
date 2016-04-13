@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
-    <Stable>
+    <Nightly>
         <Z00T>
             <Filename>ResurrectionRemix-M-v5.6.7-20160415-Z00T.zip</Filename>
             <RomUrl
@@ -19,6 +19,6 @@
                 id="xda"
                 title="XDA"
                 description="Visit SlimSaber bacon thread">https://Google.it</XDAUrl>
-	</A0001>
-    </Z00T>
+	</Z00T>
+    </Nightly>
 </SlimOTA>
