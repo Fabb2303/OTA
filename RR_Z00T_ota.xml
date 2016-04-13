@@ -6,7 +6,7 @@
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download SlimSaber builds">HTTPS://google.it</RomUrl>
+                description="Download SlimSaber builds"<RomUrl>HTTPS://google.it</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
