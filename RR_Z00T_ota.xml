@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <A0001>
-            <Filename>RR-OTA-TEST</Filename>
+            <Filename>RR-OTA-20160415</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
