@@ -2,23 +2,23 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Nightly>
         <Z00T>
-            <Filename>ResurrectionRemix-M-v5.6.7-20160410-Z00T.zip</Filename>
+            <Filename></Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download RR">https://googddddle.it</RomUrl>
+                description="Download RR"></RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="Download RR changelogs">https://Googgle.it</ChangelogUrl>
+                description="Download RR changelogs"></ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
-                description="Download latest RR Gapps">https://Goojgle.it</GappsUrl>
+                description="Download latest RR Gapps"></GappsUrl>
             <XDAUrl
                 id="xda"
                 title="XDA"
-                description="Visit SlimSaber bacon thread">https://Google.it</XDAUrl>
+                description="Visit SlimSaber bacon thread"></XDAUrl>
 	</Z00T>
     </Nightly>
 </SlimOTA>
