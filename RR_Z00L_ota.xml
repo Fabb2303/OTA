@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Nightly>
+        <Z00L>
+            <Filename></Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download latest version"></RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="RR Changelogs">https://gist.githubusercontent.com/westcripp/8874051/raw/bd8fd4a277058d871cfbaa6be00f3f714bafe683/Resurrection%2520Remix%2520changelog</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="Gapps"
+                description="Download latest Gapps">http://opengapps.org/</GappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit Z00L/T thread">http://forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-m-t3355391</XDAUrl>
+	</Z00L>
+    </Nightly>
+</SlimOTA>
