@@ -6,19 +6,19 @@
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download RR"></RomUrl>
+                description="Download latest version"></RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="Download RR changelogs"></ChangelogUrl>
+                description="RR Changelogs">https://gist.githubusercontent.com/westcripp/8874051/raw/bd8fd4a277058d871cfbaa6be00f3f714bafe683/Resurrection%2520Remix%2520changelog</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
-                description="Download latest RR Gapps"></GappsUrl>
+                description="Download latest Gapps">http://opengapps.org/</GappsUrl>
             <XDAUrl
                 id="xda"
                 title="XDA"
-                description="Visit SlimSaber bacon thread"></XDAUrl>
+                description="Visit Z00L/T thread">http://forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-m-t3355391</XDAUrl>
 	</Z00T>
     </Nightly>
 </SlimOTA>
