@@ -19,6 +19,10 @@
                 id="xda"
                 title="XDA"
                 description="Visit Z00L/T thread">http://forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-m-t3355391</XDAUrl>
+                <Prova
+                id="prova"
+                title="PROVA"
+                description="Ciao">http://forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-m-t3355391</prova>
 	</Z00T>
     </Nightly>
 </SlimOTA>
