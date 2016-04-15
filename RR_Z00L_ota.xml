@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Nightly>
         <Z00L>
-            <Filename>ResurrectionRemix-M-v5.6.7-20160402-Z00L.zip</Filename>
+            <Filename></Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download latest version">https://google.it</RomUrl>
+                description="Download latest version"></RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
