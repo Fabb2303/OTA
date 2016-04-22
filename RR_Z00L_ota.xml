@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Nightly>
         <Z00L>
-            <Filename>ResurrectionRemix-M-v5.6.7-20160421-Z00L.zip </Filename>
+            <Filename>ResurrectionRemix-M-v5.6.7-20160421-Z00L.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
