@@ -17,8 +17,8 @@
                 description="Download latest Gapps">http://opengapps.org/</GappsUrl>
             <XDAUrl
                 id="xda"
-                title="Update Kernel"
-                description="Test">http://google.it</XDAUrl>
+                title="Kernel"
+                description="Latest kernel (20160521)">http://adfoc.us/35577259164619</XDAUrl>
 	</Z00T>
 	 <Z00L>
             <Filename>ResurrectionRemix-M-v5.6.8-20160518-Z00L.zip</Filename>
