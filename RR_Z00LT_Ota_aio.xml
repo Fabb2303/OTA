@@ -6,7 +6,7 @@
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download latest version">http://adfoc.us/3557721</RomUrl>
+                description="Download latest version">https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/Z00T</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
@@ -18,14 +18,14 @@
             <XDAUrl
                 id="xda"
                 title="Kernel"
-                description="Latest kernel (20160524)">http://adfoc.us/35577259164619</XDAUrl>
+                description="Latest kernel (20160524)">https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/Z00T/Kernel</XDAUrl>
 	</Z00T>
 	 <Z00L>
             <Filename>ResurrectionRemix-M-v5.6.8-20160518-Z00L.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download latest version">http://adfoc.us/35577259135286</RomUrl>
+                description="Download latest version">https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/Z00L</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
@@ -37,7 +37,7 @@
                         <XDAUrl
                 id="xda"
                 title="Kernel"
-                description="Latest kernel (20160524)">http://adfoc.us/35577259363311</XDAUrl>
+                description="Latest kernel (20160524)">https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/Z00L/Kernel</XDAUrl>
 	</Z00L>
     </Nightly>
 </SlimOTA>
