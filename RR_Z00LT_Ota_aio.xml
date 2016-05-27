@@ -18,7 +18,7 @@
             <XDAUrl
                 id="xda"
                 title="Kernel"
-                description="Latest kernel (20160525)">https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/Z00T/Kernel</XDAUrl>
+                description="Latest kernel (20160527)">https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/Z00T/Kernel</XDAUrl>
 	</Z00T>
 	 <Z00L>
             <Filename>ResurrectionRemix-M-v5.6.9-20160525-Z00L.zip</Filename>
@@ -37,7 +37,7 @@
                         <XDAUrl
                 id="xda"
                 title="Kernel"
-                description="Latest kernel (20160526)">https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/Z00L/Kernel</XDAUrl>
+                description="Latest kernel (20160527)">https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/Z00L/Kernel</XDAUrl>
 	</Z00L>
     </Nightly>
 </SlimOTA>
