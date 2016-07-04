@@ -40,25 +40,6 @@
                 title="XDA"
                 description="XDA">http://forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-m-t3355391</XDAUrl>
 	</Z00L>
-	 <p880>
-            <Filename>ResurrectionRemix-M-v5.6.9-20160613-p880.zip</Filename>
-            <RomUrl
-                id="rom"
-                title="Rom"
-                description="Download latest version">https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/p880</RomUrl>
-            <ChangelogUrl
-                id="changelog"
-                title="Changelog"
-                description="RR Changelogs">https://gist.githubusercontent.com/westcripp/8874051/raw/79bb1a8ab299467731634dc6c0735322e5eda46b/Resurrection%2520Remix%2520changelog</ChangelogUrl>
-            <GappsUrl
-                id="gapps"
-                title="Gapps"
-                description="Download latest Gapps">http://opengapps.org/</GappsUrl>
-                        <XDAUrl
-                id="xda"
-                title="XDA"
-                description="XDA">http://forum.xda-developers.com/optimus-4x-hd/development/rom-resurrection-remix-m-t3398008</XDAUrl>
-	</p880>
     </Nightly>
 </SlimOTA>
 
