@@ -17,8 +17,8 @@
                 description="Download latest Gapps">http://opengapps.org/</GappsUrl>
             <XDAUrl
                 id="xda"
-                title="XDA"
-                description="XDA">http://forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-m-t3355391</XDAUrl>
+                title="Donations"
+                description="If you want to support my hard work, buy me a sandwich. :D">https://goo.gl/MiuZl9</XDAUrl>
 	</Z00T>
 	 <Z00L>
             <Filename>ResurrectionRemix-M-v5.7.0-20160704-Z00L.zip</Filename>
@@ -34,10 +34,10 @@
                 id="gapps"
                 title="Gapps"
                 description="Download latest Gapps">http://opengapps.org/</GappsUrl>
-               <XDAUrl
+                      <XDAUrl
                 id="xda"
-                title="XDA"
-                description="XDA">http://forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-m-t3355391</XDAUrl>
+                title="Donations"
+                description="If you want to support my hard work, buy me a sandwich. :D">https://goo.gl/MiuZl9</XDAUrl>
 	</Z00L>
     </Nightly>
 </SlimOTA>
