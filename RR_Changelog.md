@@ -11,54 +11,54 @@
 
 #‎ResurrectionRemix‬ - v5.7.3 - Android 6.0.1_r61
 
-Android 6.0.1_r53->6.0.1_r61
-Frameworks: Halo Color
-Frameworks: HALO
-Halo: Add option to Enable/Disable Halo Button in Header
-SysUI: Fix Layouts of Halo Button within Expanded Statusbar
-StatusbarHeader: Fix Headsup and Halo Button Animations
-Halo: Reverse message bubble bg and text colors
-Blur: Minor fixes
-Blur: Fix Arithmetic Exception when Radius and Scale are set to 0
-Blur: Major update
-SystemUI: BatteryBar: Gradient color
-SystemUI: Display bluetooth battery status when available
-Implement Blur Statusbar personalization options
-Update halo and heads up qs button
-Configurable Notifications transparency
-Configurable Smartbar button transparency
-Fix up header button icon, position and animation
-Network Traffic and Custom Logos: Fix Inverted SB icon tint when color is white
-Option to set custom scrolling values
-Statusbar: Gracefully adapt 3Minit Battery hook for AOSP
-Add 3Minit battery mod
-Option to let ADB always notify
-Custom Toast Color Options
-Fix FC on Seekbar in VOlume dialog and power menu Stroke & opacity
-SystemUI: Add vector support to SlimRecents
-Update Slim Recent App Sidebar
-mountservice: Don't nuke all volumes when decrypting (Speeds up bootime by 30 % for encrypted devices)
-SysUI: Add theme manager permission
-Themes: Add permission to themes protected broadcasts
-Instant reboot action trigger
-MobileNetworkSettings: Check CarrierConfig on isWorldMode
-EditPhoneNumberPreference: Prevent empty text from being set
-Dynamically tell the user which vendor image is needed
-Show a more descriptive message when vendor.img is out of date
-Update Kernel Adiutor apk
-make overlay permission check configurable
-fw: enforce android.permission.PREVENT_SYSTEM_KEYS in system server
-SysUI: Add RecreateStatusbar to Quick Settings Blur
-SysUI: Make sure new Blur Features dont Conflict with Transparency Items
-bootanimation: add multithreaded decode
-framework: don't allow assist activities while not provisioned
-Services: Fix a small Derp from instant reboot action
-sepolicy: Let the IO prefetcher look at sdcardfs
-sepolicy: Put theme service in its own context
-sepolicy: More IOP rules
-sepolicy: Fix MTP for sdcardfs
-Translation Updates
-All updates from CM
+- Android 6.0.1_r53->6.0.1_r61
+- Frameworks: Halo Color
+- Frameworks: HALO
+- Halo: Add option to Enable/Disable Halo Button in Header
+- SysUI: Fix Layouts of Halo Button within Expanded Statusbar
+- StatusbarHeader: Fix Headsup and Halo Button Animations
+- Halo: Reverse message bubble bg and text colors
+- Blur: Minor fixes
+- Blur: Fix Arithmetic Exception when Radius and Scale are set to 0
+- Blur: Major update
+- SystemUI: BatteryBar: Gradient color
+- SystemUI: Display bluetooth battery status when available
+- Implement Blur Statusbar personalization options
+- Update halo and heads up qs button
+- Configurable Notifications transparency
+- Configurable Smartbar button transparency
+- Fix up header button icon, position and animation
+- Network Traffic and Custom Logos: Fix Inverted SB icon tint when color is white
+- Option to set custom scrolling values
+- Statusbar: Gracefully adapt 3Minit Battery hook for AOSP
+- Add 3Minit battery mod
+- Option to let ADB always notify
+- Custom Toast Color Options
+- Fix FC on Seekbar in VOlume dialog and power menu Stroke & opacity
+- SystemUI: Add vector support to SlimRecents
+- Update Slim Recent App Sidebar
+- mountservice: Don't nuke all volumes when decrypting (Speeds up bootime by 30 % for encrypted devices)
+- SysUI: Add theme manager permission
+- Themes: Add permission to themes protected broadcasts
+- Instant reboot action trigger
+- MobileNetworkSettings: Check CarrierConfig on isWorldMode
+- EditPhoneNumberPreference: Prevent empty text from being set
+- Dynamically tell the user which vendor image is needed
+- Show a more descriptive message when vendor.img is out of date
+- Update Kernel Adiutor apk
+- make overlay permission check configurable
+- fw: enforce android.permission.PREVENT_SYSTEM_KEYS in system server
+- SysUI: Add RecreateStatusbar to Quick Settings Blur
+- SysUI: Make sure new Blur Features dont Conflict with Transparency Items
+- bootanimation: add multithreaded decode
+- framework: don't allow assist activities while not provisioned
+- Services: Fix a small Derp from instant reboot action
+- sepolicy: Let the IO prefetcher look at sdcardfs
+- sepolicy: Put theme service in its own context
+- sepolicy: More IOP rules
+- sepolicy: Fix MTP for sdcardfs
+- Translation Updates
+- All updates from CM
 
 #‎ResurrectionRemix‬ - v5.7.2 - 2016/07/31
 
@@ -105,71 +105,71 @@ All updates from CM
 
 #‎ResurrectionRemix‬ - 5.7.1 - 20160711
 
-Android 6.0.1_r46 >6.0.1_r52
-FWB: Add RR logo to QS panel
-FWB: QS shade stroke dash
-FWB: VolumeDialog stroke dash
-SystemServer: Do not start Atlas Service on lowram devices.
-SysUI:Do Not RecreateStatusBar on Show3g and 4G
-SysUI:Fix Show 3G and 4G Switch Not updating Icons
-wifi: Enable WiFi IpReachabilityMonitor by default
-SysUI: Disable Volume & QS Strokes by Default
-FWB: QS shade stroke
-FWB: VolumeDialog corner radius
-FWB: VolumeDialog stroke settings
-Configurable Header Text Shadow
-SystemUI: Remove Duplicate NFC perm
-Update QS panel resources to fix padding issues
-base: remove unneded top margin in QS tuner
-SysUI: Fix Reported FC
-SysUI:SysUI: Clean up objects when recreating statusbar
-Fix NPE in DocumentsUI when rotate UI before format as internal
-Revert "Only show keyguard panel if on lockscreen + no activity on top"
-SysUI: Make Dark Icon Mode Optional Along With New SB gradient
-FWB: QSStroke: Don't apply any effect when disabled
-Keyguard: Don't circular reveal a non visible view
-Avoid NPE in printspooler when changing language
-FWB: Volume Dialog: Force expanded mode
-FWB: Volume dialog timeout
-SystemConfig: allow app link to be set to any possible state
-am: clear protected apps from recents
-media:Modify the display of system default ringtone when it is none.
-SystemUI: Fix pie translations FC
-SystemUI: Restrict persistent USB drive notifications to USB disks
-BT: Set persiste Bluetooth State during enable timeout case
-Add absent sim info to locked screen text
-Encapsulate the unbindService with try catch block
-Bluetooth: Access mediaplayerlist in synchronized way
-WifiDisplayController: Fix p2p disconnect before rtsp teardown completes=
-Wifi: Make maximum selective channel scans and interval configurable
-combo bug when location reported by providers do not come with extras
-Ignore IMS type APN when notify data connection
-Remove TONE_SUPERVISORY_CH
-MSIM: Restrict data activity change to listeners with matching subId
-Add config to show HD icon on EVS codec.
-Remove use of '_' variable name
-Revert "Revert "Only show keyguard panel if on lockscreen + no activi…
-Adjust padding between battery icon and text
-NotificationPanelView: Make Qs Background More Consistent
-KeyguardSecurityViewFlipper : Fix sim unlock height overlap
-Disable proximity check on power key properly
-fw: GlobalActions: Always dismiss any existing dialog
-Settings:Telephony(MSIM): Fix ANR on SIM deactivation
-Settings:Fix to enable data for non dds sub.
-Settings:IMS: Set Wifi calling preference to Wifi preferred by default
-Settings:Wi Fi: Do not display the not scanned saved networks forever
-Settings:Don't start auto scan if screen recovers from frozen state
-Settings:Fix mcc mnc population issue in apn editor
-Settings:Update OperatorInfo in Simstatus settings for correct subid
-Settings:Grey out PIN1 enable/disable option when SUB is not ready
-Settings:Bluetooth : Handle SQL memory situation during OPP.
-Apply active profile if user enables system profiles
-LLS: Allow default enabled events to be overlaid
-Themes: Provide 100% test coverage for themes
-Themes: Fix ThemeManagerTest
-Themes: Fix applying default theme
-Translation Updates
-All updates from CM
+- Android 6.0.1_r46 >6.0.1_r52
+- FWB: Add RR logo to QS panel
+- FWB: QS shade stroke dash
+- FWB: VolumeDialog stroke dash
+- SystemServer: Do not start Atlas Service on lowram devices.
+- SysUI:Do Not RecreateStatusBar on Show3g and 4G
+- SysUI:Fix Show 3G and 4G Switch Not updating Icons
+- wifi: Enable WiFi IpReachabilityMonitor by default
+- SysUI: Disable Volume & QS Strokes by Default
+- FWB: QS shade stroke
+- FWB: VolumeDialog corner radius
+- FWB: VolumeDialog stroke settings
+- Configurable Header Text Shadow
+- SystemUI: Remove Duplicate NFC perm
+- Update QS panel resources to fix padding issues
+- base: remove unneded top margin in QS tuner
+- SysUI: Fix Reported FC
+- SysUI:SysUI: Clean up objects when recreating statusbar
+- Fix NPE in DocumentsUI when rotate UI before format as internal
+- Revert "Only show keyguard panel if on lockscreen + no activity on top"
+- SysUI: Make Dark Icon Mode Optional Along With New SB gradient
+- FWB: QSStroke: Don't apply any effect when disabled
+- Keyguard: Don't circular reveal a non visible view
+- Avoid NPE in printspooler when changing language
+- FWB: Volume Dialog: Force expanded mode
+- FWB: Volume dialog timeout
+- SystemConfig: allow app link to be set to any possible state
+- am: clear protected apps from recents
+- media:Modify the display of system default ringtone when it is none.
+- SystemUI: Fix pie translations FC
+- SystemUI: Restrict persistent USB drive notifications to USB disks
+- BT: Set persiste Bluetooth State during enable timeout case
+- Add absent sim info to locked screen text
+- Encapsulate the unbindService with try catch block
+- Bluetooth: Access mediaplayerlist in synchronized way
+- WifiDisplayController: Fix p2p disconnect before rtsp teardown completes=
+- Wifi: Make maximum selective channel scans and interval configurable
+- combo bug when location reported by providers do not come with extras
+- Ignore IMS type APN when notify data connection
+- Remove TONE_SUPERVISORY_CH
+- MSIM: Restrict data activity change to listeners with matching subId
+- Add config to show HD icon on EVS codec.
+- Remove use of '_' variable name
+- Revert "Revert "Only show keyguard panel if on lockscreen + no activi…
+- Adjust padding between battery icon and text
+- NotificationPanelView: Make Qs Background More Consistent
+- KeyguardSecurityViewFlipper : Fix sim unlock height overlap
+- Disable proximity check on power key properly
+- fw: GlobalActions: Always dismiss any existing dialog
+- Settings:Telephony(MSIM): Fix ANR on SIM deactivation
+- Settings:Fix to enable data for non dds sub.
+- Settings:IMS: Set Wifi calling preference to Wifi preferred by default
+- Settings:Wi Fi: Do not display the not scanned saved networks forever
+- Settings:Don't start auto scan if screen recovers from frozen state
+- Settings:Fix mcc mnc population issue in apn editor
+- Settings:Update OperatorInfo in Simstatus settings for correct subid
+- Settings:Grey out PIN1 enable/disable option when SUB is not ready
+- Settings:Bluetooth : Handle SQL memory situation during OPP.
+- Apply active profile if user enables system profiles
+- LLS: Allow default enabled events to be overlaid
+- Themes: Provide 100% test coverage for themes
+- Themes: Fix ThemeManagerTest
+- Themes: Fix applying default theme
+- Translation Updates
+- All updates from CM
 
 # ResurrectionRemix - v5.7.0 - Android 6.0.1_r46 - 2016-06-16
 
