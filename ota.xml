@@ -10,7 +10,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="RR Changelogs">https://gist.githubusercontent.com/westcripp/8874051/raw/79bb1a8ab299467731634dc6c0735322e5eda46b/Resurrection%2520Remix%2520changelog</ChangelogUrl>
+                description="RR Changelogs">https://raw.githubusercontent.com/Fabb2303/OTA/master/RR_Changelog.md</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
@@ -29,7 +29,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="RR Changelogs">https://gist.githubusercontent.com/westcripp/8874051/raw/79bb1a8ab299467731634dc6c0735322e5eda46b/Resurrection%2520Remix%2520changelog</ChangelogUrl>
+                description="RR Changelogs">https://raw.githubusercontent.com/Fabb2303/OTA/master/RR_Changelog.md</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
