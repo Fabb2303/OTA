@@ -9,6 +9,10 @@
 
 # The Changelog
 
+#ResurrectionRemix 5.8.0 - Android 7.1.0_r7
+
+- Based On Latest Google Android 7.1.0_r7 release
+
 #ResurrectionRemix 5.7.4 - Android 6.0.1_r66
 
 - Android 6.0.1_r61->r66
