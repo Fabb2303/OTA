@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Nightly>
         <Z00T>
-            <Filename>ResurrectionRemix-M-v5.8.0-20161202-Z00T.zip</Filename>
+            <Filename>ResurrectionRemix-M-v5.8.0-20161212-Z00T.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
@@ -10,7 +10,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="RR Changelogs">https://github.com/Fabb2303/OTA/blob/master/RR_Changelog.md</ChangelogUrl>
+                description="RR Changelogs">https://github.com/Fabb2303/OTA/blob/master/FullChangelog.mkdn</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
@@ -29,7 +29,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="RR Changelogs">https://github.com/Fabb2303/OTA/blob/master/RR_Changelog.md</ChangelogUrl>
+                description="RR Changelogs">https://github.com/Fabb2303/OTA/blob/master/FullChangelog.mkdn</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
