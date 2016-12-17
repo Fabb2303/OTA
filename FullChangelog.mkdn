@@ -1,7 +1,7 @@
- ▼ Resurrection Remix Nougat Ver 5.8.0 Changelog
+### Resurrection Remix Nougat Ver 5.8.0 Changelog
 
 
- ▼ 12/17/2016
+# 12/17/2016
 
 
 -  project android/
@@ -13,7 +13,7 @@
 -  project vendor/cm/
 -  6bfc168 Update github changelog and readme
 
- ▼ 12/16/2016
+# 12/16/2016
 
 
 -  project android/
@@ -30,7 +30,7 @@
 -  project packages/apps/Snap/
 -  51281be Automatic translation import
 
- ▼ 12/15/2016
+# 12/15/2016
 
 
 -  project device/asus/msm8916-common/
@@ -57,7 +57,7 @@
 -  project system/bt/
 -  69d13f7 Bluetooth: silence logspam
 
- ▼ 12/14/2016
+# 12/14/2016
 
 
 -  project build/kati/
@@ -77,7 +77,7 @@
 -  project vendor/cmsdk/
 -  3fdfa0f Automatic translation import
 
- ▼ 12/13/2016
+# 12/13/2016
 
 
 -  project android/
@@ -230,7 +230,7 @@
 -  5be83e5 Revert "cmsdk: Add device-specific strings"
 
 
- ▼ 12/12/2016
+# 12/12/2016
 
 
 - project device/asus/msm8916-common/
@@ -272,7 +272,7 @@
 - project vendor/cmsdk/
 - 18fbc31 Automatic translation import
 
- ▼ 12/11/2016
+# 12/11/2016
 
 
 - project kernel/asus/msm8916/
@@ -331,7 +331,7 @@
 - f6e4623 FileUtils: Add util to check if a file exists
 - 1c5e5e7 cmsdk: Add GlobalSettingSwitchPreference class
 
- ▼ 12/10/2016
+# 12/10/2016
 
 
 - project device/asus/msm8916-common/
@@ -372,7 +372,7 @@
 - project vendor/cmsdk/
 - 41eab0f cmsdk: Use ConnectivityManager to manage tethering
 
- ▼ 12/09/2016
+# 12/09/2016
 
 
 - project build/
@@ -479,7 +479,7 @@
 - bb4cbde Automatic translation import
 - 8534274 cmsdk: utils: Introduce PackageManagerUtils class
 
- ▼ 12/08/2016
+# 12/08/2016
 
 
 - project device/asus/msm8916-common/
@@ -531,7 +531,7 @@
 - a0a2d78 Automatic translation import
 - 18a7458 Automatic translation import
 
- ▼ 12/07/2016
+# 12/07/2016
 
 
 - project android/
@@ -637,7 +637,7 @@
 - 9e1584d Merge tag 'android-7.1.1_r4' into cm-14.1
 - 6d93d52 sepolicy: exclude sdcard_posix/fuseblk from shipping builds
 
- ▼ 12/06/2016
+# 12/06/2016
 
 
 - project art/
@@ -853,7 +853,7 @@
 - project system/vold/
 - 87e0068 Merge tag 'android-7.1.1_r4' into cm-14.1
 
- ▼ 12/05/2016
+# 12/05/2016
 
 
 - project device/qcom/sepolicy/
@@ -895,7 +895,7 @@
 - 1ac1374 [2/2] settings: add CPU info overlay
 - 072c676 Add Dependency to Custom Charging Symbol
 
- ▼ 12/04/2016
+# 12/04/2016
 
 
 - project build/
@@ -967,7 +967,7 @@
 - project vendor/cmsdk/
 - ecde09b cmsdk: Define a default LED capabilities value
 
- ▼ 12/03/2016
+# 12/03/2016
 
 
 - project art/
@@ -1015,7 +1015,7 @@
 - project vendor/cmsdk/
 - 610916b cmsdk: Switch to a unified LED capabilities overlay
 
- ▼ 12/02/2016
+# 12/02/2016
 
 
 - project build/
@@ -1065,7 +1065,7 @@
 - project vendor/cmsdk/
 - 77b34c3 CMSDK: Add volume answer call CMSetting
 
- ▼ 12/01/2016
+# 12/01/2016
 
 
 - project packages/apps/Settings/
@@ -1077,7 +1077,7 @@
 - project system/core/
 - 3e7227c [1/2] init.rc: set DOWNLOAD_CACHE based on prop
 
- ▼ 11/30/2016
+# 11/30/2016
 
 
 - project build/
