@@ -2,6 +2,238 @@
  ▼ Resurrection Remix Nougat Ver 5.8.0 Changelog
 
 
+ ▼ Resurrection Remix Nougat Ver 5.8.0 Changelog
+
+
+ ▼ 12/17/2016
+
+
+-  project android/
+-  bf56192 Update README.mkdn
+
+-  project frameworks/base/
+-  240d9cf Remove Uneeded Style
+
+-  project vendor/cm/
+-  6bfc168 Update github changelog and readme
+
+ ▼ 12/16/2016
+
+
+-  project android/
+-  8a11671 manifest: track own art/skia
+-  2d3da93 Fix repo sync
+-  b0ddb61 Merge github.com:ResurrectionRemix/platform_manifest into nougat
+
+-  project device/asus/msm8916-common/
+-  854ba0f msm8916-common: extract: Call qcom/common extract-files.sh
+
+-  project packages/apps/AudioFX/
+-  c5a438a Automatic translation import
+
+-  project packages/apps/Snap/
+-  51281be Automatic translation import
+
+ ▼ 12/15/2016
+
+
+-  project device/asus/msm8916-common/
+-  4ddc7de msm8916-common: Include both 32/64 bit graphic libs
+
+-  project device/qcom/common/
+-  5a54ae4 extractors: Split 32/64 makefiles
+
+-  project frameworks/base/
+-  fc82e2a Fix NPE caused by custom small QS tiles
+-  367b09d Also block touches while customizer is animating.
+-  c2567f7 Bring back 'custom small QS tiles' [1/2]
+-  ab8fa40 FWB:Add a Switch to Enable Disable Dyanamic Navbar[1/2]
+-  3e498b9 base: dynamic navbar colors
+
+-  project packages/apps/PhoneCommon/
+-  42419ca Automatic translation import
+
+-  project packages/apps/Settings/
+-  847cc22 Add LG L Fino Maintainer
+-  b063c36 Bring Back Small QS Tilex [2/2]
+-  d5c94b5 Settings:Add a Switch to Enable Disable Dyanamic Navbar[2/2]
+
+-  project system/bt/
+-  69d13f7 Bluetooth: silence logspam
+
+ ▼ 12/14/2016
+
+
+-  project build/kati/
+-  bc43789 Do not limit threads upon calling legacy GNU make
+-  42a270b Merge github.com:google/kati into HEAD
+
+-  project external/vim/
+-  a7b10a8 Merge tag 'v8.0.0133' into HEAD
+
+-  project packages/apps/Snap/
+-  ab3398b Manual translation import
+-  7b90146 Automatic translation import
+
+-  project vendor/cm/
+-  159460d vendor: changelog allow export of days_to_log
+
+-  project vendor/cmsdk/
+-  3fdfa0f Automatic translation import
+
+ ▼ 12/13/2016
+
+
+-  project android/
+-  152a27b 7.1.1_r6
+-  7ca4fa6 cm: android-7.1.1_r4 -> android-7.1.1_r6
+
+-  project build/
+-  9664207 Merge branch 'cm-14.1' of https://github.com/CyanogenMod/android_build into nougat
+-  4a0aeb8 Merge tag 'android-7.1.1_r6' into cm-14.1
+
+-  project frameworks/av/
+-  bca4f83 Merge branch 'cm-14.1' of https://github.com/CyanogenMod/android_frameworks_av into nougat
+
+-  project frameworks/base/
+-  2006790 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+-  31f0227 Store Network Mode selected in subId Table.
+-  f6c5a04 Merge tag 'android-7.1.1_r6' into HEAD
+-  75ccdc7 SystemUI: Don't vibrate on touchscreen camera gesture
+-  06d1641 Automatic translation import
+-  3efb79b Automatic translation import
+-  4098d8f core: cm_symbols: Remove deprecated <private-symbols>
+-  9153de0 Add large battery percentage and also the switch for it. (#159)
+
+-  project frameworks/opt/telephony/
+-  225d8cf telephony: Respect user nw mode, handle DSDS non-multi-rat.
+
+-  project kernel/asus/msm8916/
+-  b95f221 posix_acl: Clear SGID bit when setting file permissions
+-  6cc2ed6 f2fs: fix overflow due to condition check order
+-  5494407 f2fs: use file pointer for fscrypt_notsupp_process_policy
+-  8c440f2 f2fs: fix a missing size change in f2fs_setattr
+-  0f817ad fs/super.c: fix race between freeze_super() and thaw_super()
+-  d1d6ff8 scripts/tags.sh: catch 4.9-rc6
+-  b0afd43 f2fs: fix to access nullified flush_cmd_control pointer
+-  dcf3f18 f2fs: free meta pages if sanity check for ckpt is failed
+-  3212017 f2fs: detect wrong layout
+-  aff3655 f2fs: call sync_fs when f2fs is idle
+-  8d19961 f2fs: return AOP_WRITEPAGE_ACTIVATE for writepage
+-  28720b8 f2fs: do not activate auto_recovery for fallocated i_size
+-  40a5eba f2fs: fix to determine start_cp_addr by sbi->cur_cp_pack
+-  c19eb52 f2fs: fix 32-bit build
+-  9501531 f2fs: set ->owner for debugfs status file's file_operations
+-  568a5bb f2fs: fix incorrect free inode count in ->statfs
+-  cfe412f f2fs: drop duplicate header timer.h
+-  8511b92 f2fs: fix wrong AUTO_RECOVER condition
+-  dc433e1 f2fs: do not recover i_size if it's valid
+-  f7b639d f2fs: fix fdatasync
+-  7421601 f2fs: fix to account total free nid correctly
+-  791f0df f2fs: fix an infinite loop when flush nodes in cp
+-  baf3b21 f2fs: don't wait writeback for datas during checkpoint
+-  451b1e9 f2fs: fix wrong written_valid_blocks counting
+-  790d4cd f2fs: avoid BG_GC in f2fs_balance_fs
+-  65e89fc f2fs: fix redundant block allocation
+-  2b181c6 f2fs: use err for f2fs_preallocate_blocks
+-  26368c5 f2fs: support multiple devices
+-  f65ab30 f2fs: allow dio read for LFS mode
+-  d32e9a0 f2fs: revert segment allocation for direct IO
+-  11497ec f2fs: return directly if block has been removed from the victim
+-  7792438 Revert "f2fs: do not recover from previous remained wrong dnodes"
+-  8bf9293 f2fs: remove checkpoint in f2fs_freeze
+-  3c446ed f2fs: assign segments correctly for direct_io
+-  25fcf70 f2fs: fix wrong i_atime recovery
+-  d3045a2 f2fs: record inode updating status correctly
+-  5e04f6a f2fs: Trace reset zone events
+-  4d7ff00 f2fs: Reset sequential zones on zoned block devices
+-  6c6b57a f2fs: Cache zoned block devices zone type
+-  4c1cfd9 f2fs: Do not allow adaptive mode for host-managed zoned block devices
+-  06a64c2 f2fs: Always enable discard for zoned blocks devices
+-  3aaeb10 f2fs: Suppress discard warning message for zoned block devices
+-  0bf70f5 f2fs: Check zoned block feature for host-managed zoned block devices
+-  1b11204 f2fs: Use generic zoned block device terminology
+-  a470cdd f2fs: Add missing break in switch-case
+-  591fe7b f2fs: avoid infinite loop in the EIO case on recover_orphan_inodes
+-  547ff68 f2fs: report error of f2fs_fill_dentries
+-  38a62f9 fs/crypto: catch up 4.9-rc2
+-  06b69ae f2fs: hide a maybe-uninitialized warning
+-  1692ff8 f2fs: remove percpu_count due to performance regression
+-  a709452 f2fs: make clean inodes when flushing inode page
+-  9f54da8 f2fs: keep dirty inodes selectively for checkpoint
+-  34c3401 f2fs: Replace CURRENT_TIME_SEC with current_time() for inode timestamps
+-  ef85c83 f2fs: use BIO_MAX_PAGES for bio allocation
+-  99a1e99 f2fs: declare static function for __build_free_nids
+-  ef334fd f2fs: call f2fs_balance_fs for setattr
+-  2173bb4 f2fs: count dirty inodes to flush node pages during checkpoint
+-  7c195ca f2fs: avoid casted negative value as shrink count
+-  4667f7a f2fs: don't interrupt free nids building during nid allocation
+-  586e8cf f2fs: clean up free nid list operations
+-  fcafbe6 f2fs: split free nid list
+-  6d5d72d f2fs: clear nlink if fail to add_link
+-  1799b5e f2fs: fix sparse warnings
+-  a210fa6 f2fs: fix error handling in fsync_node_pages
+-  22d9790 f2fs: fix to update largest extent under lock
+-  fbfd2ff6 f2fs: be aware of extent beyond EOF in fiemap
+-  e397028 f2fs: don't miss any f2fs_balance_fs cases
+-  cac5f6f f2fs: add missing f2fs_balance_fs in f2fs_zero_range
+-  2a7c9c1 f2fs: give a chance to detach from dirty list
+-  8a7d21b f2fs: fix to release discard entries during checkpoint
+-  c2845de f2fs: exclude free nids building and allocation
+-  b62f5b9 net: fix infoleak in rtnetlink (fixed)
+
+-  project packages/apps/Bluetooth/
+-  7d2f2d1 jni: fix merge failure
+
+-  project packages/apps/CellBroadcastReceiver/
+-  8d4dfa1 Fixes and cleanups after 7.1.0/7.1.1 merge
+
+-  project packages/apps/Messaging/
+-  7ffe556 Merge branch 'cm-14.1' of https://github.com/cyanogenmod/android_packages_apps_Messaging into HEAD
+
+-  project packages/apps/PhoneCommon/
+-  9a66046 Automatic translation import
+
+-  project packages/apps/Settings/
+-  6d9c752 Add otus maintainer (#634)
+-  8a9c8bc Update Build ID
+-  a1beaf8 Always show band 0 (Automatic)
+-  593d0fc Settings: Fix removal of notification pulse LED preference
+-  bff034f Automatic translation import
+-  774f1c4 Settings: Set summary for zen priority notif preference
+-  2934a5f Automatic translation import
+-  ae6df95 Automatic translation import
+-  9a07d12 Settings: Remove our storage changes
+-  366ed4c Battery percentage large text switch [2/2] (#632)
+-  f388c6e OPPO R7Plus Maintainer (#633)
+
+-  project packages/apps/SetupWizard/
+-  e89bc04 SetupWizard: always prompt the user to setup a lockscreen
+
+-  project packages/providers/DownloadProvider/
+-  26850ac Automatic translation import
+
+-  project packages/services/CMAudioService/
+-  b26686e Automatic translation import
+
+-  project packages/services/Telephony/
+-  b9a9ae9 Telephony: add external network selection activity
+-  a185f27 PhoneToggler: persist nw mode change
+-  404615e Port network mode toggle from CM12
+-  d285a8f Automatic translation import
+
+-  project vendor/cm/
+-  09189d5 Add Reliance Jio India IMS volte apn's
+-  558a43b Fix Reliance Jio India APNs.
+-  bbe9df4 cm: bring back storage manager
+-  bb09b62 Add permissions & sepolicy for HBM
+-  52660e7 repopick: Avoid failing on commits lookup
+-  cf1fcc2 cm: build: envsetup: Add mmmap command
+
+-  project vendor/cmsdk/
+-  5be83e5 Revert "cmsdk: Add device-specific strings"
+
+
  ▼ 12/12/2016
 
 
