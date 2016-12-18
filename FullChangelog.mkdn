@@ -1,5 +1,101 @@
 ### Resurrection Remix Nougat Ver 5.8.0 Changelog
 
+# 12/18/2016
+
+
+-  project hardware/qcom/fm/
+-  f0dda9e Automatic translation import
+
+-  project packages/apps/AudioFX/
+-  0726d88 Automatic translation import
+
+-  project packages/apps/Bluetooth/
+-  794758b Automatic translation import
+
+-  project packages/apps/Browser/
+-  ebd2f7d Automatic translation import
+
+-  project packages/apps/CMBugReport/
+-  8e70f2f Automatic translation import
+
+-  project packages/apps/CMFileManager/
+-  bd595be Automatic translation import
+
+-  project packages/apps/CMUpdater/
+-  eac59d5 Automatic translation import
+
+-  project packages/apps/Calendar/
+-  c0d86c2 Automatic translation import
+
+-  project packages/apps/Camera2/
+-  f6e4362 camera2: Ask for PREVENT_POWER_KEY, not PREVENT_SYSTEM_KEYS permission
+
+-  project packages/apps/CellBroadcastReceiver/
+-  3f413e4 Automatic translation import
+
+-  project packages/apps/Gello/
+-  ccf2faf Automatic translation import
+
+-  project packages/apps/PhoneCommon/
+-  2fe8914 Automatic translation import
+
+-  project packages/apps/Profiles/
+-  5187937 Automatic translation import
+
+-  project packages/apps/Screencast/
+-  7e5714a Automatic translation import
+
+-  project packages/apps/Settings/
+-  ce7d1c6 Add ferrari maintainer (#638)
+-  e4bdb84 Merge pull request #636 from rodman01/nougat
+-  dc6f701 Merge pull request #637 from webhaikal/nougat
+-  f93e8fd Move onyx to Oneplus category
+-  018d07b Add SAMSUNG GT-I9305 Maintainer
+-  b707baa Merge pull request #635 from SanjayVarun/nougat
+-  7b022bf Add OnePlus X Maintainer
+
+-  project packages/apps/SetupWizard/
+-  2e1593c Automatic translation import
+
+-  project packages/apps/Snap/
+-  8462b44 Automatic translation import
+
+-  project packages/apps/SoundRecorder/
+-  45a9e20 Automatic translation import
+
+-  project packages/apps/ThemeChooser/
+-  2a27b9b Automatic translation import
+
+-  project packages/apps/Trebuchet/
+-  c9637ec Automatic translation import
+
+-  project packages/providers/DataUsageProvider/
+-  6a6307d Automatic translation import
+
+-  project packages/providers/DownloadProvider/
+-  a328ecb Automatic translation import
+
+-  project packages/providers/WeatherProvider/
+-  1d663e0 Automatic translation import
+
+-  project packages/services/CMAudioService/
+-  ccdac6b Automatic translation import
+
+-  project packages/services/LiveLockScreenService/
+-  c1b207e Automatic translation import
+
+-  project packages/services/ThemeManagerService/
+-  b7255ae Automatic translation import
+
+-  project packages/services/WeatherService/
+-  8286a31 Automatic translation import
+
+-  project vendor/cm/
+-  8ade979 vendor: add RR_BUILDTYPE
+
+-  project vendor/cmsdk/
+-  1b312ad Automatic translation import
+
 
 # 12/17/2016
 
