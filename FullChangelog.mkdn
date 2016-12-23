@@ -1,5 +1,35 @@
 ### Resurrection Remix Nougat Ver 5.8.0 Changelog
 
+# 12/23/2016
+
+
+-  project build/
+-  852c383 Merge pull request #16 from The-Demon12/nougat
+-  b51f91f Fix Typos
+
+-  project frameworks/base/
+-  68f4df2 QS: Battery Saver Easy Toggle [1/2]
+-  9391438 Bluetooth Tile: Fix Incosistencies
+-  ad066d4 fb: add back all keyboard IME features back (1/2)
+-  ced57c7 Fix right lockscreen shortcut icon resetting
+
+-  project packages/apps/CMFileManager/
+-  4ed86f6 cmfm: Target SDK version 23
+-  04d4055 Revert "cmfm: Use FileProvider for serving files"
+
+-  project packages/apps/Settings/
+-  85a120f Hide Toast Animation settings for now
+-  7cfa215 Edit a String
+-  4446887 Battery Saver Easy Toggle [2/2]
+-  4d59cb7 Settings: add back all keyboard IME features back (2/2)
+
+-  project vendor/cm/
+-  f4f6cc7 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into HEAD
+-  a2bf1f8 vendor: cleanup
+-  b83b56e Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into HEAD
+-  f7b140f fix in the case of user manually expoering buildtype
+-  b4fa115 Add descriptions to the build types
+
 # 12/22/2016
 
 
