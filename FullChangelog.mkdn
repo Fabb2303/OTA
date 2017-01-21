@@ -1,8 +1,7 @@
 ### Resurrection Remix Nougat Ver 5.8.0 Changelog
 
 
- # 01/21/2017
-
+  # 01/21/2017
 
 - project android/
 - 2793e34 Add crowdin link to README
