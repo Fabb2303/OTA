@@ -1,6 +1,91 @@
 ### Resurrection Remix Nougat Ver 5.8.0 Changelog
 
 
+# 01/24/2017
+
+
+- project android/
+- 8e4f782 Update README.mkdn
+- a57fa4b Update README.mkdn
+- 743bdf4 Update README.mkdn
+
+- project frameworks/base/
+- adb4745 Add Pulse Lava Lamp start and end colours (1/3)
+
+- project packages/apps/Settings/
+- d03c83d Add Pulse Lava Lamp start and end colors (3/3)
+- 1a00398 Remove my devices
+- d396dae Update resurrection_device_maintainers_strings.xml (#670)
+
+- project vendor/cm/
+- 2848078 İmprove README
+
+# 01/23/2017
+
+
+- project android/
+- 63bac0a Add image to README
+
+- project build/
+- e83832d core: Fix unified trees with no TARGET_OTA_ASSERT_DEVICE
+- c7145b8 core: include libf2fs_fmt_host_dyn in otatools
+- 333c62e ota_from_target_files: Remove device dependent arguments
+- 575c969 releasetools: support reading release keys out of some sort of command
+- 5bc92b0 releasetools: Add script to sign zips
+
+- project external/ffmpeg/
+- 6faf050 ffmpeg: libavcodec: Revert sdclang workaround
+
+- project external/fsck_msdos/
+- df221ce Revert "fsck_msdos: Don't use Snapdragon LLVM"
+
+- project frameworks/av/
+- ebc5aae Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+
+- project frameworks/base/
+- 9262ae1 Allow lid to send a generic COVER_CHANGED broadcast
+- ebdaee4 SystemUI: HotspotTile: Don't reset the number of connected clients
+- fafc051 fix IndexOutOfBoundsException in AccessibilityManagerService..manageServicesLocked
+- e4f6bb8 [BUG]fix OutOfBoundsException in DisplayContent.java
+- 9ce4e22 Fix clipping for date and time on QS
+- f99eb9b StorageManager: Improve exception handling
+
+- project hardware/qcom/audio-caf/msm8952/
+- 37f832f Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952
+
+- project hardware/qcom/display-caf/msm8952/
+- 5826a44 Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952
+
+- project kernel/asus/msm8916/
+- 0618343 ext4: fix potential use after free in __ext4_journal_stop
+
+- project packages/apps/CMParts/
+- 37a7661 Update contributors cloud db
+- 75d1b0d CMParts: Add reading mode strings
+
+- project packages/apps/DUI/
+- 570bda5 Add Pulse Lava Lamp start and end colors (2/3)
+
+- project packages/apps/Settings/
+- 2d30943 rpas: add Note 3 maintainer (#668)
+- 1bfdeec rpas: add HTC 10 maintainer (#667)
+- 6973068 SoundSettings: Prevent NPE due to linked volumes change
+
+- project packages/apps/Snap/
+- e0a3c03 Correctly return to film strip after editing a picture.
+
+- project system/extras/su/
+- bce2976 su: Enable Wall and fix build
+
+- project vendor/cm/
+- b598f4a Features fix format add image to README
+
+- project vendor/cmsdk/
+- 5eb2779 Add generic support for Lid Cover Apps
+
+
+
+
   # 01/21/2017
 
 - project android/
