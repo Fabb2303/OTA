@@ -1,5 +1,232 @@
 ### Resurrection Remix Nougat Ver 5.8.0 Changelog
 
+# 01/30/2017
+
+
+- project frameworks/native/
+- 05d0499 Fix one handed mode triggering tapjacking protection *also clean up pointless whitespace from one hand merge
+
+# 01/29/2017
+
+
+- project device/asus/msm8916-common/
+- f607864 msm8916-common: Import latest mixer_paths
+- 8d317c1 msm8916-common: Update fingerprint
+
+- project device/qcom/common/
+- 58bf7c3 extractors: Set INITIAL_COPYRIGHT_YEAR
+
+- project hardware/qcom/audio-caf/msm8996/
+- 25bbb88 Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996
+- 0c8637a Revert "post proc : volume listener : fix effect release crash"
+
+- project hardware/qcom/display-caf/msm8996/
+- b55e7d6 Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996
+
+- project hardware/qcom/media-caf/msm8996/
+- a0bb242 Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996
+
+- project packages/apps/Settings/
+- a7e4f75 Fix Derp (#676)
+- 0690417 Add missing </PreferenceCategory>
+- 9cf8a21 Added Nougat Maintainer For LeEco Le 2 (s2) (#675)
+- ae17381 Automatic translation import
+
+- project packages/apps/Snap/
+- a425da8 Snap: store module index
+- 2bc5051 Snap: Fix NPE when parameters.getSupportedVideoSizes() is null
+
+# 01/28/2017
+
+
+- project bootable/recovery/
+- 171e4bd Fixup custom bootloader msg offset in block misc
+
+- project frameworks/base/
+- b5c81a4 Automatic translation import
+
+- project hardware/broadcom/libbt/
+- 4ee210c Broadcom BT: Add support fm/bt via v4l2.
+
+- project hardware/qcom/audio-caf/msm8916/
+- ce91b1e Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.11' into HEAD
+
+- project kernel/asus/msm8916/
+- cef7def Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.11' into HEAD
+
+- project packages/apps/OmniSwitch/
+- 942cc81 Automatic translation import
+
+- project packages/apps/ResurrectionStats/
+- 3a8d955 Automatic translation import
+
+- project packages/apps/Settings/
+- f19df0f Automatic translation import
+
+# 01/27/2017
+
+
+- project bionic/
+- 2ca6bea linker: allow text relocations on user builds
+
+- project packages/apps/OmniStyle/
+- 6edea6f [2/2] OmniStyle: header pack config enhancements
+
+- project packages/apps/Settings/
+- 2fc27e7 Add Lenovo Vibe K5 (A6020) (#674)
+
+- project packages/apps/SetupWizard/
+- a0cd247 SetupWizard: Update test app icon
+
+- project vendor/cmsdk/
+- 05c8e52 Merge pull request #9 from sayeed99/nougat
+
+# 01/26/2017
+
+
+- project hardware/qcom/audio-caf/msm8937/
+- 7f7cc95 Fix 04ed2351 for msm8916 audio platform
+
+- project hardware/qcom/fm/
+- 982bdf1 Automatic translation import
+
+- project packages/apps/AudioFX/
+- 2baaf7e Automatic translation import
+
+- project packages/apps/Bluetooth/
+- cf8c96d Automatic translation import
+
+- project packages/apps/Browser/
+- 99f5e4c Automatic translation import
+
+- project packages/apps/CMBugReport/
+- 94ff9c7 Automatic translation import
+
+- project packages/apps/CMFileManager/
+- 8cf2b73 Automatic translation import
+
+- project packages/apps/CMParts/
+- 6eeccc9 Fix icon tint
+
+- project packages/apps/CMUpdater/
+- 4b122c0 Automatic translation import
+
+- project packages/apps/Calendar/
+- 1ffaf69 Automatic translation import
+
+- project packages/apps/CellBroadcastReceiver/
+- 982f013 Automatic translation import
+
+- project packages/apps/Contacts/
+- 38dc136 Automatic translation import
+
+- project packages/apps/ContactsCommon/
+- 7328811 Automatic translation import
+
+- project packages/apps/Eleven/
+- 4feae4e Automatic translation import
+
+- project packages/apps/Email/
+- bc8c771 Automatic translation import
+
+- project packages/apps/Gallery2/
+- 581c0bd Automatic translation import
+
+- project packages/apps/Gello/
+- 15c3b34 Automatic translation import
+
+- project packages/apps/PackageInstaller/
+- 11eeb5d Automatic translation import
+
+- project packages/apps/PhoneCommon/
+- f2bbe9e Automatic translation import
+
+- project packages/apps/Profiles/
+- e900fa7 Automatic translation import
+
+- project packages/apps/Screencast/
+- 23c2162 Automatic translation import
+
+- project packages/apps/SetupWizard/
+- 70bfefd Automatic translation import
+
+- project packages/apps/Snap/
+- 166d4df Automatic translation import
+
+- project packages/apps/SoundRecorder/
+- c2b50b0 Automatic translation import
+
+- project packages/apps/ThemeChooser/
+- 3e714b2 Automatic translation import
+
+- project packages/apps/Trebuchet/
+- c846068 Automatic translation import
+
+- project packages/apps/UnifiedEmail/
+- 024599b Automatic translation import
+
+- project packages/providers/DataUsageProvider/
+- 479fd88 Automatic translation import
+
+- project packages/providers/DownloadProvider/
+- ae28f35 Automatic translation import
+
+- project packages/providers/MediaProvider/
+- ef31411 Automatic translation import
+
+- project packages/providers/ThemesProvider/
+- 841405e Automatic translation import
+
+- project packages/providers/WeatherProvider/
+- c5a0f79 Automatic translation import
+
+- project packages/resources/devicesettings/
+- 21da045 Automatic translation import
+
+- project packages/services/CMAudioService/
+- 904c90c Automatic translation import
+
+- project packages/services/LiveLockScreenService/
+- e767bd9 Automatic translation import
+
+- project packages/services/ThemeManagerService/
+- aa8afb9 Automatic translation import
+
+- project packages/services/WeatherService/
+- 12ace37 Automatic translation import
+
+- project packages/wallpapers/LivePicker/
+- effdc0f Automatic translation import
+
+- project vendor/cmsdk/
+- 69113e6 cmsdk: cmhw: Deprecate TAP_TO_WAKE feature
+
+# 01/25/2017
+
+
+- project frameworks/opt/hardware/
+- 50db0be Revert "Add tap-to-wake class definition"
+- d355b50 cmhw: Allow LiveDisplay to check if GPU transform is used
+
+- project hardware/ti/wlan/
+- f75d24a wl18xx: fix logical error (single bracket --> double bracket) in scripts file
+- b3e137b wl12xx: fix some builds breaking for devices depending on this file
+
+- project packages/apps/CMParts/
+- f1dfd8c Update colors.xml
+- fc15436 CMParts: Improve stats collection summary
+- 86a5b4a [1/3] CMParts: Add CM charging sounds settings
+
+- project packages/apps/OmniStyle/
+- c1bb79c OmniStyle: no padding for ListView bottom
+
+- project packages/apps/Settings/
+- a66231e Typos and add falcon maintainer (#673)
+- ad8c7b6 Merge pull request #672 from chrisc93/settings_custom
+
+- project packages/apps/SetupWizard/
+- d86ccbe Temp: Always disable D2D since its broken atm
+
 
 # 01/24/2017
 
