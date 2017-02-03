@@ -2,15 +2,32 @@
  ▼ Resurrection Remix Nougat Ver 5.8.1 Changelog
 
 
+ ▼ 02/03/2017
+
+
+ ▪ project external/DUtils/
+ ▪ 1ad724b Add one handed mode action [1/2]
+ ▪ 5f2d876 WiFi Hotspot: use new on/off logic
+
+ ▪ project packages/apps/DUI/
+ ▪ c98f311 Slidetouch listener only on navbar view
+ ▪ 1206ff3 Add one handed mode action [2/2]
+
+ ▪ project packages/apps/Settings/
+ ▪ b6d44d4 Fix a mismerge
+
  ▼ 02/02/2017
 
 
  ▪ project android/
  ▪ 63bdcf4 Track our external google
+ ▪ 05fe737 android: switch to LineageOS recorder
 
  ▪ project device/asus/msm8916-common/
  ▪ 105bd01 msm8916-common: Add selinux rules needed by gestures cmhw
  ▪ 0ff7c6f msm8916-common: Switch to the CMHW touchscreen gestures implementation
+ ▪ 41d53c4 msm8916-common: Remove keyhandler
+ ▪ 601705d msm8916-common: Get rid of CMActions
 
  ▪ project device/qcom/common/
  ▪ b136210 power: Remove POWER_HINT_AUDIO
@@ -20,6 +37,22 @@
  ▪ 49a197b Revert "Enable mobile data always on."
  ▪ dbe0d84 Revert "Revert "Framework: Add regional carrier bootanimation""
  ▪ 6d90eb7 Revert "Revert "Support AOSP service to scan carrier resources""
+ ▪ 4468628 GlobalScreenShot:Fix Unused Calls
+ ▪ 2a042d7 Update qs settings on dpi change
+ ▪ c5e40ab [1/2] base: SystemUI: header pack config enhancements
+ ▪ eb8041d Fix playing screenshot's sound when camera's sounds off
+ ▪ 9666bc2 PhoneWindowManager: Support multiple key handlers
+ ▪ adf3c54 SystemUI: Never link nofication volume on non-voice capable devices
+ ▪ 96e38eb core: more descriptive vendor image mismatch message
+ ▪ dbcaebf Revert "Frameworks: fix living wallpaper exception when reboot"
+ ▪ 467a7b7 Merge pull request #175 from micky387/nougat
+ ▪ 26a7bb2 Fix Battery Text Visibility issues (update)
+
+ ▪ project frameworks/native/
+ ▪ dc42b2b gralloc1: Acquire mutex early in release
+ ▪ a479621 sf1 : Avoid resetting skip flag for dim layer
+ ▪ a4527c3 surfaceflinger: Increase SurfaceFlinger dump buffer size to 16k.
+ ▪ 85c7cf1 Preserve app data if neither ce nor de have xattr user.default
 
  ▪ project hardware/libhardware/
  ▪ f29cb1f hardware: power: Remove POWER_HINT_AUDIO
@@ -28,8 +61,52 @@
  ▪ project kernel/asus/msm8916/
  ▪ a51c8b2 input: ftxxxx: Return proper gesture_mode value
 
+ ▪ project packages/apps/CMParts/
+ ▪ 6694859 CMParts: Move status bar tap to sleep pref to Settings
+ ▪ 9665e1d CMParts: Add touchscreen gesture settings and keyhandler
+ ▪ e8261dd CMParts: buttons: Remove double tap power for camera setting
+ ▪ fe53ebe Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ 3ea64e3 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ cfdcc79 Automatic translation import
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 726a9bb OmniStyle: add Syed header pack
+ ▪ 1353ec7 OmniStyle: add creator meta data for header packs
+
+ ▪ project packages/apps/Settings/
+ ▪ 049d0fc Remove cube in, cube out animations for configurations tabs
+ ▪ 6c02870 Settings: Add status bar tap to sleep pref to gestures
+ ▪ b881ecf Settings: gesture: Add CMParts touchscreen gesture settings
+
  ▪ project packages/apps/SetupWizard/
  ▪ fdf1c87 Automatic translation import
+ ▪ cd34a58 Build org.cyanogenmod.platform.internal as static library
+
+ ▪ project packages/resources/devicesettings/
+ ▪ b857442 Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ 7b087f5 CallAudioModeStateMachineTest: fix compilation
+
+ ▪ project packages/services/Telephony/
+ ▪ 4ca68a0 MobileNetworkSettings: Read and write USER_NETWORK_MODE
+ ▪ 57e02a7 Automatic translation import
+ ▪ b1a17ec Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ ef85831 cm: overlay: Settings: Enable gesture settings
+ ▪ f030ff9 cm: add LineageOS recorder
+ ▪ 2043535 Revert "Gello: fixed"
+
+ ▪ project vendor/cmsdk/
+ ▪ b26d017 cmsdk: Add touchscreen gestures support
+ ▪ 51dc7e3 cmsdk: Add DeviceKeyHandler overlays
+ ▪ 8a30161 Automatic translation import
+ ▪ 3b1686c Automatic translation import
 
  ▼ 02/01/2017
 
