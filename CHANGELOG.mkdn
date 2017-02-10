@@ -1,6 +1,400 @@
 
  ▼ Resurrection Remix Nougat Ver 5.8.1 Changelog
 
+ ▼ 02/10/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 4350975 Automatic translation import
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ f67da5f hal: Remove duplicated HFP if branch (mismerge)
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ 71b49b8 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 79fee4f Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ ef8d286 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ c9494b2 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 3314d13 Update resurrection_device_maintainers_strings.xml (#690)
+ ▪ 822828b Automatic translation import
+ ▪ 69e300c Update Zenfone Laser/Selfie (Device Name) (#687)
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 3d3519e Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 678971d Snap: Fix filtering of unsupported HFR/HSR modes
+ ▪ 46c1ac4 Automatic translation import
+ ▪ fe100c6 Snap: Fix max brightness and power shutter settings
+ ▪ 84752f9 Snap: VideoModule: Update flash status on preference change
+ ▪ 75de9ea Snap: Replace noisy debug line
+ ▪ 342b617 Snap: VideoModule: Restore check on mPreferenceRead
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 56685bf Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 6bbc51e Automatic translation import
+
+ ▼ 02/09/2017
+
+
+ ▪ project frameworks/base/
+ ▪ e54b12e Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 85cd4dd CMUpdater: Add title when collapsed
+ ▪ e3a471d UpdatesActivity: don't check for updates on every resume
+
+ ▪ project packages/apps/Calendar/
+ ▪ 573612e Calendar: Fix check for things to import
+ ▪ 7315b87 Calendar: Prevent NPE
+
+ ▪ project packages/apps/Dialer/
+ ▪ f38a596 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 8c9d49e Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 3e48f73 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 4d54b14 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 99930d2 add-device-Z00D (#686)
+ ▪ 32e27a4 Settings: Fix pulse activity typo
+ ▪ 8a2329e Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 8613b05 Snap: VideoModule: properly update focus settings when switching between cameras
+ ▪ 8c64fae Snap: Fix zoom in video mode
+ ▪ 8ba41f4 Snap: Remove touch AF/AEC option
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ 9484d15 Revert "telephony: Initialize USER_NETWORK_MODE with DEFAULT_NW_MODE"
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 659ccee Automatic translation import
+
+ ▪ project system/media/
+ ▪ 57fc1b8 audio_route: Add support to set complete byte arrays
+
+ ▼ 02/08/2017
+
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 30d2aeb Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 0d12073 Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ 81c2530 Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 4245c6e Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ d8743b6 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 2f31869 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 63a278b Recorder: add play action to notifications
+ ▪ 27187eb Recorder: bump support libraries
+ ▪ d32b39e Recorder: cleanup
+ ▪ 7c28074 Correctly unregister shared preference change listener.
+ ▪ a645771 Recorder: add latest records cards
+ ▪ c3f7f8d Recorder: fix broken services on activity changes
+ ▪ 3843e8d Recorder: fix mic request for screen recorder
+ ▪ 61901ce Avoid fragment state management issues.
+
+ ▪ project packages/apps/Settings/
+ ▪ aa880de Add Pixel XL maintainer
+ ▪ ca94032 Add ZUK Z1 (ham) maintainer (#685)
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 42a4e55 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 1d0b8ac Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 36c1213 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ a6fc233 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 655b92a Automatic translation import
+
+ ▼ 02/07/2017
+
+
+ ▪ project build/
+ ▪ 48a868b Merge pull request #23 from Chippa-a/nougat
+ ▪ 2aa1505 dumpvar: Remove unnecessary print variables
+
+ ▪ project frameworks/base/
+ ▪ f022a1a Automatic translation import
+ ▪ 9ddcfe6 SystemUI: Fix the unlock sound played repeatedly
+ ▪ 32d7696 policy: don't allow app switch/recents key to be pressed on lockscreen
+ ▪ 04d32e6 Automatic translation import
+ ▪ 8df27c4 Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ 13a84eb Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 1048d53 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 9294873 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ b4114dd Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 337d35c Automatic translation import
+ ▪ dee8e9e Add OnePlus 3T maintainer
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ d1bc43f WallpaperPicker: bring back cm wallpapers
+ ▪ 1dde84a WallpaperPicker: update icon
+ ▪ 66b854f WallpaperPicker: materialize delete icon
+ ▪ 6c33146 WallpaperPicker: bump gradle
+
+ ▼ 02/06/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 663b383 Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ 3f312b7 Themes: Expose hardcoded layout and style colors
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 94f9af9 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 5720018 Add maintainer for Lenovo A6000 #2 (#683)
+ ▪ 5875c57 Add Maintainer for Lenovo A6000 (#682)
+ ▪ 0a2b2ba Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 00b7256 LatinIME: Add Hungarian QWERTY, enable predictive dictionary
+
+ ▼ 02/05/2017
+
+
+ ▪ project android/
+ ▪ 704e862 Track our omnistyle repo
+
+ ▪ project device/asus/msm8916-common/
+ ▪ b27823a msm8916-common: Remove packages/resources/devicesettings from dependencies
+
+ ▪ project frameworks/base/
+ ▪ c9d5631 Automatic translation import
+ ▪ 4b786e0 SystemUI: PowerNotification: Add up button to fragment
+ ▪ c750458 Use STREAM_RING on non-voice capable devices
+ ▪ 9ea3487 Statusbar: Gracefully adapt 3Minit Battery hook for AOSP
+ ▪ 997d2fd Add 3Minit battery mod
+ ▪ 3dda028 Automatic translation import
+ ▪ 8e8d6ed Automatic translation import
+ ▪ d43c8cf Automatic translation import
+ ▪ b46742b Bluetooth: Fix Default BT turn on
+ ▪ 0ed31d6 AlarmsBlocker [1/2] Made by @faust93. Based on WakelockBlocker by @maxwen
+ ▪ 16c5df6 Disable touch slop for generated gesture events
+ ▪ 5584f2d Fix for reboot due to Volume State not updated in callback
+ ▪ 087c632 Fix recents thumbnails for one hand mode
+
+ ▪ project frameworks/opt/telephony/
+ ▪ aae108c Fix SIM detection when encrypted for older RIL
+
+ ▪ project hardware/qcom/fm/
+ ▪ 2b5386c Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 0e6e947 Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ a269f28 Automatic translation import
+
+ ▪ project packages/apps/Browser/
+ ▪ 866b0bf Automatic translation import
+
+ ▪ project packages/apps/CMBugReport/
+ ▪ 4fcd796 Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ 08bd02b Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ f4a35de Touchscreen gestures: remove CM Setup Wizard dependency
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ fdff241 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ b499a05 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ a187c4a Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ ee30de9 Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ 20cdcda Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 747c148 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 3089d2f Automatic translation import
+
+ ▪ project packages/apps/ManagedProvisioning/
+ ▪ bb79517 Automatic translation import
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ c4fcb7e OmniStyle: add creator meta data for header packs
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ fa25470 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 0c80361 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ e6181d2 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 6206fd3 Automatic translation import
+ ▪ 65aed57 Automatic translation import
+ ▪ ff2bf08 Add alarm blocker summary
+ ▪ e6badf8 Update rr_strings.xml (#681)
+ ▪ f2626e5 Edit themes dashboard position
+ ▪ 7b32afb Add LG G5 Int & T-Mobile maintainer (#680)
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 54311c0 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ cf63021 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 068eaa3 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 7ca2ce5 Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ aaa3783 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ b9b9215 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ 0bdbeb6 Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 6981666 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 4da4543 Automatic translation import
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ a64c9b8 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ f8073ff Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 6dad83d Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ d345819 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ d3f16b2 Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ 5acf0e7 Automatic translation import
+
+ ▪ project system/extras/su/
+ ▪ d30f4ad su: don't crash on SIGPIPE while passing return code to client
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 97dc85c Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 1efd29a Automatic translation import
+
+ ▼ 02/04/2017
+
+
+ ▪ project bionic/
+ ▪ 91b06f9 linker: Allow only specified non-PIE executables
+ ▪ 9936a63 Revert "Revert "Reenable support for non-PIE executables""
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ a0c4546 Automatic translation import
+ ▪ d8226ae Automatic translation import
+ ▪ f4a2c03 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 1ab16d0 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ b65923f Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 16188b4 Automatic translation import
+ ▪ e3ccc67 Automatic translation import
+ ▪ 522fcd2 Automatic translation import
+
+ ▼ 02/03/2017
+
+
+ ▪ project external/DUtils/
+ ▪ 1ad724b Add one handed mode action [1/2]
+ ▪ 5f2d876 WiFi Hotspot: use new on/off logic
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ a254e24 CMUpdater: Show updates only for the channel a user is on
+
+ ▪ project packages/apps/DUI/
+ ▪ c98f311 Slidetouch listener only on navbar view
+ ▪ 1206ff3 Add one handed mode action [2/2]
+
+ ▪ project packages/apps/Settings/
+ ▪ 7109caa AlarmsBlocker [2/2]
+ ▪ b6d44d4 Fix a mismerge
+
+
+ ▼ 02/03/2017
+
+
+ ▪ project external/DUtils/
+ ▪ 1ad724b Add one handed mode action [1/2]
+ ▪ 5f2d876 WiFi Hotspot: use new on/off logic
+
+ ▪ project packages/apps/DUI/
+ ▪ c98f311 Slidetouch listener only on navbar view
+ ▪ 1206ff3 Add one handed mode action [2/2]
+
+ ▪ project packages/apps/Settings/
+ ▪ b6d44d4 Fix a mismerge
+
 
  ▼ 02/03/2017
 
