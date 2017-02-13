@@ -1,17 +1,325 @@
 
  ▼ Resurrection Remix Nougat Ver 5.8.1 Changelog
 
+
+ ▼ 02/13/2017
+
+
+ ▪ project bootable/recovery/
+ ▪ e946931 Rename process_key to ProcessKey
+ ▪ 54886fb Fix bldr msg file open mode when offset specified
+
+ ▪ project build/
+ ▪ 2714fc8 Merge pull request #24 from j144df/patch-1
+ ▪ 83f8844 Fix the 'full_target'
+
+ ▪ project device/asus/msm8916-common/
+ ▪ 3bed817 msm8916-common: Build with regular LLVM Clang
+
+ ▪ project frameworks/base/
+ ▪ 61e27e9 Automatic translation import
+ ▪ 3678b35 Correctly Fix SB weather always showing on left
+ ▪ fe83a39 Revert "SysUI:Fix Left Weather always showing even when disabled"
+
+ ▪ project packages/apps/Dialer/
+ ▪ 72e93d1 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ ac95269 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 913acec Automatic translation import
+ ▪ 6acd833 Settings: Update maintainer lists for Android One 2'nd (seed) (#693)
+
+ ▼ 02/12/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 2e69c38 QS Stroke: Fix Stroke Not applying with Blur
+ ▪ a040914 SysUI:Fix Left Weather always showing even when disabled
+ ▪ f76c902 Auto calculate quickbar tiles amount
+ ▪ 78aa731 All tile scroller for quickbar settings [1/2]
+ ▪ ec9021c OneHandMode Recents: fix NPE
+ ▪ f662091 Change long click actions on some QS tiles
+
+ ▪ project hardware/qcom/fm/
+ ▪ 6fd80f6 jni: Confine the firmware-load skipping to the actual loading
+ ▪ f132291 Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ c591503 Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ e377bdc Automatic translation import
+
+ ▪ project packages/apps/Browser/
+ ▪ 652e0a5 Automatic translation import
+
+ ▪ project packages/apps/CMBugReport/
+ ▪ dafa10b Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ aaf23a3 Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 984cfa9 Automatic translation import
+
+ ▪ project packages/apps/CMWallpapers/
+ ▪ 62f591b Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ df43875 Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ 6ac4fde Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ c7866f5 Automatic translation import
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 2332b25 Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ 7a9e5c2 Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ b0fadab Automatic translation import
+
+ ▪ project packages/apps/EmergencyInfo/
+ ▪ 82eb30a Automatic translation import
+
+ ▪ project packages/apps/Exchange/
+ ▪ e458fec Automatic translation import
+
+ ▪ project packages/apps/FMRadio/
+ ▪ cf589ab Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 15d1f72 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 3a2438d Automatic translation import
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ 88fe2d8 Automatic translation import
+
+ ▪ project packages/apps/KeyChain/
+ ▪ b6f7264 Automatic translation import
+
+ ▪ project packages/apps/ManagedProvisioning/
+ ▪ 6cc07ae Automatic translation import
+
+ ▪ project packages/apps/Nfc/
+ ▪ 1cce1b3 Automatic translation import
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ fe20f2b Automatic translation import
+
+ ▪ project packages/apps/Profiles/
+ ▪ f1c23ad Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ e4e79ce Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ cb65b63 Automatic translation import
+
+ ▪ project packages/apps/SafetyRegulatoryInfo/
+ ▪ 0b5fc12 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ ef24de0 Automatic translation import
+ ▪ 9204aaa Scrollable Small QS tiles [2/2]
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 167ac2c Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ e8a6615 Automatic translation import
+
+ ▪ project packages/apps/Stk/
+ ▪ e15be25 Automatic translation import
+
+ ▪ project packages/apps/Tag/
+ ▪ 12cab82 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 6f71e9f Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 7817771 Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ 6a669a3 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ d1bc85b Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ d39d44a Automatic translation import
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ eb5be41 Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 42bf994 Automatic translation import
+
+ ▪ project packages/providers/BookmarkProvider/
+ ▪ dc3bb73 Automatic translation import
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ 168badf Automatic translation import
+
+ ▪ project packages/providers/CallLogProvider/
+ ▪ 0715865 Automatic translation import
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ 68f1225 Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 60282f9 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 783d5cf Automatic translation import
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 8bfb878 Automatic translation import
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ de1f545 Automatic translation import
+
+ ▪ project packages/providers/ThemesProvider/
+ ▪ dd7ff50 Automatic translation import
+
+ ▪ project packages/providers/UserDictionaryProvider/
+ ▪ 3d347b1 Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 68a67f3 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 64395d2 Automatic translation import
+
+ ▪ project packages/screensavers/Basic/
+ ▪ 31ccb14 Automatic translation import
+
+ ▪ project packages/screensavers/PhotoTable/
+ ▪ a3afce8 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 00e085e Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ 226fe91 Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ 0f49c72 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ b64184a Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ dfc9087 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 847f472 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 0d0f144 Automatic translation import
+
+ ▼ 02/11/2017
+
+
+ ▪ project android/
+ ▪ ba558c7 Track Fw Opt Cards
+
+ ▪ project device/asus/msm8916-common/
+ ▪ 52ac156 msm8916-common: Allow init to write in debugfs
+
+ ▪ project frameworks/base/
+ ▪ f758029 Make Power Menu Emergency Panel Optional [1/2]
+ ▪ a2992fd Slim recents: card expand button: use same color like card text
+ ▪ b33bff2 Slim recents: avoid crashes due to different drawable types
+ ▪ 1f73bfe Net monitor: fix visual glitch on statusbar expand when autohide enabled
+ ▪ a456e73 Slim Recents squash [1/2]
+ ▪ a34f371 PhoneWindowManager: add mTopFullscreenOpaqueWindowState null check to fix exception
+ ▪ ebce732 Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ d4ebc3c Automatic translation import
+ ▪ dd5649c Add "Letter V" string
+ ▪ 18e8f3c Automatic translation import
+ ▪ c3b79a3 CMParts: Clean out imports
+ ▪ 602e9da CMParts: Simplify long press for torch strings
+ ▪ ae24efd Automatic translation import
+ ▪ 040a398 CMParts: Long-press power while display is off for torch
+ ▪ dac39d7 CMParts: Clean up status bar settings class
+ ▪ 5195eed CMParts: power: Resolve 'automatic optimization' state issues
+ ▪ e4ab72a CMParts: Update quick QS pull-down entries for RTL layouts
+ ▪ 47abb9a CMParts: Don't update status bar clock summary on RTL
+ ▪ 9730b04 CMParts: Update quick QS pull-down summary on pref change
+ ▪ b306390 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 4ba55e3 Settings: Make Power Menu Emergency Panel Optional [2/2]
+ ▪ 8bfdafe Slim Recents squash [2/2]
+ ▪ ca9894c Settings: Set ADB notification on by default
+ ▪ f59bbb3 Automatic translation import
+ ▪ d4fea05 Automatic translation import
+ ▪ ce22a04 wifi: Allow configuration of country code for wifi
+ ▪ 0088d36 Automatic translation import
+ ▪ 831d38c Show proper notification volume icon on non-voice capable devices
+ ▪ 6c7724f SoundSettings: Always initialize mRingOrNotificationPreference
+ ▪ 28dda6d Revert "SoundSettings: Prevent NPE due to linked volumes change"
+ ▪ 9f0e4db Automatic translation import
+ ▪ f3720bf Automatic translation import
+ ▪ 025a209 Update resurrection_device_maintainers_strings.xml (#691)
+ ▪ 8740935 Spelling and grammar fixes (#692)
+
+ ▪ project system/core/
+ ▪ 153bc0c Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+
+ ▪ project system/sepolicy/
+ ▪ 3749379 Permit dumpstate to run "ip xfrm policy".
+
+ ▪ project vendor/cm/
+ ▪ d047c47 tasks: dt: add flag to optionally compress dt with lz4
+ ▪ 8ff1fa6 qcom: Permit dumpstate to run "ip xfrm policy"
+ ▪ d0a6f00 LatinIME: re-add (fixed) Hungarian dictionary
+ ▪ aeb15c6 cm: charger: Correct res_create_multi_display_surface() usage
+ ▪ efd20f4 vendor: fix lunch combo name to lineage
+ ▪ 269c418 cm: Enable long-press on power in suspend by default
+ ▪ 8e3af74 apns: Add SingTel hi!card sim APN
+ ▪ 1dc3076 apns: Update H2O Wireless for LTE
+
+ ▪ project vendor/cmsdk/
+ ▪ 3a3dd65 Automatic translation import
+ ▪ ac95f68 Automatic translation import
+ ▪ b55d5ca CMSDK: Add long-press power for torch CMSetting
+ ▪ 3a2c4be cmsdk: PerformanceManager: Update POWER_HINT_SET_PROFILE value
+ ▪ 0f02f65 Automatic translation import
+
  ▼ 02/10/2017
 
 
  ▪ project frameworks/base/
+ ▪ a6c0adc Automatic translation import
  ▪ 4350975 Automatic translation import
+
+ ▪ project hardware/broadcom/libbt/
+ ▪ 0034a25 libbt: Import CID_PATH from samsung_macloader.h
+
+ ▪ project hardware/libhardware_legacy/
+ ▪ 68203c8 wifi: Import CID_PATH from samsung_macloader.h
 
  ▪ project hardware/qcom/audio-caf/msm8974/
  ▪ f67da5f hal: Remove duplicated HFP if branch (mismerge)
 
  ▪ project packages/apps/CMFileManager/
  ▪ 71b49b8 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 335abec Alert tone does not play for ETWS
 
  ▪ project packages/apps/OmniSwitch/
  ▪ 79fee4f Automatic translation import
@@ -22,7 +330,11 @@
  ▪ project packages/apps/ResurrectionOTA/
  ▪ c9494b2 Automatic translation import
 
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ a03b489 Automatic translation import
+
  ▪ project packages/apps/Settings/
+ ▪ 149c84a Automatic translation import
  ▪ 3314d13 Update resurrection_device_maintainers_strings.xml (#690)
  ▪ 822828b Automatic translation import
  ▪ 69e300c Update Zenfone Laser/Selfie (Device Name) (#687)
@@ -378,21 +690,6 @@
 
  ▪ project packages/apps/Settings/
  ▪ 7109caa AlarmsBlocker [2/2]
- ▪ b6d44d4 Fix a mismerge
-
-
- ▼ 02/03/2017
-
-
- ▪ project external/DUtils/
- ▪ 1ad724b Add one handed mode action [1/2]
- ▪ 5f2d876 WiFi Hotspot: use new on/off logic
-
- ▪ project packages/apps/DUI/
- ▪ c98f311 Slidetouch listener only on navbar view
- ▪ 1206ff3 Add one handed mode action [2/2]
-
- ▪ project packages/apps/Settings/
  ▪ b6d44d4 Fix a mismerge
 
 
