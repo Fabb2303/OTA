@@ -8,9 +8,9 @@
                 title="Rom"
                 description="Download latest version">https://sourceforge.net/projects/resurrectionremix/files/Z00T/</RomUrl>
             <ChangelogUrl
-                id="changelog"
-                title="Changelog"
-                description="RR Changelogs">https://github.com/Fabb2303/OTA/blob/master/FullChangelog.mkdn</ChangelogUrl>
+                id="gapps"
+                title="Google Apps"
+                description="Download Google Apps">http://bit.ly/2gY1FHw</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
@@ -28,8 +28,8 @@
                 description="Download latest version">https://sourceforge.net/projects/resurrectionremix/files/Z00L/</RomUrl>
             <ChangelogUrl
                 id="changelog"
-                title="Changelog"
-                description="RR Changelogs">https://github.com/Fabb2303/OTA/blob/master/FullChangelog.mkdn</ChangelogUrl>
+                title="Google Apps"
+                description="Download Google Apps">http://bit.ly/2gY1FHw</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
