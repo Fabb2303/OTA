@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Nightly>
         <Z00T>
-            <Filename>RR-N-v5.8.0-20170213-Z00T-OFFICIAL.zip</Filename>
+            <Filename>RR-N-v5.8.2-20170221-Z00T-OFFICIAL.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
@@ -21,7 +21,7 @@
                 description="">https://goo.gl/DS0iqC</donationUrl>
 	</Z00T>
 	 <Z00L>
-            <Filename>RR-N-v5.8.0-20170218-Z00L-OFFICIAL.zip</Filename>
+            <Filename>RR-N-v5.8.2-20170218-Z00L-OFFICIAL.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
