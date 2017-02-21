@@ -2,6 +2,159 @@
  ▼ Resurrection Remix Nougat Ver 5.8.1 Changelog
 
 
+▼ 02/21/2017
+
+
+ ▪ project device/qcom/common/
+ ▪ 2f412a4 Revert "Revert "extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm""
+ ▪ ea99b0c extractors: Update msm8996 graphics blobs info
+
+ ▪ project frameworks/base/
+ ▪ e2fb61d Automatic translation import
+ ▪ 0c95c0c base: instrumentation: fix protected apps intents
+
+ ▪ project packages/apps/DUI/
+ ▪ 8cf78de SmartBar: Pixel button animation support [2/3]
+ ▪ 2a42d94 Bring in initial Pixel Navbar animation resources [1/?]
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ f745580 V5.8.2
+
+ ▪ project packages/apps/Settings/
+ ▪ a58e4fa SmartBar: Add Pixel to button animation settings [3/3]
+ ▪ 19c00c7 Add device Z010D (#701)
+
+ ▪ project packages/apps/Snap/
+ ▪ b2f33fa Snap: Allow switching beyond just 2 cameras
+
+ ▼ 02/20/2017
+
+
+ ▪ project frameworks/base/
+ ▪ e0ad3b9 SystemUI: Fix QS tiles fancy animation layout glitch and mergin
+ ▪ 76c33cc Set external QS tiles tint mode to SRC_ATOP
+ ▪ 12d2285 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+
+ ▪ project hardware/qcom/fm/
+ ▪ 6337276 Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 9b36fdc Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ eb3c609 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ d4d47ff Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 08117b8 Automatic translation import
+ ▪ af13354 CellBroadcastReceiver: Fix strings
+
+ ▪ project packages/apps/Gallery2/
+ ▪ bc9f781 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 3b6a6cf Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 3d92b85 Automatic translation import
+ ▪ 17585c7 Dismiss notification when corresponding recording is deleted
+ ▪ 42faf20 Fix last recording duration string
+
+ ▪ project packages/apps/Settings/
+ ▪ 30286c3 Update Device Maintainer for Cancro. (#699)
+ ▪ 0a59715 Update OP2 maintainer. (#700)
+ ▪ b4f4c2a Remove Dependecy on Emergency Button Switch
+ ▪ b20cd47 Properly Fix Settings FC in Lockscreen Security
+ ▪ 59d714e Revert "Settings: Fix FC on devices without finger print scanner"
+ ▪ 83b5861 Settings: Fix FC on devices without finger print scanner
+ ▪ 8e6046f Set external settings icon tint mode to SRC_ATOP
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 3ecb352 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ f7854a1 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 72900fa Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ eb9e8cf Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ b978855 Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ e84d46c Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 1e11ba5 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 83729e0 Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ 01c3940 Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ 32b32a4 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ 6b4875a Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 7e1dd7c Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 2badf2f Automatic translation import
+
+ ▼ 02/19/2017
+
+
+ ▪ project android/
+ ▪ 5c4d36b Remove cm updater
+
+ ▪ project frameworks/base/
+ ▪ 427f1f2 BatteryMeterDrawable: Add Missing Pulgged In Intialization
+ ▪ f8bfe83 Hide Lockscreen emergency button [1/2]
+ ▪ 356cbbd Base: bring back restart action
+ ▪ cae3cf0 Notification tint: add optional findContrastColor algorithm for dark backgrounds
+ ▪ 9b32646 Solid battery: Bring back pulsing animation
+ ▪ 0eac40c Unlock keystore with fingerprint after reboot (1/2)
+ ▪ 51a1167 Base: Update navigation button sizes and some drawables
+ ▪ 5c74531 Expose lockscreen bottom shorcut phone inner bg and text colors
+ ▪ d7bdd4d Base: bring back restart action
+ ▪ 95a8e66 Base: Update navigation button sizes and some drawables
+ ▪ 6f72aa7 Expose lockscreen bottom shorcut phone inner bg and text colors
+
+ ▪ project packages/apps/DUI/
+ ▪ 81b1b28 Update edit mode button & fix action list pressed color
+ ▪ 2f9217f Update navigation button sizes and some drawables
+
+ ▪ project packages/apps/Settings/
+ ▪ 2b4bdcb Lockscreen Emergency Button Switch [2/2]
+ ▪ c37b094  Unlock keystore with fingerprint after reboot (2/2)
+ ▪ 5455a0c Update Zenfone 2 Laser 720p Maintainer (#697)
+ ▪ 748e050 Settings: Display remove the duplo check if LiftToWake is Available +  DisplaySettings.java improves indentation of onCreate (#698)
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 765f0e6 SetupWizard: Include tests makefile
+
+ ▪ project packages/apps/Snap/
+ ▪ f098f1a Snap: CaptureModule: fix preview being invisible on first start
+ ▪ 21bc834 CaptureModule: Fix UI.
+ ▪ ec6475e Snap: CaptureModule: re-apply flash setting when disabling manual iso
+ ▪ f17e127 Snap: CaptureModule: check if ZSL is supported before using it
+ ▪ 27f8676 Snap: CaptureModule: enable noise reduction
+ ▪ 5710a02 Snap: CaptureModule: enable redeye reduction
+ ▪ b6b13fc Snap: CaptureModule: enable and fix manual iso control
+ ▪ ebd135d Snap: CaptureUI: remove camera2 option
+
+ ▪ project vendor/cmsdk/
+ ▪ e28fc9d RemotePreferenceManager: Fix receiver registration issues.
+
  ▼ 02/18/2017
 
 
@@ -28,8 +181,6 @@
  ▪ fdb0874 Forward Port: Add Camera sound toggle [3/3]
 
  ▪ project frameworks/base/
- ▪ 95a8e66 Base: Update navigation button sizes and some drawables
- ▪ 6f72aa7 Expose lockscreen bottom shorcut phone inner bg and text colors
  ▪ 40544be Fix build after rebase
  ▪ 3d16128 Base : Evo-merge - Switch to rebased
 
@@ -46,7 +197,6 @@
  ▪ beeea9e ContactsCommon : Evo-merge - Switch to rebased
 
  ▪ project packages/apps/DUI/
- ▪ becb1c7 Update navigation button sizes and some drawables
  ▪ 5390e06 Separate one handed mode icons [1/2]
 
  ▪ project packages/apps/Dialer/
@@ -61,18 +211,7 @@
  ▪ project packages/apps/Settings/
  ▪ fd6cb62 Settings: Evo-merge - Switch to rebased
 
- ▪ project packages/apps/SetupWizard/
- ▪ 765f0e6 SetupWizard: Include tests makefile
-
  ▪ project packages/apps/Snap/
- ▪ f098f1a Snap: CaptureModule: fix preview being invisible on first start
- ▪ 21bc834 CaptureModule: Fix UI.
- ▪ ec6475e Snap: CaptureModule: re-apply flash setting when disabling manual iso
- ▪ f17e127 Snap: CaptureModule: check if ZSL is supported before using it
- ▪ 27f8676 Snap: CaptureModule: enable noise reduction
- ▪ 5710a02 Snap: CaptureModule: enable redeye reduction
- ▪ b6b13fc Snap: CaptureModule: enable and fix manual iso control
- ▪ ebd135d Snap: CaptureUI: remove camera2 option
  ▪ b8af8f1 Snap: detect and use Camera2 if available
 
  ▪ project packages/apps/StorageManager/
@@ -100,6 +239,7 @@
  ▪ project vendor/cm/
  ▪ a11ca29 Update github changelog
  ▪ a1faf3b Update version 5.8.2
+
 
  ▼ 02/17/2017
 
