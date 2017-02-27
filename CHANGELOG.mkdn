@@ -1,9 +1,450 @@
 
- ▼ Resurrection Remix Nougat Ver 5.8.1 Changelog
+ ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
+
+ ▼ 02/27/2017
 
 
-▼ 02/21/2017
+ ▪ project android/
+ ▪ cc0b06e Temp: Switch to Another masquerade repo
 
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ 45552c3 hal: Remove duplicated HFP if branch (mismerge)
+
+ ▪ project hardware/qcom/display-caf/apq8084/
+ ▪ 90b39d3 Merge remote-tracking branch 'caf/LA.BF.2.1.2_rb1.16' into cm-14.1-caf-8084
+ ▪ 5e179af Revert "gralloc: Add a switch to use 16 byte pixel alignment"
+
+ ▪ project packages/apps/Dialer/
+ ▪ 6848131 Fix incall styles
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 0c7b92a SetupWizard: Fix landscape
+
+ ▪ project vendor/cm/
+ ▪ 7450d8e Update Features.mkdn
+
+ ▼ 02/26/2017
+
+
+ ▪ project device/asus/msm8916-common/
+ ▪ 618f6e9 msm8916-common: Dynamically set LMK values
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ 727d95e hal: Update active input stream for Voip when voip input started
+ ▪ 51d45fa audio: acquire lock for compress voip close input/output stream
+
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ e1c1f5a Merge remote-tracking branch 'caf/LA.BF.2.1.2_rb1.16' into LA.BF.2.1.2_rb1.16
+
+ ▪ project kernel/asus/msm8916/
+ ▪ f996171 ANDROID: sdcardfs: support direct-IO (DIO) operations
+ ▪ 440ce75 ANDROID: sdcardfs: implement vm_ops->page_mkwrite
+ ▪ 5cddc66 Revert "sdcardfs: Flag files as non-mappable"
+ ▪ 348934f arch/arm64: configs: Regen configs
+ ▪ 8747ab0 dccp: fix freeing skb too early for IPV6_RECVPKTINFO
+ ▪ ae66e6c time: Remove CONFIG_TIMER_STATS
+ ▪ 93bb524 drivers/touchscreen: ftxxxx: Don't default to ts_suspend
+ ▪ 750386d drivers/touchscreen: ftxxxx: Remove fb_notify_resume_work
+
+ ▪ project packages/apps/Snap/
+ ▪ 774797c Focus only when tapping the preview
+ ▪ 32d2eda Allow to re-open Snap from recent menu
+ ▪ 0467f54 Automatic translation import
+ ▪ 48f0e42 Snap: CaptureModule: lock exposure also when precapture trigger is started
+
+ ▪ project vendor/qcom/opensource/cryptfs_hw/
+ ▪ 144e832 cryptfs_hw: Add support for is_hw_fde_enabled routine
+
+ ▼ 02/25/2017
+
+
+ ▪ project android/
+ ▪ dc90f5d manifest: android-7.1.1_r9 -> android-7.1.1_r21
+
+ ▪ project build/
+ ▪ 114055a Merge tag 'android-7.1.1_r21' into cm-14.1
+ ▪ 12f3c95 build: always copy recovery.img to BOOTABLE_IMAGES.
+ ▪ 7f28bb3 Add dumpvar for WITH_GMS
+ ▪ 3a95f4b core: include getb64key.py in otatools
+ ▪ 2032d1d ota_from_target_files: CalculateFingerprint when dump fingerprints
+ ▪ f685027 Add dumpvar for WITH_SU
+
+ ▪ project device/qcom/common/
+ ▪ 1a1248b power: replace strncpy with strlcpy
+
+ ▪ project frameworks/av/
+ ▪ 4a6bb0d Merge tag 'android-7.1.1_r21' into cm-14.1
+ ▪ 7750f38 ACodec: Fix video autoscaling on old OMX decoders
+
+ ▪ project frameworks/base/
+ ▪ 6f7e30a SystemUI: Add config to disable HumanInteractionClassifier
+ ▪ bc9f8ed Automatic translation import
+ ▪ ee49489 Revert "Emergency call button on Swipe lock Screen."
+ ▪ 9dc712a Revert "Hide Lockscreen emergency button [1/2]"
+ ▪ ba9a4bc Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ d00b760 Merge tag 'android-7.1.1_r21' into cm-14.1
+ ▪ 676b40a Pulse: allow custom opacity for solid line renderer [2/3]
+ ▪ fd46b3f Pulse: Moar bars for solid line renderer [2/3]
+ ▪ 18426989 Fix slim recents duplicate entries
+ ▪ 80081b8 Ticker: We need to center it horozontal, not vertical
+ ▪ c853642 Ticker: Center Ticker layout vertically in statusbar view
+ ▪ 2a54d2a Fix TaskManager Running services [1/2] (#177)
+ ▪ be092ae Fix automatic zen rules.
+ ▪ 6cde8a1 DocumentsUI: use 'Files' icon and text for icon
+ ▪ e9c382a Bluetooth: Fix setting app stoped when unpair device
+
+ ▪ project frameworks/native/
+ ▪ 8ce9604 Merge tag 'android-7.1.1_r21' into cm-14.1
+ ▪ 72839b9 libEGL: Only enable WORKAROUND_BUG_10194508 with board flag
+
+ ▪ project frameworks/opt/hardware/
+ ▪ ca48b0c Revert "cmhw: Allow LiveDisplay to check if GPU transform is used"
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ d484cab Automatic translation import
+ ▪ f355923 Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ cc00362 CMParts: Restructure status bar settings
+ ▪ b6c7f0b CMParts: Fix email and browser intents
+ ▪ 670c2ec Automatic translation import
+ ▪ 2fbcf82 CMParts: Replace variable for setup wizard complete
+ ▪ d02f378 Automatic translation import
+ ▪ e0ed192 CMParts: Add strings for sRGB
+ ▪ 5bb856b Revert "Touchscreen gestures: remove CM Setup Wizard dependency"
+
+ ▪ project packages/apps/Calendar/
+ ▪ 4a2393e Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 346b2a3 Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ e055a35 Automatic translation import
+ ▪ d385e38 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ a205f7e Automatic translation import
+ ▪ bfa8ab1 Automatic translation import
+
+ ▪ project packages/apps/DUI/
+ ▪ b39961b Pulse: allow custom opacity for solid line renderer [1/3]
+ ▪ ba72265 Pulse: Moar bars for solid line renderer [1/3]
+
+ ▪ project packages/apps/Dialer/
+ ▪ 33abb31 Automatic translation import
+ ▪ fb85139 Automatic translation import
+ ▪ 3cc3af8 Use TabLayout for DSDA tabs.
+
+ ▪ project packages/apps/Email/
+ ▪ e29763c Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ dea8419 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ be76523 Automatic translation import
+ ▪ 8d3c467 Merge tag 'android-7.1.1_r21' into cm-14.1
+ ▪ 4c8acd6 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 952a5f0 Automatic translation import
+ ▪ 0cb1362 Normall -> Normal typo in strings
+
+ ▪ project packages/apps/Recorder/
+ ▪ 7a11f99 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 988c8a0 Fix Pulse Settings Fc
+ ▪ a511747 Fix BUild
+ ▪ 9fe6f2b Update build number to r21
+ ▪ 3619285 Revert "Revert "Properly Fix Settings FC in Lockscreen Security""
+ ▪ 50ec085  Pulse: allow custom opacity for solid line renderer [3/3]
+ ▪ fc7faf5 Pulse: Moar bars for solid line renderer [3/3]
+ ▪ f45a40f Revert "Lockscreen Emergency Button Switch [2/2]"
+ ▪ 7f7dfd8 Revert "Settings: Fix FC on devices without finger print scanner"
+ ▪ 01f5c7a Revert "Revert "Settings: Fix FC on devices without finger print scanner""
+ ▪ 51e4933 Revert "Properly Fix Settings FC in Lockscreen Security"
+ ▪ 13f2b20 Revert "Remove Dependecy on Emergency Button Switch"
+ ▪ 0dd9186 Fix TTS engine label text wrapping
+ ▪ f5409aa Automatic translation import
+ ▪ 9d8c482 Automatic translation import
+ ▪ acbfc77 Fix TaskManager Running services [2/2] (#706)
+ ▪ 48c5b83 Revert "Settings:Change the way of email account displayed"
+ ▪ 82b9fcd Improve layout of app ops details screen.
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 66ac309 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ a8f967a Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ a2eadaa Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 587aaa1 Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ bcb0926 Automatic translation import
+ ▪ d4157b3 Automatic translation import
+
+ ▪ project system/core/
+ ▪ cf3c8a3 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project system/sepolicy/
+ ▪ d3c6052 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project vendor/cm/
+ ▪ 189ba03 Update github changelog
+ ▪ 2bcf560 Update github changelog
+ ▪ 853924e Use releasekey instead of platform for extra recovery keys
+ ▪ c88a7cd build: Pass path into grep instead of using cat
+ ▪ d0fce77 overlay: enable productivity_device for DocumentsUI
+ ▪ 3d87c4b vendor: support more text types
+ ▪ c56c14d apn: Updating Movistar Argentina APN
+
+ ▪ project vendor/cmsdk/
+ ▪ 8155c99 Automatic translation import
+ ▪ 0c75bfe CMSettingsProvider: remove per-user cursor observation
+ ▪ 0859764 cmsdk: Remove launch boost support
+ ▪ 311515b Automatic translation import
+ ▪ dba81b3 Add a proper description for CM_SETUP_WIZARD_COMPLETED deprecation
+ ▪ 6171436 cmsdk: Deprecate CM_SETUP_WIZARD_COMPLETED
+ ▪ 8baffef Automatic translation import
+
+ ▼ 02/24/2017
+
+
+ ▪ project bionic/
+ ▪ a15dbf3 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project dalvik/
+ ▪ df22533 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project device/asus/msm8916-common/
+ ▪ 3b8fa45 msm8916-common: Import LA.BR.1.2.9_rb1.12 WCNSS config
+ ▪ e5db09e msm8939: Finetune mediacodec performance values.
+
+ ▪ project device/qcom/common/
+ ▪ 2be2684 power: Use POWER_HINT_LAUNCH for launch boosts
+
+ ▪ project frameworks/base/
+ ▪ 1d60e49 Wired headset: make ringtone audio focus customizable [1/3]
+ ▪ 663dcff Fix RTL layout with membar 'free ram' text
+
+ ▪ project hardware/libhardware/
+ ▪ 721e37c Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project hardware/libhardware_legacy/
+ ▪ ece325e Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ c205dc8 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.12' into HEAD
+
+ ▪ project hardware/qcom/audio/default/
+ ▪ bc83ef0 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project hardware/qcom/display-caf/msm8916/
+ ▪ c1f04be Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.12' into HEAD
+
+ ▪ project kernel/asus/msm8916/
+ ▪ e2bed2c drivers/staging: prima: Import latest CAF release
+ ▪ 82accd2 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.12' into HEAD
+ ▪ 5159a96 ANDROID: sdcardfs: Don't bother deleting freelist
+ ▪ 48ce126 ANDROID: sdcardfs: Add missing path_put
+ ▪ 0586981 ANDROID: sdcardfs: Fix incorrect hash
+ ▪ b84eb6a ANDROID: sdcardfs: Switch strcasecmp for internal call
+ ▪ dd89fbb ANDROID: sdcardfs: switch to full_name_hash and qstr
+ ▪ 38839b2 ANDROID: sdcardfs: Add GID Derivation to sdcardfs
+ ▪ 6ccba2e ANDROID: sdcardfs: Remove redundant operation
+ ▪ b50928d ANDROID: sdcardfs: add support for user permission isolation
+ ▪ ce03e99 ANDROID: sdcardfs: Refactor configfs interface
+ ▪ 9813906 ANDROID: sdcardfs: Allow non-owners to touch
+
+ ▪ project libcore/
+ ▪ 7afe9e8 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ f568886 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/apps/CMBugReport/
+ ▪ 1803055 Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ e65455f Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 9fcf496 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 79dcdc1 Automatic translation import
+
+ ▪ project packages/apps/DUI/
+ ▪ 2da9889 Allow to set Ripple on other buttons for Home button only pixel animation [1/2]
+ ▪ 3a2191f Smartbar: allow to set pixel ani for the home button only [1/2]
+
+ ▪ project packages/apps/Eleven/
+ ▪ 21bbc9c Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ ce1a995 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 399265e Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ d104005 Automatic translation import
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ ec61c56 Allow searching in HTMLViewer.
+
+ ▪ project packages/apps/Profiles/
+ ▪ 83dd47f Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 814b9b0 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ fd90a28 Wired headset: make ringtone audio focus customizable [3/3]
+ ▪ 39974f3  Allow to set Ripple on other buttons for Home button only pixel animation [2/2]
+ ▪ a1210e6 Smartbar: allow to set pixel ani for the home button only [2/2]
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 9365fb1 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ a1794ca Automatic translation import
+
+ ▪ project packages/apps/TV/
+ ▪ 95adef3 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/apps/Tag/
+ ▪ c2d04dc Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/apps/Terminal/
+ ▪ 8e2999c Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 4b0a9e5 Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ bec1da7 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ e2ae143 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 151818a Automatic translation import
+
+ ▪ project packages/providers/BlockedNumberProvider/
+ ▪ 6a4e5ff Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ a656734 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 86834db Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 15cc93d Automatic translation import
+
+ ▪ project packages/providers/ThemesProvider/
+ ▪ 16cf3ec Automatic translation import
+
+ ▪ project packages/providers/UserDictionaryProvider/
+ ▪ 88e435c Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 82adbf6 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ f6ceba9 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 3fddddf Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ e6357f3 Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ 49f9cde Wired headset: make ringtone audio focus customizable [3/3]
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ 13317b9 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ c42f6f4 Automatic translation import
+
+ ▪ project system/security/
+ ▪ 375e02f Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project system/tools/aidl/
+ ▪ 6192de5 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 79b5f88 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ cbd94da Automatic translation import
+
+ ▼ 02/23/2017
+
+
+ ▪ project hardware/qcom/media-caf/msm8974/
+ ▪ 99eef72 media-caf msm8974: Fix typo in video decoder error check for debug output
+
+ ▪ project libcore/
+ ▪ b065999 Revert "Remove support for reading mime types from property files."
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ 23ad424 HTMLViewer: support most text/ mimetypes
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ ec3dcce SetupWizard: Increment version
+ ▪ 63aaa30 SetupWizard: Don't crash when missing Google SUW
+
+ ▪ project vendor/cm/
+ ▪ bfe154c Changelog should be for 5.8.2 now (#72)
+
+ ▼ 02/22/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 3f83c8b Settings: add development animation transition mode 0.75 and 0.25
+ ▪ 1fdf834 Automatic translation import
+ ▪ bc6f58a Revert "All tile scroller for quickbar settings [1/2]"
+ ▪ 8887f0e Revert "Auto calculate quickbar tiles amount"
+ ▪ c745ca5 Revert "SystemUI: Fix QS tiles fancy animation layout glitch and mergin"
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ fb55c27 audiopolicy: update correct device for primary output when FM resumed
+
+ ▪ project packages/apps/Dialer/
+ ▪ 43f3323 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 5f555fa Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ fe46f7a Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 038829c Automatic translation import
+ ▪ f745580 V5.8.2
+
+ ▪ project packages/apps/Settings/
+ ▪ 2acedc3 Automatic translation import
+ ▪ 8b0075b Revert "Scrollable Small QS tiles [2/2]"
+
+ ▪ project vendor/cm/
+ ▪ 3491e5e Features: add OMS support to feature list (#71)
+
+ ▼ 02/21/2017
+
+
+ ▪ project bootable/recovery/
+ ▪ 9041a47 recovery: rebrand for lineage
 
  ▪ project device/qcom/common/
  ▪ 2f412a4 Revert "Revert "extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm""
@@ -17,16 +458,12 @@
  ▪ 8cf78de SmartBar: Pixel button animation support [2/3]
  ▪ 2a42d94 Bring in initial Pixel Navbar animation resources [1/?]
 
- ▪ project packages/apps/ResurrectionStats/
- ▪ f745580 V5.8.2
-
  ▪ project packages/apps/Settings/
  ▪ a58e4fa SmartBar: Add Pixel to button animation settings [3/3]
  ▪ 19c00c7 Add device Z010D (#701)
 
  ▪ project packages/apps/Snap/
  ▪ b2f33fa Snap: Allow switching beyond just 2 cameras
-
  ▼ 02/20/2017
 
 
