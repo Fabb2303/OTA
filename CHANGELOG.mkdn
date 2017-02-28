@@ -1,27 +1,57 @@
 
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
+▼ 02/28/2017
+
+
+ ▪ project device/asus/msm8916-common/
+ ▪ 16b319c msm8916-common: Update qcrilmsgtunnel.apk sha1sum
+
+ ▪ project frameworks/base/
+ ▪ c3dd19e Automatic translation import
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 59c3951 Revert "Wifi: provide runtime logging option in WifiP2pService"
+
+ ▪ project packages/apps/Dialer/
+ ▪ cf3e360 Automatic translation import
+ ▪ 8b47801 Revert "Use TabLayout for DSDA tabs."
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ eeefb21 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ a278bec Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 1fe9102 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ c17bd08 Automatic translation import
+
  ▼ 02/27/2017
 
 
  ▪ project android/
  ▪ cc0b06e Temp: Switch to Another masquerade repo
 
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 1cfcdc1 WiFi: Fix possible NPE
+
  ▪ project hardware/qcom/audio-caf/msm8974/
  ▪ 45552c3 hal: Remove duplicated HFP if branch (mismerge)
 
  ▪ project hardware/qcom/display-caf/apq8084/
+ ▪ 2e2f18a gralloc: Add a switch to use 16 byte pixel alignment
  ▪ 90b39d3 Merge remote-tracking branch 'caf/LA.BF.2.1.2_rb1.16' into cm-14.1-caf-8084
  ▪ 5e179af Revert "gralloc: Add a switch to use 16 byte pixel alignment"
-
- ▪ project packages/apps/Dialer/
- ▪ 6848131 Fix incall styles
 
  ▪ project packages/apps/SetupWizard/
  ▪ 0c7b92a SetupWizard: Fix landscape
 
  ▪ project vendor/cm/
  ▪ 7450d8e Update Features.mkdn
+
 
  ▼ 02/26/2017
 
