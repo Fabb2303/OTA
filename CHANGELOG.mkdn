@@ -1,27 +1,85 @@
 
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
- ▼ 03/22/2017
+▼ 03/23/2017
 
 
  ▪ project frameworks/base/
- ▪ 52ce3a3 Automatic translation import
+ ▪ 00d1fcc Slim Recents iconpack support [1/2]
+ ▪ 42d1838 Ability to disable Do not Disturb mode when calling [1/3]
+ ▪ 8336296 Suspend Actions [1/3]
+ ▪ 0c5dbdc Make roaming indicator optional [1/2]
 
- ▪ project packages/apps/Dialer/
- ▪ 7939a38 Automatic translation import
-
- ▪ project packages/apps/OmniSwitch/
- ▪ 7b2042d Automatic translation import
+ ▪ project packages/apps/Recorder/
+ ▪ ed7a8b3 Recorder: add and fix missing copyrights
+ ▪ 779c197 Recorder: screen recorder overlay
+ ▪ 4bf3b75 Recorder: update gradle and support libraries
 
  ▪ project packages/apps/Settings/
+ ▪ 0a64428 Update SlimRecentPanel.java
+ ▪ cce096d Slim Recents iconpack support [2/2]
+ ▪ ed6ad03 Fix Build due to bad Pull request
+ ▪ 5076e30 Ability to disable Do not Disturb mode when calling [3/3]
+ ▪ 75b6380 Suspend Actions [3/3]
+ ▪ 0269bd3 Make roaming indicator optional [2/2]
+ ▪ cb63132 add mising strings
+ ▪ 68d825d Add Nougat Maintainer of Nubia Z11(nx531j) (#722)
+
+ ▪ project packages/services/Telecomm/
+ ▪ b253df5 Ability to disable Do not Disturb mode when calling [2/3]
+
+ ▪ project packages/services/Telephony/
+ ▪ 3ac6537 Suspend Actions [2/3]
+
+ ▼ 03/22/2017
+
+
+ ▪ project device/asus/msm8916-common/
+ ▪ c28d943 msm8916-common: Switch to ASUS radio/qmi/gps stack
+ ▪ e77236c msm8916-common: Update to latest ASUS release
+
+ ▪ project frameworks/base/
+ ▪ 0628201 Automatic translation import
+ ▪ 52ce3a3 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ f76431f Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ 95ae356 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ ef15f62 OmniSwitch: on the fly update on dpi changes
+ ▪ bcfc4b1 OmniSwitch: multi window madness
+ ▪ 37c5b8f OmniSwitch: delay task info loading to speedup open
+
+ ▪ project packages/apps/Recorder/
+ ▪ 14c2858 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ ff7b05f Automatic translation import
  ▪ 28b1322 Batterybar Settings: Fix Color Previews
  ▪ bb12331 Merge remote-tracking branch 'rr/nougat' into HEAD
  ▪ 94bca5b Revert "Enable cool color temperature option"
- ▪ c4a0609 Add Nougat Maintainer of Lenovo P2(p2a42) (#720)
- ▪ 58bfed9 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 3deda7f Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 72df1ce Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ a9fa3b2 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 8bbb278 Automatic translation import
 
  ▪ project vendor/cm/
  ▪ 24cd1a4 Revert "Update Magisk to V11.6"
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ d4703e3 Automatic translation import
+
 
  ▼ 03/21/2017
 
