@@ -1,7 +1,61 @@
 
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
-▼ 03/23/2017
+ ▼ 03/25/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 65359b6 Fix Potential NPE on Msim
+ ▪ da1e367 Slim Recents: fix SystemUI fc
+
+ ▪ project packages/apps/Settings/
+ ▪ b7874b1 Settings: Set correct default value to In-call DND switch (#725)
+ ▪ 964a86d Add Natrium maintainer (#723)
+ ▪ 727b7c8 Add Samsung Galaxy S7 maintainer (#724)
+ ▪ 5edc1d0 Option to Disable Blank network signal icons on Msim [2/2]
+
+ ▼ 03/24/2017
+
+
+ ▪ project frameworks/base/
+ ▪ fb47dc9 Option to Disable Blank network signal icons on Msim [1/2]
+ ▪ 42f6626 SystemUI: Hide unprovisioned SIMs * There's no point of displaying null signal icon. clean up PSB while we're at it Signed-off-by: Varun Date <date.varun123@gmail.com>
+ ▪ 1533473 Slim Recents: more fixes, cleanup and improvements
+ ▪ 5e02a9a Merge pull request #187 from ashoksoni/changes
+ ▪ 8b6ff71 Fix crash issue on Storage Manager app
+ ▪ 7bfdfda Fix for wakelock being held during bootup and idle scenario.
+ ▪ 4df2b2b SystemUI: Tiny expanding improvement Signed-off-by: BigBrother1984 <carlosavignano@aospa.co> Signed-off-by: xyyx <xyyx@mail.ru>
+ ▪ 4e0ee9f [BUG] fix NullPointerException in Notification.java
+ ▪ 738bd6e Slim Recents Membar Colors [1/2]
+ ▪ 5d257d2 Base: API to restart SystemUI without root
+ ▪ d9ea16f Weather tile longclick: alternative weather apps when google weather not installed
+ ▪ 5369e64 Slim Recents: fix multiwindow glitch when docking app to bottom
+ ▪ 9b7f8a4 Slim Recent new multiwindow when multiwindow already active: make it more robust
+ ▪ 728368c Cleanups after Slim recents Refactor
+ ▪ 0dec18d Allow themers to customize battery frame color on darkintensity
+ ▪ 9cb2b58 Slim Recents icon cache: clear it when changing scale factor
+ ▪ 9f09e14 Location tile: new icons
+ ▪ 838a66f Slim Recents: add icon cache to improve performances
+ ▪ 4cf1b49 Slim Recents icon pack: fallback to app icon if pack doesn't have any
+ ▪ 3cec48b Clean up a couple Uris in PSB
+ ▪ aac9a56 Slim recents: don't show content when screen is pinned
+ ▪ 9a7e481 Slim recents: fix sometimes icons being invisible when they should not
+ ▪ e4b1813 Slim Recents: fix multiwindow glitch when docking app to bottom
+ ▪ e9026c1 Slim Recents: fix toptask header layout and other ui improvements
+ ▪ 37c03e3 Slim recents: no need to vibrate twice on longclick
+ ▪ 55213dd Slim recents: Fix blinking cards on notifyDataSetChanged()
+ ▪ 02119f4 Slim recents style improvements
+ ▪ c4c2f58 Slim Recent: allow to dock new apps if a multiwindow session is already running
+ ▪ 54e0b02 Refactor SlimRecents (1/2)
+
+ ▪ project hardware/qcom/fm/
+ ▪ aff061a FM: Fix KHz->kHz
+
+ ▪ project packages/apps/Settings/
+ ▪ f0dd739 Slim Recents Membar Color [2/2]
+ ▪ bf21305 Refactor Slim Recents [2/2]
+
+ ▼ 03/23/2017
 
 
  ▪ project frameworks/base/
