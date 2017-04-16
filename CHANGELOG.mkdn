@@ -1,23 +1,708 @@
 
 =========================================================================== 
 
-		 Resurrection Remix Nougat Ver 5.8.2 
+		 Resurrection Remix Nougat Ver 5.8.3
 				Changelog
 
 ===========================================================================
 
- ▼ 04/05/2017
+
+
+
+ ▼ 04/16/2017
+
+
+ ▪ project android/
+ ▪ 34db8bf Revert "Sync infra-related projects"
+
+ ▪ project frameworks/base/
+ ▪ af7d488 Basestatusbar:Fix Headsup Not Working
+ ▪ c74a2d4 Fix Another Illegal Argument Exception when Changing DPI
+ ▪ b118d77 base:Optional weather info in expanded header [1/2]
+ ▪ cca1591 QSTileHost: Dont Show Performance tile if No power profiles present
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 3833cd4 Constants: update stats reporting/viewing URL   * http://resurrectionremix.sourceforge.net -> https://resurrectionremix.sourceforge.io
+ ▪ 8fde88f ResurrectionStats: cleanup
+
+ ▪ project packages/apps/Settings/
+ ▪ 8a346c2 Add Headsup Settings as an Activity
+ ▪ cad32b8 Update Z2 Tablet Maintainer
+ ▪ 1e7d35b Optional Expanded statusbar Weather info [2/2]
+ ▪ ad9f195 Add Xperia Z Ultra Maintainer
+ ▪ e79fca4 Add my name as maintainer for moto g 2015 (osprey) (#749)
+
+ ▪ project vendor/cm/
+ ▪ c6c708c rr: clean up Makefiles
+
+ ▼ 04/15/2017
+
+
+ ▪ project android/
+ ▪ adb6be3 manifest: android-7.1.1_r25 -> android-7.1.2_r2
+ ▪ e14b742 Sync infra-related projects
+
+ ▪ project build/
+ ▪ f21b9cf build: allow to disable recovery-two-step.img generation
+
+ ▪ project frameworks/av/
+ ▪ 0859743 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_av into nougat
+ ▪ 88b9d78 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+
+ ▪ project frameworks/base/
+ ▪ 904ce14 fix build
+ ▪ cda086a Various fixes and cleanups after 7.1.2 merge
+ ▪ e06c6ea Zygote: Fix GL preload property evaluation
+ ▪ 1b051d8 systemui: Fix DE translation for navbar buttons
+ ▪ 94fd330 Dialer: show headsup on incoming call even if headsup are off [1/2]
+ ▪ 6585850 Statusbar ticker: use a gentle smooth fade animation
+ ▪ 3a2552b SystemUI : port performance profile toggle from M
+ ▪ 6bc95dd Option to Display Data Disabled Indicator Icon [1/2]
+ ▪ e7443eb Show lockscreen wallpaper when blur effect is enabled
+ ▪ c7b3d2e Keyguard Weather : Refactor for new API[1/2]
+ ▪ 76c3eee Extend OmniJaws Client to Keyguard Signed-off-by: Varun Date <date.varun123@gmail.com>
+ ▪ 0f67b83 Revert "SystemUI: Add SlotId for MultiSim"
+ ▪ ff5103e PowerManager: Bring back the compatibility with AOSP
+ ▪ 4e641ad Slim Recents: refresh sizes on dpi change
+ ▪ 9af66a6 base: services: add config_fingerprintRemoveClientOnCancel
+ ▪ 49c3c91 Ticker: allow to show music track info on new track being played [1/2]
+ ▪ 6bfc714 Fix Aosp bug on custom apps tiles: color not changing on tile state change
+ ▪ 7aa24a2 ScreenshotEditor: Fix Navbar Glitch for Good.
+ ▪ f0cc961 Themes: Expose Keyguard affordance circle background
+ ▪ 7f5e8e4 Merge tag 'android-7.1.2_r2' of https://android.googlesource.com/platform//frameworks/base into HEAD
+
+ ▪ project frameworks/native/
+ ▪ 450e5a1 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
+ ▪ 005ce14 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+
+ ▪ project packages/apps/Contacts/
+ ▪ 143e1fe Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_apps_Contacts into nougat
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ f97eb22 Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_apps_ContactsCommon into nougat
+
+ ▪ project packages/apps/Dialer/
+ ▪ 8c9e2ae Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ c11d753 Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_apps_PackageInstaller into nougat
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 75e864f Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_PhoneCommon into nougat
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 3bd814e Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionStats into nougat
+ ▪ 17c21f3 Bump version to 5.8.3
+ ▪ 443ab3f Merge remote-tracking branch 'rr/nougat' into HEAD
+ ▪ 384acbc stats: RR 5.8.3
+
+ ▪ project packages/apps/Settings/
+ ▪ d5a421a Update resurrection_device_maintainers_strings.xml (#747)
+ ▪ 889c5ac Dialer: show headsup on incoming call even if headsup are off [2/2]
+ ▪ b0b7663 Update Oneplus2 maintainer (#746)
+ ▪ 7fd0f34 Option to Display Data Disabled indicator Icons [2/2]
+ ▪ 2c57984 Port "Battery Usage Alerts" feature from factory images to aosp
+ ▪ cbea28d Settings: Refactor Keyguard Weather [2/2]
+ ▪ 1bcad64 Rename ZUK Z1 mainatainer (#745)
+ ▪ f1962b7 Fixed device_maintainers_fragment.xml (#743)
+ ▪ e863204 Fix required strings
+ ▪ 02d0b19 Add ZTE Axon7 dev to the mix (#741)
+ ▪ cebfd40 Ticker: allow to show music track info on new track being played [2/2]
+ ▪ 31a9d2d Settings: Expose and add tint mode to custom icons
+
+ ▪ project packages/services/Telecomm/
+ ▪ 357ff90 Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_services_Telecomm into nougat
+
+ ▪ project packages/services/Telephony/
+ ▪ 6d1d221 Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_services_Telephony into nougat
+
+ ▪ project system/core/
+ ▪ ae467ca Merge branch '7.1.2' of https://github.com/ResurrectionRemix/system_core into nougat
+
+ ▪ project vendor/cm/
+ ▪ 04d30ef [SQUASH] rr: update changelog script for 5.8.3 and to work with anyone's source dir
+ ▪ 5ff1809 Update 5.8.2 to 5.8.3
+ ▪ c04ffd6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+
+ ▼ 04/14/2017
+
+
+ ▪ project frameworks/av/
+ ▪ 4a98590 stagefright: Fix SurfaceMediaSource buffer search condition when buffer return
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▼ 04/13/2017
+
+
+ ▪ project packages/apps/Nfc/
+ ▪ 3090980 Nfc: Include android-support-v4 for the NXP stack
+
+ ▼ 04/12/2017
+
+
+ ▪ project frameworks/av/
+ ▪ 18a402d stagefright: Remove the HAL3 limitation from the video reference clock selection
+ ▪ eb06e41 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+
+ ▪ project frameworks/native/
+ ▪ 0dd3703 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+
+ ▪ project packages/apps/CMParts/
+ ▪ 4e7219f PerfProfileSettings: Update slider on powersave mode change
+ ▪ 5f7bb78 CMParts: Update quick QS pull-down summary for translation
+ ▪ 2bad1e9 Fix reorientation of volume buttons on portrait tablets
+ ▪ 7d8197d CMParts: update contributors db
+
+ ▪ project packages/apps/CarrierConfig/
+ ▪ fd64a03 Consider O2 and E-Plus as non-roaming
+
+ ▪ project packages/apps/Contacts/
+ ▪ e2478c8 contacts: Add support for import contacts to local phone storage
+ ▪ 61abda0 Contacts: Fix strings
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 3dd19dc AccountType: use a pretty phone account icon for local storage account
+ ▪ 60791ad SelectAccountActivity : Support local phone account
+ ▪ 2445ce7 Add local phone account as a writable AccountTypes.
+ ▪ 6113000 Store all local contacts in only one account.
+ ▪ ad3262b contacts-common: Add support for import contacts to local phone storage
+
+ ▪ project packages/apps/Dialer/
+ ▪ eaecbaa Dialer: AIRPLANE_MODE_ON has moved
+ ▪ 8d60bbe Dialer: Fix strings
+
+ ▪ project packages/apps/Gallery2/
+ ▪ aad548e Gallery2: support the newly added media file types in MTP mode
+ ▪ 99a5354 Gallery2: Fix use of uninitialized stack variables
+ ▪ 7959af6 Gallery2: Remove unused renderscript class
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 0e58481 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into nougat
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 64bae44 PhoneCommon: Another round of qtistring fixes
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 754b6ea restartService --> forceStopService
+
+ ▪ project packages/services/Telephony/
+ ▪ 3087a7d VoicemailSettingsActivity: Fix NPE
+ ▪ 9923974 telephony: fix crash when missing simcard
+
+ ▪ project system/core/
+ ▪ 918f328 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+
+ ▪ project vendor/cm/
+ ▪ fcf5cff Add email app to device idle whitelist.
+ ▪ b7a56d2 kernel: Include openssl headers and dylibs on darwin
+ ▪ c665a88 build: Update smali and baksmali to 2.2.0
+ ▪ 6e0481c roomservice: handle devices with underscores
+
+ ▪ project vendor/cmsdk/
+ ▪ 62576c7 PerformanceManager: Don't override the user preference
+ ▪ ef95847 PerformanceManager: Don't force powersave mode with powersave profile
+
+ ▼ 04/11/2017
+
+
+ ▪ project frameworks/av/
+ ▪ bcfb7ac stagefright: Remove the HAL3 limitation from the video reference clock selection
+
+ ▪ project hardware/qcom/display-caf/msm8960/
+ ▪ 09cce1b hwcomposer: Fix regression in hwc_sync
+
+ ▪ project packages/apps/Snap/
+ ▪ 2ecc334 CameraControls: Toggle the status of disabled views
+ ▪ 7e10f00 Never remove unsupported controls
+ ▪ 30ba558 WideAnglePanoramaUI: Correctly position the progressbar
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 31b36ca Polish copyright
+
+ ▼ 04/10/2017
+
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ dd3c70c Revert "Bluetooth: handle opening incoming APK files"
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 4c0252f CellBroadcastReceiver: fix channel 50 not disabling
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ ae769b0 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/Settings/
+ ▪ c4089ff Settings: Expose bluetooth pin confirm dialog text colors
+
+ ▪ project packages/apps/Snap/
+ ▪ f262e1a Snap: CaptureModule: set switcher index on resume
+ ▪ 0540403 Snap: CaptureUI: fix ModuleSwitcher being invisible
+
+ ▪ project packages/services/Telecomm/
+ ▪ 100bc18 Merge pull request #2 from SoUnd001/nougat
+
+ ▪ project vendor/cm/
+ ▪ 36cd412 Bump version to 5.8.3
+ ▪ de269ec kernel: Include openssl headers and dylibs on darwin
+ ▪ d75180b build: Update smali and baksmali to 2.2.0
+ ▪ 2070293 charger: updates for 7.1.2 minui
+
+ ▼ 04/09/2017
+
+
+ ▪ project art/
+ ▪ e4e0c7c Merge branch 'staging/cm-14.1_android-7.1.2_r2' of https://github.com/LineageOS/android_art into HEAD
+
+ ▪ project build/
+ ▪ eeb2354 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/skia/
+ ▪ d28e5a2 Merge branch 'staging/cm-14.1_android-7.1.2_r2' of https://github.com/LineageOS/android_external_skia into HEAD
+
+ ▪ project frameworks/av/
+ ▪ d664926 Merge tag 'android-7.1.2_r2' into cm-14.1
+ ▪ 9da10a0 Revert "Revert "mediacodec: minijail: Enable exporting of policy files""
+
+ ▪ project frameworks/native/
+ ▪ a8ac4e5 Merge tag 'android-7.1.2_r2' into cm-14.1
+ ▪ e7456d6 sensorservice: Register orientation sensor if HAL doesn't provide it
+
+ ▪ project packages/apps/CarrierConfig/
+ ▪ 14d3bb7 Consider Q-TELECOM Greece as non-roaming
+
+ ▪ project packages/apps/Contacts/
+ ▪ f12b9ea Merge tag 'android-7.1.2_r2' into cm-14.1
+ ▪ 20c4d1a contacts: Add support for import contacts to local phone storage
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 4ef2fb5 Merge tag 'android-7.1.2_r2' into cm-14.1
+ ▪ 813476e AccountType: use a pretty phone account icon for local storage account
+ ▪ 41b042b SelectAccountActivity : Support local phone account
+ ▪ 3a17fd8 Add local phone account as a writable AccountTypes.
+ ▪ 78872dd Store all local contacts in only one account.
+ ▪ 63e4adf contacts-common: Add support for import contacts to local phone storage
+
+ ▪ project packages/apps/Dialer/
+ ▪ 144efc0 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/ExactCalculator/
+ ▪ e235f6d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/Messaging/
+ ▪ 800e075 Merge branch 'staging/cm-14.1_android-7.1.2_r2' of https://github.com/LineageOS/android_packages_apps_messaging into HEAD
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ db5453a Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+ ▪ 0ce6798 Merge tag 'android-7.1.2_r2' into nougat
+ ▪ 3474907 Remove my name from A6020, osprey and falcon (#739)
+
+ ▪ project packages/apps/StorageManager/
+ ▪ 2814a00 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ 8546493 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/services/Telecomm/
+ ▪ 3bf1dfe Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/services/Telephony/
+ ▪ 84cc1c5 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project system/core/
+ ▪ 560d700 Merge branch 'staging/cm-14.1_android-7.1.2_r2' of https://github.com/LineageOS/android_system_core into nougat
+
+ ▪ project system/sepolicy/
+ ▪ 825c019 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▼ 04/08/2017
+
+
+ ▪ project device/asus/msm8916-common/
+ ▪ e0f361a msm8916-common: Add ZD551KL VoLTE firmware
+
+ ▪ project frameworks/base/
+ ▪ dc5c93a SystemUI: Fix "no notifications" font size
+
+ ▪ project frameworks/native/
+ ▪ 82c4726 sensorservice: Register orientation sensor if HAL doesn't provide it
+
+ ▪ project kernel/asus/msm8916/
+ ▪ bbffe71 drivers: firmware_class: Add firmware path for ZD551KL
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Settings/
+
+ ▼ 04/07/2017
 
 
  ▪ project frameworks/base/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 54654ae Fix spelling error
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+
+ ▼ 04/06/2017
+
+
+ ▪ project frameworks/av/
+ ▪ eb594c4 Revert "Revert "mediacodec: minijail: Enable exporting of policy files""
+
+ ▪ project frameworks/base/
  ▪ f0757114 Fix permission description string for DE.
- ▪ f143cd6 Merge pull request #188 from ashoksoni/changes
- ▪ 15f89f6 Fix Bluetooth battery icon after reboot
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ f0223d5 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/qcom/audio/default/
+ ▪ 2f3955f Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/qcom/display/
+ ▪ 85ca03c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/qcom/media/
+ ▪ f55a6c6 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project libcore/
+ ▪ e558f0c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 8caae26 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/CarrierConfig/
+ ▪ 640ae3e Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ a8b6bf8 Merge tag 'android-7.1.2_r2' into cm-14.1
 
  ▪ project packages/apps/Dialer/
 
  ▪ project packages/apps/Settings/
  ▪ 6fb2403 Fix magisk manager settings location
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ b41830a Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project system/bt/
+ ▪ c0e5c0b Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project system/core/
+ ▪ e40b34d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project system/extras/
+ ▪ 2e71be0 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project system/netd/
+ ▪ 17c1f5c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▼ 04/05/2017
+
+
+ ▪ project art/
+ ▪ 3442967 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project bionic/
+ ▪ 8cb6a7f Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project bootable/recovery/
+ ▪ 85137c6 Fix "ordered comparison between pointer and zero".
+ ▪ 5d91ffd Fix bldr msg file open mode when offset specified
+ ▪ 699573a Fixup custom bootloader msg offset in block misc
+ ▪ d3024f7 minui: Skip EV_REL input devices.
+ ▪ 26aea76 recovery: Fix "Wipe data" wrong "System reset" naming
+ ▪ 6b6f0aa Allow custom bootloader msg offset in block misc
+ ▪ 5982e79 bootloader_message: allow devices to override
+ ▪ e67606f fstools: Add libselinux dep
+ ▪ b54739a updater: Allow devices to suppress BLKDISCARD
+ ▪ 1bba0b2 sr: Add performance control
+ ▪ efb2ad2 Convert recovery to use BoringSSL instead of mincrypt.
+ ▪ 2fa1862 recovery: libverifier: Add fs_mgr header
+ ▪ 5a41972 sr: Adjust for changes in sideload code
+ ▪ d18e2d1 recovery: Add new required libraries and silence warnings
+ ▪ 5216d68 sr: Remove dialog usage from backup service
+ ▪ 62bca1a recovery: Include libc when building libminiunz_static
+ ▪ a9e67a4 recovery: Include libselinux when building libmake_ext4fs_static
+ ▪ 320b3b3 recovery: Update src files for N
+ ▪ ba0564a ninja-build: don't use $(shell) in other Make constructs [4/4]
+ ▪ d869012 Mount pstore filesystem while in recovery
+ ▪ 466ce70 recovery: Add wipe system partition option
+ ▪ 6753871 recovery: bu: Make 64-bit clean
+ ▪ 03ac0be recovery: handle back button when navigating recovery logs
+ ▪ d2883d6 recovery: Remove empty header line
+ ▪ 463b721 recovery: don't override selinux for cache partition
+ ▪ a537ead recovery: User recovery shouldn't allow mounting system
+ ▪ b31f3a2 sr: Deep rainbow integration
+ ▪ 86063e6 recovery: mount without selinux for update
+ ▪ 971a684 recovery: rename remount_for_wipe
+ ▪ 4121025 recovery: Minimize headers for "Apply update" menus
+ ▪ 98c9e47 minui: accept RGBA and treat it as RGBX
+ ▪ 9514c6e recovery: Remove insecure wipe from menu on user builds
+ ▪ 63051f9 recovery: Fix dependencies
+ ▪ f34c3ce recovery: Offer to format if data wipe fails
+ ▪ ec47754 recovery: Menu rewrites and cleanups
+ ▪ 041f1e6 recovery: Fix media wipe
+ ▪ 1bed182 recovery: Fix mount_for_wipe
+ ▪ 0f4c989 recovery: Fix recursive rm wipe of data
+ ▪ 51e0aaf recovery: Enable the menu for User builds
+ ▪ d888d58 recovery: fstools: Honor TARGET_USES_EXFAT
+ ▪ 305b8e7 recovery: Remove "Supported API" message
+ ▪ c82bd29 recovery: Drop dependency on mkfs.f2fs
+ ▪ 1102ab9 minui: don't drop EV_ABS (touch) events
+ ▪ 499e9a5 recovery: Assimilate minivold
+ ▪ a83c8ce recovery: fstools: symlink sgdisk so we can actually use it
+ ▪ 4a7cbee fstools: Invite sfdisk to the party
+ ▪ 15f6354 recovery: Fix mounting f2fs partitions
+ ▪ 6d62524 sr: Set context for minivold
+ ▪ 98adae9 sr: Fix build when oemlock plugin is enabled
+ ▪ a4d881f update-binary: support reboot_now on older recoveries
+ ▪ 6f28233 minui: support to pan display (FBIOPAN_DISPLAY)
+ ▪ d3f80dd recovery: Separate blkid.tab for vold in recovery
+ ▪ ae143c4 recovery: Allow devices to reboot to download mode
+ ▪ 66031e5 Don't disable including TARGET_RECOVERY_UI_LIB if exists
+ ▪ 3983ef8 recovery: autodetect filesystem type
+ ▪ 242e0a1 sr: updater: Fix multi-stage docs
+ ▪ fe007be install: Ditch the generic error
+ ▪ f28083f recovery: Always include ext4 stuff
+ ▪ 9a4b695 sr: Allow device-specific recovery modules
+ ▪ 83ca49b sr: Dejank the menus, fix colors
+ ▪ 511f22a sr: Fix the progress bar
+ ▪ f90bb9a sr: Return to main menu after selection
+ ▪ e637532 recovery: Handle oemunlock command
+ ▪ a11bdd4 recovery: datamedia support
+ ▪ 3c0d796 recovery: Provide caching for sideload files
+ ▪ 5c92cca recovery: bu: Implement backup/restore
+ ▪ 66dbb0a recovery: Provide sideload cancellation
+ ▪ ce462af Blank screen during shutdown and reboot
+ ▪ 58956e0 recovery: turn on the backlight in recovery mode
+ ▪ 7114d35 recovery: Awakening of MiniVold
+ ▪ a693398 sr: Include vendor init trigger
+ ▪ d1bf076 Add back and home key handling.
+ ▪ af3c029 sr: Clean up f2fs tools (part of fstools now)
+ ▪ 78ff604 sr: Add fstools, update build configuration
+ ▪ d59426d OMGRainbows
+ ▪ 661ad17 sr: Enable zip/unzip commands
+ ▪ ad6bbb2 sr: Puke out an /etc/fstab so stuff like Busybox is happy
+ ▪ 6b3f16c sr: Get a proper shell environment in recovery
+ ▪ 4e96355 sr: Use pathmap for recovery
+ ▪ 47bccab mtdutils: Fix mounting partitions by-name
+ ▪ 8da9354 Remove ext4 guards
+ ▪ 099895c Allow f2fs to reserve bytes for footer when formatting
+ ▪ ed34493 recovery:updater: Changes to support 32->64 bit upgrades
+ ▪ 9770654 recovery: Allow device-specific reboot reason
+
+ ▪ project dalvik/
+ ▪ 0931a6d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project development/
+ ▪ 01b86c8 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/aac/
+ ▪ 7839072 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/boringssl/
+ ▪ fac9c96 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/flac/
+ ▪ e61e7f6 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/icu/
+ ▪ 3b0dd8c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/ipsec-tools/
+ ▪ 7112b87 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/libnfc-nci/
+ ▪ 4b14f27 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/okhttp/
+ ▪ ff9ca1d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/openssh/
+ ▪ 4ca20f2 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/skia/
+ ▪ a4313f6 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/tinyalsa/
+ ▪ 976d8f1 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project external/toybox/
+ ▪ 9118558 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project frameworks/av/
+ ▪ 10b42a9 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ f143cd6 Merge pull request #188 from ashoksoni/changes
+ ▪ 15f89f6 Fix Bluetooth battery icon after reboot
+ ▪ 89d8e6b Fix Hotspot tile is shown on Guest user
+ ▪ eda1e77 SettingsProvider: Update icon.
+
+ ▪ project frameworks/native/
+ ▪ 2d3c4a2 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project frameworks/opt/chips/
+ ▪ 67e8438 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project frameworks/opt/datetimepicker/
+ ▪ 190333c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project frameworks/opt/net/ims/
+ ▪ 695c853 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project frameworks/opt/telephony/
+ ▪ a17ff1d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project frameworks/opt/vcard/
+ ▪ 7adc1b5 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project frameworks/support/
+ ▪ 5a832ea Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/broadcom/libbt/
+ ▪ 971ddae Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/broadcom/wlan/
+ ▪ d01e9ab Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/intel/common/libmix/
+ ▪ 97e15b8 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/intel/common/omx-components/
+ ▪ 162d95b Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/intel/img/hwcomposer/
+ ▪ 667d537 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/intel/img/psb_video/
+ ▪ 0ab4bdd Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/libhardware/
+ ▪ 0502004 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/qcom/bootctrl/
+ ▪ b1c3f1e Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/qcom/bt/
+ ▪ 7a172ce Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/qcom/camera/
+ ▪ d228805 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/qcom/gps/
+ ▪ 05f4309 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project hardware/ril/
+ ▪ 8395771 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/Camera2/
+ ▪ be7d826 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 74f4e7c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/Email/
+ ▪ d01f0b1 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/EmergencyInfo/
+ ▪ 4a8665b Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/KeyChain/
+ ▪ d73b072 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/ManagedProvisioning/
+ ▪ 76743b7 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/Messaging/
+ ▪ 359ba71 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/Nfc/
+ ▪ 9646924 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+
+ ▪ project packages/apps/Snap/
+ ▪ 673547e CaptureUI: fix crash on setOrientation
+ ▪ a8285ad Snap: Fix effect and picture program overlay buttons
+ ▪ 65aa6fd Always apply frame size reduction to panorama pictures
+ ▪ 9e8d919 Never ignore finger swipes in gallery mode
+ ▪ b9da2b0 Fix record time sometimes not seen
+
+ ▪ project packages/apps/Stk/
+ ▪ 603a448 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 3888b9f Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ 49f6bb5 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ 215e79e Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ ee8c161 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 2b3bdb8 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ ac8813a Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/providers/TvProvider/
+ ▪ c5f6aee Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/providers/UserDictionaryProvider/
+ ▪ eba8a64 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/screensavers/PhotoTable/
+ ▪ 5270983 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/services/Car/
+ ▪ fa9aa42 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/services/Mms/
+ ▪ 80580cd Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ 7a9f23d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project system/bt/
+ ▪ 838550c Revert "Update Interop datatbase to prevent preferred conn updates"
+
+ ▪ project system/keymaster/
+ ▪ bfd6d4a Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project system/media/
+ ▪ 0886686 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project system/security/
+ ▪ a125888 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+ ▪ project system/vold/
+ ▪ 4bc1c8f Merge tag 'android-7.1.2_r2' into cm-14.1
 
  ▼ 04/04/2017
 
