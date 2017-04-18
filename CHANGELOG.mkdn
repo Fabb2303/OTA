@@ -8,8 +8,56 @@
 
 
 
+ ▼ 04/18/2017
 
- ▼ 04/16/2017
+
+ ▪ project frameworks/base/
+ ▪ 3da5ccc Improve Hw keys Tile
+ ▪ 9703f9a Add vpn and data saver to statusbar icon blacklist *fixed vpn toggle it is now instant
+ ▪ a04a27f Make Data/Wifi activity icon in statusbar optional [1/2]
+ ▪ 6591688 Data activity icon in statusbar
+ ▪ 88921e1 SystemUI: Add tile for enable/disable HW keys
+ ▪ bc651fe fix wrong algorithm in WifiPowerPerPacket()
+ ▪ 2313020 FATAL EXCEPTION IN SYSTEM PROCESS: android.ui
+ ▪ 8776352 Ticker:Set default color to White [1/2]
+ ▪ f8609ef Fix missing lockscreen shortcut icons after reboot
+ ▪ 0d36175 Themes: Allow volume slider and thumb to work with custom images.
+ ▪ 8355307 Separate tile label color from icon drawable color
+ ▪ 11576a8 Basestatusbar:Fix Headsup Not Working
+ ▪ 036a71d Fix Another Illegal Argument Exception when Changing DPI
+ ▪ 0c31a30 base:Optional weather info in expanded header [1/2]
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+ ▪ c5ce86a Settings: Fix ugly whitespacing and build
+ ▪ 5e5d45c add maintainer for clark, flounder, manta, vs980, d2lte, and tenderloin (#753)
+ ▪ e2bb742 Fix 7.1.2 mismerge
+ ▪ b6aa3ee Option to disable data & wifi indicators
+
+ ▪ project system/extras/
+ ▪ b5332df Update verity_verifier from master branch
+ ▪ 196ed2f verity: Include libcrypto_utils_static
+ ▪ 252fe23 Revert "Revert "Switch to BoringSSL for crypto.""
+
+ ▼ 04/17/2017
+
+
+ ▪ project packages/apps/Dialer/
+ ▪ a5b497f Dialpad: option to show dialpad automatically (#1)
+
+ ▪ project packages/apps/Settings/
+ ▪ cf61891 Add HWkeys Settings as an activity
+ ▪ 08a6aa1 Ticker:Set default colors to white [2/2]
+
+ ▪ project system/extras/
+ ▪ 442b784 Revert "Switch to BoringSSL for crypto."
+
+▼ 04/16/2017
 
 
  ▪ project android/
