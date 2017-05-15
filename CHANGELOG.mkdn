@@ -8,8 +8,80 @@
 
 
 
+  ▼ 05/15/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 9723ff9 kernel: Only expose su when daemon is running
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Jelly/
+ ▪ eab04da Jelly: lint cleanup
+ ▪ a8dcb76 Jelly: Don't sign the app with a system certificate
+ ▪ 5e5fb97 Jelly: Fix storage permission check
+ ▪ c315497 Jelly: add Desktop mode toggle
+ ▪ 5859bc6 Jelly: Actually disable cookies
+ ▪ fd7418e Jelly: Flush cookies when calling onStop()
+ ▪ eb6375d Jelly: Don't make app persistent
+ ▪ 2d4853b Jelly: Add proguard rules
+ ▪ d583aad Jelly: Improve URL/search query handling
+
+ ▪ project packages/apps/Settings/
+ ▪ 05e6b1e Add a new device Htc One S(Ville) to Device Maintaners list. (#791)
+
+ ▼ 05/14/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 6e8e9c5 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 332f57a Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ 87965a0 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 393e410 drivers/staging: prima: Import latest CAF release
+ ▪ 02749de Merge tag 'LA.BR.1.2.9-02310-8x16.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.10 into HEAD
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Jelly/
+ ▪ 21c6894 Jelly: strings: Various pedantics
+
+ ▪ project packages/apps/Settings/
+ ▪ 565e211 Add Scorpio & Lithium maintanier (#790)
+
+ ▼ 05/13/2017
+
+
+ ▪ project external/chromium-webview/
+ ▪ b544e48 Update README
+
+ ▪ project frameworks/base/
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 23be04d msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/Settings/
+
  ▼ 05/12/2017
 
+
+ ▪ project android/
+ ▪ 6bab65e crowdin: add DUI [1/2]
 
  ▪ project frameworks/base/
  ▪ 59afca8 fix build
