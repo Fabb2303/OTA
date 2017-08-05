@@ -7,6 +7,80 @@
 ===========================================================================
 
 
+ ▼ 08/05/2017
+
+
+ ▪ project packages/apps/Settings/
+ ▪ 6c960c2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 40bdde5 Fix settings FC and freezes after reboot on enforcing mode
+
+ ▼ 08/04/2017
+
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project hardware/qcom/media-caf/msm8916/
+ ▪ ec78924 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916
+
+ ▪ project hardware/qcom/media-caf/msm8994/
+ ▪ 1afe59f Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Bluetooth/
+
+ ▪ project packages/apps/Calendar/
+
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/Eleven/
+
+ ▪ project packages/apps/Email/
+
+ ▪ project packages/apps/EmergencyInfo/
+
+ ▪ project packages/apps/Gallery2/
+
+ ▪ project packages/apps/HTMLViewer/
+
+ ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/ManagedProvisioning/
+
+ ▪ project packages/apps/Settings/
+ ▪ 1bed82a Add Maintainer For Android One 1st gen. (sprout) (#832)
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project packages/apps/Tag/
+
+ ▪ project packages/apps/Trebuchet/
+
+ ▪ project packages/apps/TvSettings/
+
+ ▪ project packages/apps/UnifiedEmail/
+
+ ▪ project packages/inputmethods/LatinIME/
+
+ ▪ project packages/providers/CalendarProvider/
+
+ ▪ project packages/providers/DownloadProvider/
+
+ ▪ project packages/resources/devicesettings/
+
+ ▼ 08/03/2017
+
+
+ ▪ project frameworks/opt/telephony/
+ ▪ b1a8579 Telephony: Keep preferred SMS Sim
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 31d0a4a Fixing a NullPointerException (#8)
+
 
  ▼ 08/02/2017
 
