@@ -1,11 +1,134 @@
 
 =========================================================================== 
 
-		 Resurrection Remix Nougat Ver 5.8.3
+		 Resurrection Remix Nougat Ver 5.8.4
 				Changelog
 
 ===========================================================================
 
+
+ ▼ 08/08/2017
+
+
+ ▪ project android/
+ ▪ 59201a1 manifest: android-7.1.2_r24 -> android-7.1.2_r29
+
+ ▪ project build/
+ ▪ 401a4a1 Merge 7.1.2_r29 into nougat
+
+ ▪ project external/skia/
+ ▪ 08bdeaf Merge 7.1.2_r29 into nougat
+
+ ▪ project frameworks/av/
+ ▪ 3a63a17 Merge 7.1.2_r29 into nougat
+
+ ▪ project frameworks/base/
+ ▪ e56d646 FWB: Sensor block per-package switch (1/2)
+ ▪ a8e139f SystemSensorManager: sensor block per-package
+ ▪ 5966600 base: Update flags for edge gesture service from AOSPA
+ ▪ 5029476 Silence a memory leak warning from the static analyzer
+ ▪ 88fd564 GC in heapDumpFinished to cleanup hprof fd
+ ▪ 9b11fe2 Add null check for Wi-Fi command
+ ▪ 9b8df66 Fix static analyzer complaints
+ ▪ 3a939a6 Merge 7.1.2_r29 into nougat
+
+ ▪ project frameworks/native/
+ ▪ f298a32 Merge 7.1.2_r29 into nougat
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 1f8fc74 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 7fcca3e Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8937/
+ ▪ 9dbd062 Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ 34f4914 Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ e248666 Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ 0d8579c Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 9dcddd7 Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 5b12547 Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio/default/
+ ▪ a4f1bc5 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 1639eba fs/exec: fix use after free in execve
+
+ ▪ project packages/apps/Jelly/
+ ▪ f20c0a4 Jelly: Add Yandex search engine
+
+ ▪ project packages/apps/Settings/
+ ▪ 9f245e7 Settings:Sensor block per-package switch[2/2]
+
+ ▪ project system/bt/
+ ▪ 80cca31 Revert "Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1"
+
+ ▼ 08/07/2017
+
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 6b6f3b3 Stats: RR v5.8.4
+
+ ▪ project packages/services/OmniJaws/
+ ▪ 271b581 Update config.xml
+ ▪ 3f47dbd Use our key
+
+ ▪ project vendor/cm/
+ ▪ e74670c Update changelog to 5.8.4
+
+ ▼ 08/06/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 509aaf9 AppOps: Fix yet another deadlock
+ ▪ 7dbfbeb Frameworks Cleanups
+ ▪ 10874b8 pocket: introduce pocket bridge
+ ▪ 42af8ad policy: introduce pocket lock
+ ▪ abd6b0e pocket: introduce pocket judge
+ ▪ 9c2bc7e base: Introduce Accidental Touch
+ ▪ 5a0945c frameworks: PIE 3.0 (nougat)
+ ▪ 4df7925 Revert "Forward Port: PIE 3.0 (1/2)"
+
+ ▪ project hardware/qcom/display-caf/apq8084/
+ ▪ e2f4340 cec: Fix breakage due to API change
+
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ 02e5750 videopp: fix include paths for lineage
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/PackageInstaller/
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/Settings/
+ ▪ 3701c92 Dslv: Fix FC when adding duplicate shortcuts
+ ▪ c1348a0 Settings:Add preference for pocket judge [2/2]
+ ▪ e090493 PieSettings: Add support for Pie Gravity
+ ▪ 9749d2d ButtonsSettings: Add preference for Accidental Touch
+ ▪ 5fd64be Update PIE settings to 3.0
+
+ ▪ project vendor/cm/
+ ▪ f869205 Bump version to 5.8.4
+ ▪ 8272685 vendor: Fix a user profile data denial
+ ▪ be1cf97 vendor: Add selinux policy for pocket bridge
+ ▪ 5ea6f1c vendor:Add sysfs permissions for pocket bridge
+ ▪ 2771188 pa: Add pocket judge selinux policy
 
  ▼ 08/05/2017
 
