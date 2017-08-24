@@ -6,14 +6,145 @@
 
 ===========================================================================
 
+ ▼ 08/24/2017
+
+
+ ▪ project packages/apps/Settings/
+ ▪ 3c8b4d4 Responsible arrangement for the Seed device.  (#851)
+
+ ▼ 08/22/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8998/
+ ▪ eba183e Merge tag 'LA.UM.5.7.r1-10500-8x98.0' into cm-14.1-caf-8998
+
+ ▼ 08/21/2017
+
+
+ ▪ project packages/apps/Jelly/
+ ▪ 2a6aa75 Fix NPE.
+
+ ▼ 08/20/2017
+
+
+ ▪ project build/
+ ▪ 6a081e1 envsetup: stop jack server once build completed
+
+ ▪ project frameworks/base/
+
+ ▪ project hardware/ril-caf/
+ ▪ d8290dd ril: Allow targets to disable Clang
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/CMParts/
+ ▪ f763660 CMParts: Add strings for DCI-P3 color profile
+
+ ▪ project packages/apps/Eleven/
+
+ ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+ ▪ 14513f5 Update s7 edge maintainer
+ ▪ 3bb44bb Transfer maintainership of Galaxy S7 series to schwabe93
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project packages/apps/Terminal/
+
+ ▪ project packages/apps/Trebuchet/
+
+ ▪ project packages/apps/UnifiedEmail/
+
+ ▪ project packages/resources/devicesettings/
+
+ ▼ 08/19/2017
+
+
+ ▪ project device/qcom/sepolicy/
+ ▪ c631819 Use set_prop() macro for property sets
+
+ ▪ project packages/apps/Settings/
+ ▪ 4dccd0d Changing Galaxy s7 edge Maintainer (#846)
+
+ ▼ 08/17/2017
+
+
+ ▪ project hardware/cyanogen/
+ ▪ e2f8e45 livedisplay: SDM: Add support for DCI-P3 display mode
+
+ ▪ project hardware/qcom/wlan-caf/
+ ▪ 93c8631 WifiHAL: Free the stats received so far if requestResponse() fails
+ ▪ eabd5a6 Wifi-HAL: Move llstats freeing to a common API
+
+ ▪ project packages/apps/Jelly/
+ ▪ 21b9d05 Jelly: Check for onChanged in history data observer
+
+ ▪ project packages/apps/Settings/
+ ▪ aca49e9 Add Co Maintainer for Jalebi (#845)
+
+ ▼ 08/16/2017
+
+
+ ▪ project hardware/qcom/bt-caf/
+ ▪ 328d8af Revert "Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD"
+
+ ▪ project packages/apps/Settings/
+ ▪ 115a541 added helium (#843)
+
+ ▼ 08/15/2017
+
+
+ ▪ project packages/apps/Jelly/
+ ▪ 1ea2382 Jelly: Improve URL bar behavior
+
+ ▪ project packages/apps/Settings/
+ ▪ 7d771ca Fix i9500 maintainer dont show (#842)
+ ▪ df1f26e Fix i9500 maintainer dont show (#840)
+
+ ▼ 08/14/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+ ▪ 72deb12 Fix land device position (#839)
+ ▪ f6cc7a7 Add Redmi 4X device maintainer (#838)
+
+ ▪ project packages/services/OmniJaws/
+
+ ▼ 08/13/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 63df1f1 PowerManagerService: fix HW button illumination timeout
+ ▪ 87a1af4 SystemUI: Fix battery meter view blacklist handling
+
+ ▪ project hardware/broadcom/wlan/
+ ▪ 5ef057d Merge tag 'android-7.1.2_r28' into cm-14.1
+
+ ▪ project packages/apps/Snap/
+ ▪ 70dbc05 Snap: add missing null check on isCamera2Supported
+
  ▼ 08/12/2017
 
 
  ▪ project hardware/qcom/bt-caf/
  ▪ b60954a libbt-qcom: Allow reading BT address from property
 
- ▪ project packages/apps/Settings/
- ▪ 6a459f6 Edit Moto G4 Plus Maintainer name (added full name) (#836)
+ ▪ project packages/services/Telephony/
+ ▪ 3933dac VoicemailSettingsActivity: Fix some NPEs
+ ▪ f824b46 Telephony: Correct missing italian translation
+ ▪ 2c3c9b0 PhoneToggler: Update preferred network mode setting
+
 
  ▼ 08/11/2017
 
