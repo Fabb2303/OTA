@@ -6,6 +6,56 @@
 
 ===========================================================================
 
+ ▼ 08/27/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 9122ec4 drivers/staging: prima: Import latest CAF release
+ ▪ 13afcb4 Merge tag 'LA.BR.1.2.9-03610-8x16.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.10 into HEAD
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Jelly/
+ ▪ 8e71ae9 Jelly: Remove the SwipeRefreshLayout
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+
+ ▼ 08/26/2017
+
+
+ ▪ project packages/apps/Eleven/
+ ▪ 943d43e Eleven: Fix restoring user settings
+
+ ▪ project packages/services/Telephony/
+ ▪ 6e6fe97 Allow to ignore presentation indicator of outgoing calls [3/3]
+
+ ▼ 08/25/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 756f3e0 Allow to ignore presentation indicator of outgoing calls [1/3]
+ ▪ 89fc8fd Use SystemClock.elapsedRealtime() to calc TTFF
+ ▪ d1cb955 Tweak Privacy Guard dialog layout
+ ▪ 20d80eb PowerManager: Allow to distinguish different keypresses
+ ▪ 8b63de6 Add @hide annotation to the privacy guard ops set
+ ▪ 4193207 Change visibility of the Privacy Guard ops set
+ ▪ 6ab7b90 Camera: ignore torch status update for aux or compsite camera
+ ▪ be1d6ba base: audioservice: Set BT_SCO status
+
+ ▪ project frameworks/native/
+ ▪ 9cb6681 Merge remote-tracking branch 'remotes/laos/cm-14.1' into HEAD
+
+ ▪ project frameworks/opt/telephony/
+ ▪ b231815 Allow to ignore presentation indicator of outgoing calls [2/3]
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ 2dd00df Email: Fix led notification settings
+
+
  ▼ 08/24/2017
 
 
