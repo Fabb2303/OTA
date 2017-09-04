@@ -6,6 +6,50 @@
 
 ===========================================================================
 
+ ▼ 09/04/2017
+
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ f7d9926 SetupWizard: Fix the accessibility services gesture
+
+ ▪ project packages/apps/Snap/
+ ▪ fef825d Snap: fix highspeed and high-framerate video recording
+
+ ▼ 09/02/2017
+
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 77ef790 SetupWizard: Remove Themes related code
+
+ ▼ 08/31/2017
+
+
+ ▪ project packages/apps/Settings/
+ ▪ 84d2690 Asus Zenfone 3 (Z012D) Maintainer (#859)
+ ▪ 67faee0 Piccolo Maintainer (#858)
+
+ ▼ 08/30/2017
+
+
+ ▪ project packages/apps/Settings/
+ ▪ 7b502c0 D851 Maintainer (#855)
+
+ ▼ 08/29/2017
+
+
+ ▪ project packages/apps/Jelly/
+ ▪ 5f4c6b0 Jelly: Add elevation effect to searchBar
+
+ ▪ project packages/apps/Settings/
+ ▪ 41bd796 Update maintainer for Galaxy Note 3 Qcom (#854)
+
+ ▼ 08/28/2017
+
+
+ ▪ project packages/apps/Jelly/
+ ▪ 8e71ae9 Jelly: Remove the SwipeRefreshLayout
+
+
  ▼ 08/27/2017
 
 
