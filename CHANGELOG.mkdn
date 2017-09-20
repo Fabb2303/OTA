@@ -6,11 +6,280 @@
 
 ===========================================================================
 
+ ▼ 09/20/2017
+
+
+ ▪ project hardware/cyanogen/
+ ▪ da0e259 livedisplay: Add msm8998 and sdm660 as SDM targets
+
+ ▼ 09/19/2017
+
+
+ ▪ project frameworks/av/
+ ▪ 74ff75e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into HEAD
+
+ ▪ project frameworks/native/
+ ▪ 47d7223 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into HEAD
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Bluetooth/
+
+ ▪ project packages/apps/Calendar/
+
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/CertInstaller/
+
+ ▪ project packages/apps/Eleven/
+
+ ▪ project packages/apps/Email/
+
+ ▪ project packages/apps/EmergencyInfo/
+
+ ▪ project packages/apps/Exchange/
+
+ ▪ project packages/apps/FMRadio/
+
+ ▪ project packages/apps/Gallery2/
+
+ ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/ManagedProvisioning/
+
+ ▪ project packages/apps/Nfc/
+
+ ▪ project packages/apps/Recorder/
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project packages/apps/Stk/
+
+ ▪ project packages/apps/Tag/
+
+ ▪ project packages/apps/Terminal/
+
+ ▪ project packages/apps/Trebuchet/
+
+ ▪ project packages/apps/TvSettings/
+
+ ▪ project packages/apps/UnifiedEmail/
+
+ ▪ project packages/inputmethods/LatinIME/
+
+ ▪ project packages/providers/CalendarProvider/
+
+ ▪ project packages/providers/ContactsProvider/
+
+ ▪ project packages/providers/DataUsageProvider/
+
+ ▪ project packages/providers/DownloadProvider/
+
+ ▪ project packages/providers/MediaProvider/
+
+ ▪ project packages/providers/TelephonyProvider/
+
+ ▪ project packages/screensavers/Basic/
+
+ ▪ project packages/screensavers/PhotoTable/
+
+ ▪ project packages/wallpapers/LivePicker/
+
+ ▪ project system/extras/su/
+ ▪ 11730a5 correct delivering process return code to caller
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+
+ ▼ 09/18/2017
+
+
+ ▪ project packages/apps/Eleven/
+ ▪ 49b8b9c Eleven: Create one cursor per background task
+
+ ▼ 09/17/2017
+
+
+ ▪ project frameworks/av/
+ ▪ f80e21a audioflinger: Use offloaded effects in case of PCM offload
+
+ ▪ project packages/apps/Settings/
+ ▪ efbb78f Add moderator tags to about settings
+
+ ▼ 09/16/2017
+
+
+ ▪ project android/
+ ▪ f0c3b1f manifest: switch to our forks of several repos
+
+ ▪ project build/
+ ▪ f6958ef Updating Security String to 2017-09-05 Bug:63846344
+
+ ▪ project external/skia/
+ ▪ 878b9da Defend against ICOs with large BMPs embedded DO NOT MERGE
+
+ ▪ project external/sonivox/
+ ▪ 188ae17 Fix compiler warnings in sonivox and enable -Werror.
+
+ ▪ project frameworks/av/
+ ▪ eeff3f6 Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
+
+ ▪ project frameworks/base/
+ ▪ bb68d19 Back-port fixes for b/62196835
+ ▪ cbce7ff Don't disable the GPS prematurely
+ ▪ 8503dcf PrivateStorageInfo: Exclude primary physical volume total space
+ ▪ fe5307e Keyguard: Change fingerprint listening behavior
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Messaging/
+ ▪ e0708ed Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+ ▪ 6d05ff9 Back-port ag/2491664
+ ▪ 2214a57 AppOpsDetails: Generate correct summary when changing list prefs
+ ▪ ac086f6 Settings: Allow devices to provide remote gesture preferences
+ ▪ 1b1f6ea Settings: Fix internal storage summary for non-emulated storage devices
+ ▪ 4776440 Settings: Always show Privacy Guard permissions
+ ▪ 02a6349 AppOps: Switch to an HashMap
+ ▪ a3bbfda Settings: Add a shortcut icon for carrier selection
+ ▪ cb1ab8b AppOps: Redesign
+ ▪ 3a0e238 Revert "Settings[Wifi]: fix the input invalid length for WEP encryption."
+
+ ▼ 09/15/2017
+
+
+ ▪ project external/libavc/
+ ▪ 2170933 Decoder: Fixed allocation of pv_map_ref_idx_to_poc_buf.
+ ▪ 871e2ff Decoder: Fixed overflow in refernce list creation.
+ ▪ 73ff61b Initialize DPB structures to valid values.
+ ▪ 1a4a25a Added error check for output buffer size.
+
+ ▪ project external/libhevc/
+ ▪ 2f28765 Limit boundary PU sizes in case of errors
+ ▪ 3008a9a Fix array size for hrd parameters
+ ▪ d2b7822 Check number of output buffers and sizes
+ ▪ 8e3fe3b Return error for invalid crop parameters
+
+ ▪ project external/libvpx/
+ ▪ 50bde27 DO NOT MERGE libvpx: Cherry-pick 8b4c315 from upstream
+
+ ▪ project external/sonivox/
+ ▪ afc7e48 Fix interpolator
+
+ ▪ project external/sqlite/
+ ▪ f55bb7e DO NOT MERGE - fix FTS3 column pointer handling
+
+ ▪ project external/tremolo/
+ ▪ 0000b2b Use heap instead of alloca in res012.c
+
+ ▪ project frameworks/av/
+ ▪ be42248 MPEG4Source: fix fragmented read.
+ ▪ ac561ef stagefright: fix crash due to bad timestamp index
+ ▪ 47f7228 stagefright: check aac_frame_length to prevent infinite loop
+ ▪ 708ca76 MediaPlayerService: fix access of mPlayer in client
+ ▪ 20a8bdc audio effects: filter reserved effect commands
+ ▪ 1f8cd83 MPEG4Extractor: ensure returned status is checked.
+ ▪ 09ebf66 DO NOT MERGE Check frame handle validity before freeing buffer.
+ ▪ ae74db2 Change MPEG2 reinit Error Handling
+ ▪ 6e05adf Track: Check buffer size of static tracks
+ ▪ e0b8295 MPEG4Extractor: check size for yrrc box
+ ▪ 7a84ae8 AudioFlinger: Fix memory allocation for client-less tracks
+ ▪ b1c91bc Notify Errors Appropriately from SoftMPEG2
+ ▪ 6dff427 EffectBundle: Check value size for get preset name
+ ▪ 3fcd8ac Fix TOCTOU problem in libstagefright_soft_aacenc
+
+ ▪ project frameworks/minikin/
+ ▪ 440e10a Reject unsorted cmap entries. DO NOT MERGE
+
+ ▪ project hardware/broadcom/wlan/
+ ▪ 71b070f net: wireless: bcmdhd: update bcm4354/4356 FW (7.35.101.8)
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 7a797d4 Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ 0bf8b30 Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ 01e8f3b Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ f5a8e83 Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 7da7e5e Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 53c7f74 Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8998/
+ ▪ c736bfe Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio/default/
+ ▪ 3f7e702 Equalizer: Check value size for get preset name
+
+ ▪ project packages/apps/Messaging/
+ ▪ 87f81d9 37742976 - Catch bad gifs
+
+ ▪ project packages/apps/Nfc/
+ ▪ f20aedf Add READ_EXTERNAL_STORAGE for file based Uri while beaming.
+
+ ▪ project system/bt/
+ ▪ 215d434 Add missing extension length check while parsing BNEP control packets
+ ▪ a61aaf1 Free p_pending_data from tBNEP_CONN to avoid potential memory leaks
+ ▪ 922d50b Add a missing check for PAN buffer size before copying data
+ ▪ c6f7f86 Add missing packet length checks while parsing BNEP control packets
+ ▪ 7e30b79 Add missing continuation offset check for SDP continuation requests
+ ▪ 0700e5b Disable PAN Reverse Tethering when connection originated by the Remote
+ ▪ 8825957 Allocate buffers of the right size when BT_HDR is included
+
+ ▼ 09/14/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ e4d02e1 msm: ipa: fix security issues in ipa wan driver
+ ▪ 656301d xfrm: policy: check policy direction value
+ ▪ 03ba18e ipx: call ipxitf_put() in ioctl error path
+ ▪ 532815c BACKPORT: f2fs: sanity check log_blocks_per_seg
+ ▪ 89f196a msm: gud: Remove gud driver
+ ▪ 4e0c86f Bluetooth: Properly check L2CAP config option output buffer length
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 3f7743b AudioFX: use vector drawables
+ ▪ b94e30b AudioFX: set theme accent to white
+ ▪ 00d3381 AudioFX: match control switches color with fragment background
+ ▪ f5d78ad AudioFX: Add Reverb toggle
+ ▪ 9fe5a3a AudioFX: Use default material toggle
+ ▪ 9662067 AudioFX: Apply effects independently of the output flags
+
+ ▼ 09/12/2017
+
+
+ ▪ project hardware/qcom/media-caf/msm8960/
+ ▪ b28bc21 BACKPORT: mm-video: venc: Protect buffer from being freed while accessing
+ ▪ f65fe19 BACKPORT: mm-video: vdec: Avoid processing ETBs/FTBs in invalid states
+
  ▼ 09/11/2017
 
 
- ▪ project packages/apps/TvSettings/
- ▪ acace0c Use new updater activity name for update button
+ ▪ project hardware/qcom/media-caf/msm8974/
+ ▪ 209a13c mm-video-v4l2: venc: Protect buffer from being freed while accessing
+
+ ▪ project packages/apps/Snap/
+ ▪ 853e8ee WideAnglePanoramaUI: Show switcher on Stop Capture
+
 
  ▼ 09/10/2017
 
