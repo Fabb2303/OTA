@@ -1,16 +1,1004 @@
 
 =========================================================================== 
 
-		 Resurrection Remix Nougat Ver 5.8.4
+		 Resurrection Remix Nougat Ver 5.8.5
 				Changelog
 
 ===========================================================================
 
+▼ 11/26/2017
+
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ 3d80690 Trebuchet: Use ICU4J public APIs
+
+ ▼ 11/25/2017
+
+
+ ▪ project frameworks/base/
+ ▪ c4526f1 SystemUI: LiveDisplay tile
+
+ ▼ 11/20/2017
+
+
+ ▪ project android/
+ ▪ 3449c1d manifest: Track our bison fork
+
+ ▪ project build/
+ ▪ fcfb35c core: Prefix and build bison host executable if needed
+
+ ▪ project frameworks/base/
+ ▪ 82846aa DPC should not be allowed to grant development permission
+ ▪ 1a6bf45 Add stub for setCursorVisibility
+ ▪ 0d6573e Prevent deadlock when using always-on legacy VPNs
+ ▪ 78cb021 Add powerhint function that accepts an array of data
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ cb4c853 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into HEAD
+
+ ▪ project packages/apps/Settings/
+ ▪ 12a150d AppOps: Add info if app doesn't request any blockable permissions
+ ▪ ec8fe1e AppOps: Add icon for "Toggle cellular data"
+ ▪ 8a9b8ef Settings: Correct german translation for 1 registered fingerprint
+
+ ▪ project packages/services/OmniJaws/
+
+ ▪ project vendor/cm/
+ ▪ 70c3e66 cm: build: kernel: Rework kernel module logic
+ ▪ 72ba3c5 Updated apns for device bringup for S4 Mini - serranolteusc
+ ▪ fb7503b Added more USA sensitive phone numbers
+ ▪ 5c45440 cm/aosp/cafremote: Make variables local
+ ▪ 473be65 envsetup: Fix cmremote for AOSP projects
+ ▪ 0653d1d qcom_target: Commonize UM target HALs
+ ▪ a193c32 charger: Remove battery_fail images
+ ▪ a94bda1 Update initial attach for Tmo US
+ ▪ aee9791 tasks: kernel: Kill unexisting wiki reference
+ ▪ 409fbfa build: qcom_target: Add sdm660
+ ▪ 692c081 Add Correios Celular (BR) APN
+ ▪ ad2b018 Add WOM Internet/MMS (CL) apn
+ ▪ 01d65f5 qcom: Allow setting custom audio, display, and media HALs
+
+ ▼ 11/19/2017
+
+
+ ▪ project build/
+ ▪ 99f49f2 Bump Security String to 2017-11-06
+ ▪ 48144d6 Update Security String to 2017-11-05
+
+ ▪ project frameworks/av/
+ ▪ 6e3b0b8 Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
+
+ ▪ project frameworks/native/
+ ▪ e73bb3b Merge remote-tracking branch 'laos/cm-14.1' into HEAD
+
+ ▪ project system/core/
+ ▪ 6664602 Merge branch 'cm-14.1' of git://github.com/LineageOS/android_system_core into HEAD
+
+ ▼ 11/18/2017
+
+
+ ▪ project external/libnfc-nci/
+ ▪ 8e151e6 Add NAME_ISO_DEP_MAX_TRANSCEIVE_LENGTH
+
+ ▪ project frameworks/av/
+ ▪ 60e088c Track graphic buffer mode in OMXNodeInstance
+
+ ▪ project frameworks/opt/telephony/
+ ▪ 0466486 Don't show sim pick activity if device is single SIM
+
+ ▪ project packages/apps/Nfc/
+ ▪ 16d6b3c Make Transceive Length configurable for ISO DEP Technology
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ c347cee Fix result on skipping Fingerprint setup
+
+ ▼ 11/17/2017
+
+
+ ▪ project frameworks/native/
+ ▪ c870666 DO NOT MERGE Remove window obscurement information.
+
+ ▪ project frameworks/opt/telephony/
+ ▪ 6e49154 Ensure IMS dial uses the correct CLIR mode.
+
+ ▪ project system/bt/
+ ▪ 1d27e7b SDP: Bounds check 'id' parameter for free_sdp_slot()
+
+ ▼ 11/16/2017
+
+
+ ▪ project external/libavc/
+ ▪ 8802e62 Decoder: Updated error check while parsing num_ref_idx_lx_active.
+ ▪ 089b44f Decoder: Corrected variable datatypes in ih264d_get_implicit_weights.
+ ▪ 734eaa8 Added an out of bound check on u4_num_bufs in input argument
+ ▪ 23d7d14 Decoder: Conceal picture only if valid picture buffer is obtained.
+
+ ▪ project external/libhevc/
+ ▪ db4acea Added an out of bound check on u4_num_bufs in input argument
+ ▪ e3a0cff Fix tile index buf alloc size
+
+ ▪ project external/libmpeg2/
+ ▪ 59b6e84 Propagating Error From impeg2d_pre_pic_dec_proc
+ ▪ 872cc72 Check on Picture Dimensions
+ ▪ 3b511be Fix Half Pel MC on Last Ref Row
+ ▪ 767f4f4 Check Number of MBs to Skip.
+ ▪ c772671 Replace memcpy with memmove to Solve Memory Overlap Error
+
+ ▪ project frameworks/av/
+ ▪ 2698c2f EffectBundle: Check parameter and value size
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ ce6a462 Backport overlay security fix
+
+ ▪ project system/core/
+ ▪ 49556db Fix integer overflow in utf{16,32}_to_utf8_length
+
+ ▪ project system/netd/
+ ▪ c5e8402 Invalidate dst caches when changing network permissions.
+ ▪ 402e75f Don't allow seamless handover to networks requiring permissions.
+
+ ▼ 11/14/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ f242def usb: hub: Fix null pointer dereference in hub_events
+
+ ▼ 11/13/2017
+
+
+ ▪ project packages/apps/CarrierConfig/
+ ▪ 1ec0b1a CarrierConfig: Load ERI configuration for U.S. Cellular
+
+ ▼ 11/10/2017
+
+
+ ▪ project frameworks/opt/telephony/
+ ▪ efb3f09 GsmCdmaPhone: Fallback to PhoneNumberUtils if telephony-ext fails
+
+ ▼ 11/09/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ ee299ca HID: hiddev: Remove duplicated sanity check
+
+ ▪ project packages/apps/Gallery2/
+ ▪ eae683c Fix crash after deleting a video on Albums tab
+
+ ▪ project packages/apps/Recorder/
+ ▪ b8d9bc0 Recorder: Add possibility to delete last recording from notification
+
+ ▼ 11/08/2017
+
+
+ ▪ project device/qcom/sepolicy/
+ ▪ fb88e71 Merge tag 'LA.UM.5.6.r1-06200-89xx.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into cm-14.1
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ b6e4f66 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.27' into cm-14.1-caf-8916
+
+ ▪ project hardware/qcom/media-caf/msm8916/
+ ▪ 1f9510d Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.27' into cm-14.1-caf-8916
+
+ ▪ project packages/apps/Recorder/
+ ▪ e89aff1 Recorder: Fix wrong denial message in Recorder
+ ▪ d1fc021 Recorder: fix a string
+ ▪ 05987a9 Recorder: don't allow multiple instances of the app
+ ▪ d7ec1f6 Recorder: Start recording after giving permissions
+ ▪ c3e7220 Recorder: Fix permission request texts
+
+ ▼ 11/07/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 046c245 drivers/staging: prima: Import latest CAF release
+
+ ▼ 11/06/2017
+
+
+ ▪ project hardware/qcom/keymaster/
+ ▪ 9c33b1d keymaster: Fix compiler warnings
+ ▪ 2a34660 keymaster: Fix TARGET_KEYMASTER_WAIT_FOR_QSEE
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 9caea98 Revert "ASoC: compress: Fix compress device direction check"
+ ▪ 04bbf80 Merge tag 'v3.10.108' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+
+ ▪ project libcore/
+ ▪ a8e3609 Fix NPE in Signature getCurrentSpi.
+
+ ▼ 11/05/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ e7a59c7 Linux 3.10.108
+
+ ▼ 11/04/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 5871c13 Merge tag 'v3.10.107' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ f4fb27d Merge tag 'v3.10.106' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 36fd75b Merge tag 'v3.10.105' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 16c3a8f Merge tag 'v3.10.104' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ f2626ff Merge tag 'v3.10.103' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 48d8c01 Merge tag 'v3.10.102' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 08a8ebd Merge tag 'v3.10.101' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ ea3de33 Merge tag 'v3.10.100' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ a1f1e2d Merge tag 'v3.10.99' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 30f954e Merge tag 'v3.10.98' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 940c5d7 Merge tag 'v3.10.97' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 21cdaa4 Merge tag 'v3.10.96' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 8ea7fc3 Merge tag 'v3.10.95' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 7a25a95 Merge tag 'v3.10.94' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 5c3da7e Merge tag 'v3.10.93' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 604b593 Merge tag 'v3.10.92' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 018f763 Merge tag 'v3.10.91' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 3581957 Merge tag 'v3.10.90' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 516b508 Merge tag 'v3.10.89' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 0cec1f0 Merge tag 'v3.10.88' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 05840d5 Merge tag 'v3.10.87' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 7c068c9 Merge tag 'v3.10.86' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 6cc5d4dd Merge tag 'v3.10.85' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 526b118 Merge tag 'v3.10.84' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 4d33835 Merge tag 'v3.10.83' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ c8001ab Merge tag 'v3.10.82' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ b9ae1f8 Merge tag 'v3.10.81' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ b52cd9a Merge tag 'v3.10.80' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 4a57e23 Merge tag 'v3.10.79' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ d9b0435 Merge tag 'v3.10.78' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 9a7a50c Merge tag 'v3.10.77' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ b9df920 Merge tag 'v3.10.76' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ c3b871c Merge tag 'v3.10.75' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 1a979d9 Merge tag 'v3.10.74' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ b0be087 Merge tag 'v3.10.73' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 2f69641 Merge tag 'v3.10.72' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 358a437 Merge tag 'v3.10.71' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ dda9e15 Merge tag 'v3.10.70' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 693a95e Merge tag 'v3.10.69' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 69cbc9f Merge tag 'v3.10.68' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ c5e7b8a Merge tag 'v3.10.67' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 0a191d6 Merge tag 'v3.10.66' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ ff77f13 Merge tag 'v3.10.65' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 0240d82 Merge tag 'v3.10.64' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 69c55c9 Merge tag 'v3.10.63' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ c773276 Merge tag 'v3.10.62' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 410c025 Merge tag 'v3.10.61' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ b63449c Merge tag 'v3.10.60' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 2f67e22 Merge tag 'v3.10.59' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ f98bb1e Merge tag 'v3.10.58' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 11be095 Merge tag 'v3.10.57' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 7870f8e Merge tag 'v3.10.56' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 4a2fed6 Merge tag 'v3.10.55' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 4393ef5 Merge tag 'v3.10.54' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ f2721d6 Merge tag 'v3.10.53' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 1b78761 Merge tag 'v3.10.52' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ f0258a4 Merge tag 'v3.10.51' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ 0dd20f1 Merge tag 'v3.10.50' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1-merge
+ ▪ b8d5876 Merge tag 'LA.BR.1.2.9-03910-8x16.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.10 into cm-14.1-merge
+
+ ▪ project packages/apps/Recorder/
+ ▪ 47453e0 Recorder: update UI
+ ▪ ddb729b Recorder: start overlay service as not sticky
+ ▪ f097848 Recorder: add constraint-layout aar lib for aosp build env
+
+ ▼ 11/03/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 68cbe93 x86/apic: fix build breakage caused by incomplete backport to 3.10
+
+ ▼ 11/02/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 541cbdc can: esd_usb2: Fix can_dlc value for received RTR, frames
+ ▪ 4de0e6b scsi: scsi_dh_emc: return success in clariion_std_inquiry()
+ ▪ 4021627 usb: gadget: composite: Fix use-after-free in usb_composite_overwrite_options
+ ▪ 49218ad KVM: nVMX: fix guest CR4 loading when emulating L2 to L1 exit
+ ▪ 75840f1 IB/qib: fix false-postive maybe-uninitialized warning
+ ▪ f63d10b team: fix memory leaks
+ ▪ 9032694 IB/ipoib: rtnl_unlock can not come after free_netdev
+ ▪ 827a5cb btrfs: prevent to set invalid default subvolid
+ ▪ 7210062 tracing: Erase irqsoff trace with empty write
+ ▪ ec8c69e tracing: Apply trace_clock changes to instance max buffer
+ ▪ c5378d2 scsi: qla2xxx: Fix an integer overflow in sysfs code
+ ▪ 92e84b6 crypto: AF_ALG - remove SGL terminator indicator when chaining
+ ▪ 6f47a87 ip6_gre: fix endianness errors in ip6gre_err
+ ▪ 488ec7b ipv6: fix typo in fib6_net_exit()
+ ▪ 4e39d5e ipv6: fix memory leak with multiple tables during netns destruction
+ ▪ dd3e501 qlge: avoid memcpy buffer overflow
+ ▪ 71bec91 ACPI / APEI: Add missing synchronize_rcu() on NOTIFY_SCI removal
+ ▪ 136211c ALSA: core: Fix unexpected error at replacing user TLV
+ ▪ b482410 staging:iio:resolver:ad2s1210 fix negative IIO_ANGL_VEL read
+ ▪ fe1fd35 packet: fix tp_reserve race in packet_set_ring
+ ▪ 162f50e workqueue: implicit ordered attribute should be overridable
+ ▪ ef6fa3f ipv4: initialize fib_trie prior to register_netdev_notifier call.
+ ▪ 50602d3 net/mlx4: Remove BUG_ON from ICM allocation routine
+ ▪ c1327b4 perf annotate: Fix broken arrow at row 0 connecting jmp instruction to its target
+ ▪ 3a7578a udf: Fix deadlock between writeback and udf_setsize()
+ ▪ ad08716 ir-core: fix gcc-7 warning on bool arithmetic
+ ▪ 7fb443f crypto: caam - fix signals handling
+ ▪ b569326 mm: fix overflow check in expand_upwards()
+ ▪ 9efa3d5 cfg80211: Check if PMKID attribute is of expected size
+ ▪ d474081 cfg80211: Validate frequencies nested in NL80211_ATTR_SCAN_FREQUENCIES
+ ▪ fa69abf ipv6: avoid unregistering inet6_dev for loopback
+ ▪ 98b9e94 KEYS: Fix an error code in request_master_key()
+ ▪ fe77acc KVM: x86: zero base3 of unusable segments
+ ▪ 40cfe45 cpufreq: s3c2416: double free on driver init error path
+ ▪ 04d0069 xfrm: Oops on error in pfkey_msg2xfrm_state()
+ ▪ f478b42 xfrm: NULL dereference on allocation failure
+ ▪ 6ac502c net: korina: Fix NAPI versus resources freeing
+ ▪ 1814420 net: phy: fix marvell phy status reading
+ ▪ 2406076 drivers/misc/c2port/c2port-duramar2150.c: checking for NULL instead of IS_ERR()
+ ▪ 779ec20 usb: r8a66597-hcd: decrease timeout
+ ▪ e1bdf20 usb: r8a66597-hcd: select a different endpoint on timeout
+ ▪ 655e5ff pvrusb2: reduce stack usage pvr2_eeprom_analyze()
+ ▪ 1e7ae91 mfd: omap-usb-tll: Fix inverted bit use for USB TLL mode
+ ▪ e52eca8 x86/mm/32: Set the '__vmalloc_start_set' flag in initmem_init()
+ ▪ 12d805b serial: efm32: Fix parity management in 'efm32_uart_console_get_options()'
+ ▪ f6b525b net: xilinx_emaclite: fix receive buffer overflow
+ ▪ 7e25c93 drm/vmwgfx: Handle vmalloc() failure in vmw_local_fifo_reserve()
+ ▪ a72c279 scsi: qla2xxx: don't disable a not previously enabled PCI device
+ ▪ f7eb769 net: ping: do not abuse udp_poll()
+ ▪ ca58e31 kvm: async_pf: fix rcu_irq_enter() with irqs enabled
+ ▪ 28968bc x86/io: Add "memory" clobber to insb/insw/insl/outsb/outsw/outsl
+ ▪ 61eea27 net: 8021q: Fix one possible panic caused by BUG_ON in free_netdev
+ ▪ bc3eede net/mlx4_core: Fix VF overwrite of module param which disables DMFS on new probed PFs
+ ▪ 78da094 net: Set sk_prot_creator when cloning sockets to the right proto
+ ▪ 055ad96 net/packet: check length in getsockopt() called with PACKET_HDRLEN
+ ▪ 83fef52 tcp: initialize rcv_mss to TCP_MIN_MSS instead of 0
+ ▪ 81d2ec2 tcp: when rearming RTO, if RTO time is in past then fire RTO ASAP
+ ▪ 37cb362 tcp: avoid setting cwnd to invalid ssthresh after cwnd reduction states
+ ▪ 6f85a88 tcp: reset sk_rx_dst in tcp_disconnect()
+ ▪ 72d7b83 netfilter: xt_TCPMSS: add more sanity tests on tcph->doff
+ ▪ 946272f tcp: disallow cwnd undo when switching congestion control
+ ▪ 08bd34b sctp: potential read out of bounds in sctp_ulpevent_type_enabled()
+ ▪ faa132a sctp: fully initialize the IPv6 address in sctp_v6_to_addr()
+ ▪ 2630e5a sctp: fix the check for _sctp_walk_params and _sctp_walk_errors
+ ▪ 3cb637d sctp: don't dereference ptr before leaving _sctp_walk_{params, errors}()
+ ▪ 9f75306 ext4: avoid deadlock when expanding inode size
+ ▪ ebb33af ext4: in ext4_seek_{hole,data}, return -ENXIO for negative offsets
+ ▪ 159c95b netfilter: nf_ct_ext: fix possible panic after nf_ct_extend_unregister
+ ▪ 19cc6d9 wext: handle NULL extra data in iwe_stream_add_point better
+ ▪ 7af6952 kernel/extable.c: mark core_kernel_text notrace
+ ▪ 4ef4196 net: prevent sign extension in dev_get_stats()
+ ▪ 2f34aab ext4: fix SEEK_HOLE
+ ▪ 3031776 lib/cmdline.c: fix get_options() overflow while parsing ranges
+ ▪ 7719043 md: fix super_offset endianness in super_1_rdev_size_change
+ ▪ 634fd95363 md/raid10: submit bio directly to replacement disk
+ ▪ 09ab11e netfilter: invoke synchronize_rcu after set the _hook_ to NULL
+ ▪ a77cf1b lib/digsig: fix dereference of NULL user_key_payload
+ ▪ 9ac5390 md/bitmap: disable bitmap_resize for file-backed bitmaps.
+ ▪ a45d367 KEYS: encrypted: fix dereference of NULL user_key_payload
+ ▪ e8705c4 KEYS: prevent creating a different user's keyrings
+ ▪ f9e779c MIPS: Fix mips_atomic_set() retry condition
+ ▪ 9c66c82 ext4: keep existing extra fields when inode expands
+ ▪ ba85092 FS-Cache: fix dereference of NULL user_key_payload
+ ▪ 20d94bc KEYS: don't let add_key() update an uninstantiated key
+ ▪ be3e7b1 USB: serial: console: fix use-after-free after failed setup
+ ▪ d75e854 direct-io: Prevent NULL pointer access in submit_page_section
+ ▪ 544d7ba iommu/amd: Finish TLB flush in amd_iommu_unmap()
+ ▪ 5abdd6e usb: renesas_usbhs: fix usbhsf_fifo_clear() for RX direction
+ ▪ b974ab5 usb: renesas_usbhs: fix the BCLR setting condition for non-DCP pipe
+ ▪ 4b106b9 scsi: zfcp: trace HBA FSF response by default on dismiss or timedout late response
+ ▪ bb5cf57 scsi: zfcp: fix payload with full FCP_RSP IU in SCSI trace records
+ ▪ 2c7bfb3 scsi: zfcp: fix missing trace records for early returns in TMF eh handlers
+ ▪ e7ab3bd scsi: zfcp: add handling for FCP_RESID_OVER to the fcp ingress path
+ ▪ f609dac scsi: zfcp: fix queuecommand for scsi_eh commands when DIX enabled
+ ▪ c2ace30 fuse: initialize the flock flag in fuse_file on allocation
+ ▪ 003bea4 target: Avoid mappedlun symlink creation during lun shutdown
+ ▪ a6a256f media: platform: davinci: return -EINVAL for VPFE_CMD_S_CCDC_RAW_PARAMS ioctl
+ ▪ c39dcbd ext4: fix overflow caused by missing cast in ext4_resize_fs()
+ ▪ bdc5fbb ext4: fix SEEK_HOLE/SEEK_DATA for blocksize < pagesize
+ ▪ ae49cb7 workqueue: restore WQ_UNBOUND/max_active==1 to be ordered
+ ▪ 7e20e7b libata: array underflow in ata_find_dev()
+ ▪ 4748ac3 MIPS: math-emu: Prevent wrong ISA mode instruction emulation
+ ▪ 2121b63 MIPS: Fix unaligned PC interpretation in `compute_return_epc'
+ ▪ 6aa23d1 MIPS: Actually decode JALX in `__compute_return_epc_for_insn'
+ ▪ a2555cd usb: renesas_usbhs: fix usbhsc_resume() for !USBHSF_RUNTIME_PWCTRL
+ ▪ ecac824 powerpc/asm: Mark cr0 as clobbered in mftb()
+ ▪ 733c88d powerpc: Fix emulation of mfocrf in emulate_step()
+ ▪ 8e38d08 powerpc/64: Fix atomic64_inc_not_zero() to return an int
+ ▪ c11c8fc PM / Domains: Fix unsafe iteration over modified list of device links
+ ▪ f9c9c73 crypto: talitos - Extend max key length for SHA384/512-HMAC and AEAD
+ ▪ 1fc0b43 vt: fix unchecked __put_user() in tioclinux ioctls
+ ▪ 7136ca7 brcmfmac: fix possible buffer overflow in brcmf_cfg80211_mgmt_tx()
+ ▪ fe7e554 staging: comedi: fix clean-up of comedi_class in comedi_init()
+ ▪ 790d869 powerpc/kprobes: Pause function_graph tracing during jprobes handling
+ ▪ 69e0576 cpufreq: conservative: Allow down_threshold to take values from 1 to 10
+ ▪ 54fd65c usb: chipidea: debug: check before accessing ci_role
+ ▪ f862c94 KEYS: fix dereferencing NULL payload with nonzero length
+ ▪ e044ff5 serial: ifx6x60: fix use-after-free on module unload
+ ▪ 6c17636 MIPS: Send SIGILL for BPOSGE32 in `__compute_return_epc_for_insn'
+ ▪ 3937c2c ALSA: seq: Fix use-after-free at creating a port
+ ▪ 44ec968 nl80211: check for the required netlink attributes presence
+ ▪ 7571b74 xfrm: policy: check policy direction value
+ ▪ 978e42b rxrpc: Fix several cases where a padded len isn't checked in ticket decode
+ ▪ 4f54b26 fs/exec.c: account for argv/envp pointers
+ ▪ 9a95fe3 usb: renesas_usbhs: Fix DMAC sequence for receiving zero-length packet
+ ▪ b2453bd usb: renesas_usbhs: fix the sequence in xfer_work()
+ ▪ 58e47d4 usb: renesas_usbhs: fix the behavior of some usbhs_pkt_handle
+ ▪ 75894ad leak in O_DIRECT readv past the EOF
+ ▪ 7c11e17 mm/page_alloc: Remove kernel address exposure in free_reserved_area()
+ ▪ 01c577c tcp: fix xmit timer to only be reset if data ACKed/SACKed
+ ▪ aa923a7 tcp: enable xmit timer fix by having TLP use time when RTO should fire
+ ▪ 42a858e tcp: introduce tcp_rto_delta_us() helper for xmit timer fix
+ ▪ ecce864 Bluetooth: cmtp: cmtp_add_connection() should verify that it's dealing with l2cap socket
+ ▪ b8d57eb Bluetooth: bnep: bnep_add_connection() should verify that it's dealing with l2cap socket
+ ▪ 69ddef7 udp: consistently apply ufo or fragmentation
+ ▪ b673e04 Staging: comedi: comedi_fops: Avoid orphaned proc entry
+ ▪ bf98a1b net: skb_needs_check() accepts CHECKSUM_NONE for tx
+ ▪ 1bff8a2 net: reduce skb_warn_bad_offload() noise
+ ▪ f0dce90 ipvs: SNAT packet replies only for NATed connections
+
+ ▼ 10/27/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 1b55f84 Toast: Fix toast layout for RTL (#210)
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+
+ ▪ project packages/services/OmniJaws/
+
+ ▪ project vendor/cm/
+ ▪ 59c90dc Update MagiskManager to 5.4.0 (#100)
+
+ ▼ 10/26/2017
+
+
+ ▪ project hardware/qcom/bootctrl/
+ ▪ cab262e Add msm8998 to the filter
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 9788a56 Squashed support for multilanguage T9 dialer (2/2)
+
+ ▼ 10/25/2017
+
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ aba4f6f WifiSetup: If an ethernet connection is active, skip wifi setup
+
+ ▼ 10/24/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 1e30c41 msm: ipa: Fix to use after free issue
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 356dcde [Fugu] Fix bluetooth setup loop
+ ▪ e7dce25 Revert "The bluetooth pairing page cannot be exited, disable it for now."
+
+ ▼ 10/23/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ ec5b7a2 Merge "configs: Fixed BTSCO samplerate mixer control" into LA.BR.1.2.9_rb1.27
+ ▪ 9dddc19 configs: Fixed BTSCO samplerate mixer control
+ ▪ ed9eeb2 Merge AU_LINUX_ANDROID_LA.BR.1.2.9_RB1.07.01.02.254.037 on remote branch
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 7cca091 Merge "crypto: msm: fix authdata copy issue in qcedev_sha_req_cb" into LA.BR.1.2.9_rb1.27
+ ▪ 2f0e0a4 crypto: msm: fix authdata copy issue in qcedev_sha_req_cb
+ ▪ 5f874cc Merge AU_LINUX_ANDROID_LA.BR.1.2.9_RB1.07.01.02.254.037 on remote branch
+
+ ▪ project packages/apps/Dialer/
+ ▪ 692c0ef Merge pull request #3 from CyberWalkMaN/nougat
+
+ ▼ 10/22/2017
+
+
+ ▪ project hardware/qcom/bootctrl/
+ ▪ 462212d Add msm8953 to the filter
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Calendar/
+
+ ▪ project packages/apps/Dialer/
+ ▪ 2514f37 Squashed support for multilanguage T9 dialer (1/2)
+ ▪ 04a303b Dialer: Provide upgrade path for removed lookup providers
+ ▪ d133d0b Dialer: Fix compilation warnings
+ ▪ 4044ee5 Dialer: Move padding from layout to spinner
+ ▪ 69cc1dc BUGBASH-612: do not send phone numbers to non-ssl sites for reverse/forward/people lookups
+
+ ▪ project packages/apps/Gallery2/
+
+ ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+ ▪ 9754959 OpenWeatherMapProvider: Fix API calls and responses
+
+ ▼ 10/20/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 3ce4bd6 crypto: msm: fix authdata copy issue in qcedev_sha_req_cb
+
+ ▪ project system/sepolicy/
+ ▪ 4cfa94e sepolicy: Allow exfat and ntfs access for sdcard
+
+ ▼ 10/19/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ d4a28a0 configs: Fixed BTSCO samplerate mixer control
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 37b7d09 ALSA: seq: Fix use-after-free at creating a port
+ ▪ 44c2ec9 nl80211: check for the required netlink attributes presence
+ ▪ 2e21dc5 UPSTREAM: x86/mm/32: Enable full randomization on i386 and X86_32
+ ▪ 0708af3 x86, mm/ASLR: Fix stack randomization on 64-bit systems
+
+ ▪ project packages/apps/Calendar/
+ ▪ de97bce Calendar: Show year info for week view
+
+ ▼ 10/17/2017
+
+
+ ▪ project external/wpa_supplicant_8/
+ ▪ ac78917 Clear PMK length and check for this when deriving PTK
+ ▪ a630551 Add debug prints on PMK configuration in WPA supplicant
+ ▪ fbf7ecc WPA: Extra defense against PTK reinstalls in 4-way handshake
+ ▪ 5c64f90 Remove all PeerKey functionality
+ ▪ 726e02c Add MGMT_TX_STATUS_PROCESS command for testing purposes
+ ▪ cda7ff1 FT: Do not allow multiple Reassociation Response frames
+ ▪ 8fb5fe9 WNM: Ignore WNM-Sleep Mode Response without pending request
+ ▪ b6fccd0 TDLS: Reject TPK-TK reconfiguration
+ ▪ 04d9c3d Fix PTK rekeying to generate a new ANonce
+ ▪ bab71fa Prevent installation of an all-zero TK
+ ▪ 812c80a Extend protection of GTK/IGTK reinstallation of WNM-Sleep Mode cases
+ ▪ 4326a42 Prevent reinstallation of an already in-use group key
+ ▪ 3edbf11 hostapd: Avoid key reinstallation in FT handshake
+ ▪ b075172 Set EAPOL-Key Key Length field to 0 for group message 1/2 in RSN
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/Calendar/
+ ▪ 56dc4a8 Calendar: Show week start and end in title for Week view
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/PackageInstaller/
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+
+ ▼ 10/16/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 35fa58d f2fs: sanity check checkpoint segno and blkoff
+ ▪ b807a7f UPSTREAM: timerfd: Protect the might cancel mechanism proper
+ ▪ 3e79441 Prevent potential double frees in sg driver
+ ▪ 838a081 sg: O_EXCL and other lock handling
+
+ ▪ project packages/apps/Eleven/
+ ▪ 91a8a10 Eleven: Fix potential NPE when media server crashes
+ ▪ 119d774 Eleven: Don't use a sticky service
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 4b0c302 Revert "DO NOT MERGE Disable overlays while installer is resumed"
+
+ ▼ 10/15/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 4e2b320 drivers/staging: prima: Import latest CAF release
+
+ ▼ 10/14/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 33b650b Merge "ASoC: wcd9xxx: restrict debugfs permission"
+ ▪ 12948c4 Merge "media: v4l2-compat-ioctl32: memset stack union in compat ioctl"
+ ▪ 582f2bb Merge "rtac: add size check when reading cal data kvaddr buffer"
+
+ ▼ 10/13/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 8fbd105 Core: Battery warning levels are inclusive, not exclusive
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 2675c16 media: v4l2-compat-ioctl32: memset stack union in compat ioctl
+ ▪ 4976c6c ASoC: wcd9xxx: restrict debugfs permission
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 1593371 PackageInstaller: fix install button after merge of October ASB
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ c3b2008 SetupWizard: Set min date to build date
+
+ ▼ 10/12/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 78fcee9 ASoC: qdsp6v2: Remove Eagle code
+
+ ▼ 10/11/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 12ac96c rtac: add size check when reading cal data kvaddr buffer
+
+ ▪ project packages/apps/Recorder/
+ ▪ 084c5a0 Recorder: Advertise that we can record voice
+
+ ▼ 10/10/2017
+
+
+ ▪ project hardware/qcom/media-caf/msm8916/
+ ▪ f41d948 Merge "vdec:Do not call stream_off on input port if all EBD's are not flushed."
+
+ ▪ project kernel/asus/msm8916/
+ ▪ f7d180c cfg80211: Check if PMKID attribute is of expected size
+
+ ▼ 10/08/2017
+
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 947a320 Gallery: Kill media effect dialog on movies
+ ▪ 121bd84 Gallery2: Fix crash when muting a video
+ ▪ e171921 Fix gallery crash when trimming video
+
+ ▪ project packages/apps/Settings/
+
+ ▼ 10/07/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ e91a5f0 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.17' into cm-14.1-caf-8994
+
+ ▪ project hardware/ril/
+ ▪ d8fb8ff Fix multi sim support and warnings
+
+ ▪ project hardware/ril-caf/
+ ▪ ef31609 Fix multi sim support and warnings
+
+ ▪ project kernel/asus/msm8916/
+ ▪ fd1f2bb Merge "diag: Add protection while de-initializing clients"
+
+ ▪ project system/bt/
+ ▪ b882eee Fix allocating buffers of the right size when BT_HDR is included
+
+ ▼ 10/06/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 56d55da diag: Add protection while de-initializing clients
+ ▪ ca3f364 msm:ipa: using rate limit api for ioctl calls
+
+ ▼ 10/05/2017
+
+
+ ▪ project android/
+ ▪ 516714f manifest: track our own dnsmasq and libmpeg2
+ ▪ 6afec8e cm: Remove unused projects
+
+ ▪ project build/
+ ▪ cb361ed [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119)
+ ▪ 9727f4f [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e)
+ ▪ d6b4f42 core: config: Use host bison if requested
+ ▪ 68898f0 Fix warning with AAPT2 and LOCAL_STATIC_ANDROID_LIBRARIES
+
+ ▪ project frameworks/av/
+ ▪ f9bce6f Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
+
+ ▪ project frameworks/base/
+ ▪ 04405fc Fix security hole in GateKeeperResponse.
+ ▪ 7fd68e0 Enforce policy for camera gesture in keyguard
+ ▪ ff5b93c Revert "Camera: ignore torch status update for aux or compsite camera"
+
+ ▪ project kernel/asus/msm8916/
+ ▪ f806f88 Merge "drivers: media: broadcast: Fix security vulnerability issue"
+ ▪ 30b674d drivers: media: broadcast: Fix security vulnerability issue
+ ▪ b153beb msm: sensor: flash: add conditional check for ioctl
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 2ca0f5d PackageInstaller: Show current & new version Forward ported to Marshmallow By: @dwitherell Forward ported to Nougat By: @BeansTown106
+ ▪ 3912d1b Fix PackageInstaller FC when tapping on a downloaded apk notification 2
+ ▪ 42868f0 PackageInstaller: Add tint mode to icons
+
+ ▪ project packages/apps/Settings/
+ ▪ 25b490d Disabling the activate button when paused
+ ▪ a2ff665 AppOpsState: Hide undeclared Privacy Guard OPs
+
+ ▼ 10/04/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 301cada Merge "msm: mdss: update the wait logic for sending DSI commands"
+
+ ▼ 10/03/2017
+
+
+ ▪ project external/dnsmasq/
+ ▪ 41e4b42 Add extra (size_t) cast to avoid compiler warning.
+ ▪ 0b7daf3 Make dnsmasq more stable.
+
+ ▪ project external/libhevc/
+ ▪ 42469df Fix slice decrement for skipped slices
+ ▪ 6f57834 Ensure CTB size > 16 for clips with tiles and width/height >= 4096
+
+ ▪ project external/libmpeg2/
+ ▪ c1edfa4 Fixed Memory Overflow Errors
+
+ ▪ project external/tremolo/
+ ▪ 166d5a3 Fix out of bounds access in codebook processing
+
+ ▪ project frameworks/av/
+ ▪ 019e77c Fix 'potential memory leak' compiler warning.
+ ▪ 223131d Check buffer size in useBuffer in software components
+ ▪ 2ca6228 stagefright: avoid buffer overflow in base64 decoder
+ ▪ 49e724e Add EFFECT_CMD_SET_PARAM parameter checking to Downmix and Reverb
+ ▪ 8511171 Fix memory leak in OggExtractor
+ ▪ f1e2df1 Skip track if verification fails
+
+ ▪ project hardware/ril/
+ ▪ 4609708 DO NOT MERGE Fix security vulnerability in pre-O rild code.
+
+ ▪ project hardware/ril-caf/
+ ▪ cc408d7 DO NOT MERGE Fix security vulnerability in pre-O rild code.
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 9bae08d msm: mdss: update the wait logic for sending DSI commands
+
+ ▪ project libcore/
+ ▪ aa4fd2e Fix failing FileTest#test_canonicalCachesAreOff()
+ ▪ c1a58e9 Disable File.getCanonicalPath caches.
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ cec631f DO NOT MERGE Disable overlays while installer is resumed
+
+ ▼ 10/02/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ bf3242e Merge tag 'LA.BR.1.2.9-03710-8x16.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.10 into HEAD
+
+ ▼ 10/01/2017
+
+
+ ▪ project android/
+ ▪ 46fafaf manifest: use updated svox tag to fix picotts
+ ▪ 3aef973 Switch deqp, pdfium and speex to our forks
+ ▪ 208f9df cm: Remove libphonenumbergoogle
+
+ ▪ project frameworks/base/
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 512197f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.26' into cm-14.1-caf-8916
+
+ ▪ project hardware/qcom/display-caf/msm8916/
+ ▪ b9fc743 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.26' into cm-14.1-caf-8916
+
+ ▪ project hardware/qcom/fm/
+ ▪ 2d2b4b0 Remove obsolete values-be translations
+
+ ▪ project hardware/qcom/media-caf/msm8916/
+ ▪ 21d80df Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.26' into cm-14.1-caf-8916
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 1cc2af6 Remove obsolete values-be translations
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Eleven/
+ ▪ d9cbd6b Remove obsolete values-be translations
+
+ ▪ project packages/apps/Email/
+ ▪ e9bc151 Remove obsolete values-be translations
+
+ ▪ project packages/apps/Exchange/
+ ▪ 771eb3a Remove obsolete values-be translations
+
+ ▪ project packages/apps/FMRadio/
+ ▪ 32b0fae Remove obsolete values-be translations
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Profiles/
+ ▪ b41416f Remove obsolete values-be translations
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+ ▪ 4f80840 About: fix Andres email
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 712fb3a Remove obsolete values-be translations
+
+ ▪ project packages/apps/Snap/
+ ▪ 50d00c0 Remove obsolete values-be translations
+
+ ▪ project packages/apps/Terminal/
+ ▪ 736edf7 Remove obsolete values-be translations
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ b49b2b1 Remove obsolete values-be translations
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ b1e649d Remove obsolete values-be translations
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 04b2b3e Remove obsolete values-be translations
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 6e3ea47 Remove obsolete values-be translations
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ cc51ba5 Remove obsolete values-be translations
+
+ ▪ project packages/services/OmniJaws/
+
+ ▪ project vendor/qcom/opensource/bluetooth/
+ ▪ cd69373 Remove obsolete values-be translations
+
+ ▼ 09/30/2017
+
+
+ ▪ project external/bison/
+ ▪ 3661b8c lib: vasnprintf: Fix illegal instruction
+
+ ▼ 09/29/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 3cc1a5a [1/4] SystemUI: add burnIn protection setting
+
+ ▪ project packages/apps/DUI/
+ ▪ 7180a95 DUI: add burnIn protection setting [4/4]
+
+ ▪ project packages/apps/Settings/
+ ▪ 47d0991 [2/4] Settings: add burnIn protection setting
+
+ ▼ 09/28/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 6657fcf Merge AU_LINUX_ANDROID_LA.BF64.1.2.3_RB1.07.01.02.258.033 on remote branch
+
+ ▼ 09/27/2017
+
+
+ ▪ project vendor/cmsdk/
+ ▪ 8f4f039 [3/3] cmsdk: add burnIn protection setting
+ ▪ 10d64e7 Revert "cmsdk: Don't change ring volume or mode if DND is enabled"
+ ▪ 253a12e cmsdk: Run in core apps only for poweroff alarm boot
+ ▪ f4da7ec Make CMParts a protected component manager
+ ▪ a5a86a8 cmsdk: Don't change ring volume or mode if DND is enabled
+ ▪ 6f9c3e4 cmsdk: Use intent extradata for WiFi triggers
+ ▪ cf42384 cmsdk: Disable unused services
+
+ ▼ 09/26/2017
+
+
+ ▪ project external/libnfc-nci/
+ ▪ 257864a pn54x: Don't default to pn551 if BOARD_NFC_CHIPSET isn't set
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 89274d0 Merge AU_LINUX_ANDROID_LA.BR.1.2.9_RB1.07.01.02.254.036 on remote branch
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 6a6015a Enabled the dtb support for perf 8909
+ ▪ 2eef69b Merge AU_LINUX_ANDROID_LA.BR.1.2.9_RB1.07.01.02.254.036 on remote branch
+
+ ▼ 09/25/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 95ba21f PhoneWindowManager: Block screenshots when pocket lock is showing
+ ▪ 51c0f6f PocketService: Adjust light sensor rate to 400ms
+ ▪ 31e374f ActivityManager: Remove POWER_OFF_ALARM intent leftover
+ ▪ 8cf55f1 SystemServer: Don't start widget service when it is alarm boot
+ ▪ 8f62033 Recents: Add accessibility descriptions for lock ImageViews
+ ▪ 65748c4 SystemUI: Revert some Tuner changes
+ ▪ 71bfe49 DUtils: Migrate from broadcasts to API for some action handling [1/2]
+ ▪ f99120e ColorEngine: Fixup themes for our customizations[2/3] *Update Primary and secondary coolors *Update TM Fab bg *Update Stroke accent colors *Thanks to ALtan for control_checkable_material theme issue
+ ▪ e90fec8 Revert "FWB:Update default theme to Pixel Blue [1/2]"
+ ▪ a3d99a6 Themes: Expose manifest styles for themes
+ ▪ a3dab8d Bring back Pixel theme [1/2]
+ ▪ 27dc140 BrightnessSlider: Fix Slider thumb not theming to accent color
+ ▪ 90dfe02 Revert "sysui: New google pixel colors"
+ ▪ ad41af3 Revert "Base : Finalize the pixel theme and prepare for theme engine"
+ ▪ 5c1386f Revert "base: New google pixel colors"
+ ▪ ec7bf0d FWB:Update default theme to Pixel Blue [1/2]
+ ▪ 32ba76a Partially revert "ColorEngine: theme improvements/completeness"
+ ▪ 79a4136 ColorEngine: fix power menu instant theming
+ ▪ 69ca41e TileAdapter: allow styling tile item decoration background
+ ▪ 98726ae ColorEngine: theme improvements/completeness
+ ▪ 2bf21f4 ColorEngine: fwb: keep changed resources footprint low
+ ▪ 17c72a1 ColorEngine: fwb: default to default primary/bg color
+ ▪ 3eca4dd ColorEngine: who wants orange if you can have amber [1/2]
+ ▪ 5b5e499 ColorEngine: fwb: default to teal color accent everywhere
+ ▪ 453e33b ColorEngine: default to teal color accent
+ ▪ ba42305 Introduce color engine.
+ ▪ d796bc5 Revert "FW: Use stock pixel color scheme & improve upcoming CMTE compatibility"
+
+ ▪ project packages/apps/DUI/
+ ▪ b79ce98 DUI:Fix up accent colors with color engine[3/3]
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+ ▪ 523231c Add Andres to About
+ ▪ 3c520f0 Settings:Fix up RR configurations theme with color engine[1/3]
+ ▪ bb8b8d3 ColorEngine: Settings: keep changed resources footprint low
+ ▪ 62b94cf ColorEngine: Settings: default to default primary/bg color
+ ▪ 2244d5d ColorEngine: Settings: default to pixel accent everywhere
+ ▪ fe2ff9f Settings: Make shortcut icon colors match settings accent
+ ▪ ec49047 Settings: PreviewPagerAdapter: copy the full theme
+ ▪ 3bbba44 Improve color selection preview
+ ▪ 316b3bb ColorEngine settings: show accent color selection on first open
+ ▪ 7c5a01e Settings: Support color engine
+
+ ▪ project system/vold/
+ ▪ d8d5e6e Fix bug in cryptfs_verify_passwd with hardware disk encryption
+
+ ▪ project vendor/cm/
+ ▪ 889b570 Merge remote-tracking branch 'rr/nougat' into HEAD
+ ▪ 3b31d8f Final version for N -> 5.8.5 \m/
+ ▪ 6d81c3d vendor: sepolicy: Add Color Engine policy
+ ▪ 813d067 Revert "Revert "vendor: cm: sepolicy: Allow rw-access to system_app_data_file""
+ ▪ c0a7af1 Remove all traces of CMTE policy
+
+ ▼ 09/23/2017
+
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 53fe045 Const: 5.8.5
+
+ ▪ project vendor/cm/
+ ▪ ed3107d RR: v5.8.5
+
+ ▼ 09/22/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 98dc0ac defconfig: msm: Update configs to use msm8909 defconfigs for wearables
+ ▪ 45f921b defconfig: msm: Resync msm8909 defconfigs
+
+ ▼ 09/21/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 202ec17 Merge "qseecom: Fix accessing userspace memory in kernel space"
+
+ ▪ project packages/apps/Settings/
+
  ▼ 09/20/2017
 
 
+ ▪ project external/speex/
+ ▪ 0eee115 Remove arm64 NEON warning
+
  ▪ project hardware/cyanogen/
  ▪ da0e259 livedisplay: Add msm8998 and sdm660 as SDM targets
+
+ ▪ project system/extras/su/
+ ▪ 11730a5 correct delivering process return code to caller
 
  ▼ 09/19/2017
 
