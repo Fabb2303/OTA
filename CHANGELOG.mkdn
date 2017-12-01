@@ -6,11 +6,34 @@
 
 ===========================================================================
 
-▼ 11/26/2017
+ ▼ 12/01/2017
 
 
- ▪ project packages/apps/Trebuchet/
- ▪ 3d80690 Trebuchet: Use ICU4J public APIs
+ ▪ project kernel/asus/msm8916/
+ ▪ 1d5cda1 Merge tag 'LA.BR.1.2.9-04110-8x16.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.10 into cm-14.1-merge
+
+ ▼ 11/28/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ c118326 msm: camera: Bound check for num_of_stream.
+ ▪ aed6553 ANDROID: input: keychord: fix race condition bug
+ ▪ da31637 ALSA: pcm: prevent UAF in snd_pcm_info
+ ▪ 58cdd6b msm: ispif: Remove handling of SD_SHUTDOWN
+
+ ▼ 11/27/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ ee799dd msm: camera: Return -NOTTY on invalid ioctl command.
+
+ ▼ 11/26/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ b533d56 Merge "Revert "ARM: dts: msm:  Reset USB phy on every disconnect"" into LA.BR.1.2.9_rb1.28
+ ▪ 00c2dd7 Revert "ARM: dts: msm:  Reset USB phy on every disconnect"
+ ▪ ebd09d5 Merge AU_LINUX_ANDROID_LA.BR.1.2.9_RB1.07.01.02.254.039 on remote branch
 
  ▼ 11/25/2017
 
