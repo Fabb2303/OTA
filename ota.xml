@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Nightly>
         <Z00T>
-            <Filename>RR-N-v5.8.4-20170913-Z00T-FINAL.zip</Filename>
+            <Filename>RR-N-v5.8.4-20171201-Z00T-FINAL.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
